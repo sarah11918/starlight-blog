@@ -43,9 +43,7 @@ Although you can open any of Astro's official starter templates in a few differe
 
 6. Add a `.gitpod.yml` file to the root of your project to automatically run commands every time you re-open your Astro project. My file installs dependencies, starts the dev server and opens a preview of my site in another browser tab:
 
-      ```yaml
-      gitpod.yml
-
+      ```yaml title=".gitpod.yml"
       tasks:
         - init: npm install
           command: npm run dev
