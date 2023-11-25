@@ -13,6 +13,10 @@ export default defineConfig({
       ],
 			social: {
 				github: 'https://github.com/sarah11918/starlight-blog',
+				mastodon: 'https://m.webtoo.ls/@astro',
+				discord: 'https://astro.build/chat',
+				twitter: 'https://twitter.com/sarah11918',
+				youtube: 'https://youtube.com/sarahrainsberger',
 			},
 			components: {
 			  MarkdownContent: 'starlight-blog/overrides/MarkdownContent.astro',
