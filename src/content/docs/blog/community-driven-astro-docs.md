@@ -1,7 +1,11 @@
 ---
  
 title: "Astro's Community-Driven Docs"
-author: Sarah
+authors:
+  name: 'Sarah'
+  title: ''
+  picture: '/profile.jpg'
+  url: 'https://github.com/sarah11918'
 date: 2022-11-04
 pubDate: 2022-11-04
 excerpt: "What community-driven means to Astro Docs."

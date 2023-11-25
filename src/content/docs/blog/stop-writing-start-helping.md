@@ -1,6 +1,10 @@
 ---
 title: Stop writing docs. Start helping!
-author: Sarah
+authors:
+  name: 'Sarah'
+  title: ''
+  picture: '/profile.jpg'
+  url: 'https://github.com/sarah11918'
 date: 2023-10-05
 pubDate: '2023-10-05'
 excerpt: Good docs can be the difference between a happy, successful user of your project and ... a happy, successful user of *someone else's* project. But documentation is often a task left to people who don't feel comfortable writing it. This talk presented at ViteConf 2023 presents a new way to think about "writing good docs" and some action items that will immediately improve any existing documentation... without doing any writing at all!

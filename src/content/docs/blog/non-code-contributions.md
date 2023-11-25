@@ -1,7 +1,11 @@
 ---
  
 title: The value of non-code contributions to open source
-author: Sarah
+authors:
+  name: 'Sarah'
+  title: ''
+  picture: '/profile.jpg'
+  url: 'https://github.com/sarah11918'
 date: 2023-05-20
 pubDate: '2023-05-20'
 excerpt: One of the most rewarding parts about leading Astro Docs is welcoming non-code contributors to open source! We still have work to do, but the open source community is slowly starting to realize (and capitalize on!) the value of writers, translators, designers, testers, content creators, speakers, community support members.
