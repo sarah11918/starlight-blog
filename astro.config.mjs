@@ -7,7 +7,10 @@ export default defineConfig({
 	integrations: [
 		starlightBlog(),
 		starlight({
-			title: "Home",
+			title: "🐦 Sarah Rainsberger",
+			customCss: [
+        './src/styles/custom.css',
+      ],
 			social: {
 				github: 'https://github.com/sarah11918/starlight-blog',
 			},
