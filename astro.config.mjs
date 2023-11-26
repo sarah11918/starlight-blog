@@ -17,6 +17,7 @@ export default defineConfig({
 				discord: 'https://astro.build/chat',
 				twitter: 'https://twitter.com/sarah11918',
 				youtube: 'https://youtube.com/sarahrainsberger',
+				email: 'mailto:sarah@rainsberger.ca',
 			},
 			components: {
 			  MarkdownContent: 'starlight-blog/overrides/MarkdownContent.astro',
@@ -24,17 +25,21 @@ export default defineConfig({
 			  ThemeSelect: 'starlight-blog/overrides/ThemeSelect.astro',
 			},
 			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+				{ label: 'About', link: '/about/' },
+				{ label: 'Gear', link: '/gear/' },
+				{ label: 'Photography', link: '/photography/' },
+				{ label: 'Choir Tech', link: '/choirtech/' },
+				// {
+				// 	label: 'Guides',
+				// 	items: [
+				// 		// Each item here is one entry in the navigation menu.
+				// 		{ label: 'Example Guide', link: '/guides/example/' },
+				// 	],
+				// },
+				// {
+				// 	label: 'Reference',
+				// 	autogenerate: { directory: 'reference' },
+				// },
 			],
 		}),
 	],

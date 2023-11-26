@@ -5,7 +5,7 @@ authors:
   name: 'Sarah'
   title: ''
   picture: '/profile.jpg'
-  url: 'https://github.com/sarah11918'
+  url: 'https://sarah-starlight.netlify.app/about/'
 date: 2023-10-18
 pubDate: '2023-10-18'
 excerpt: From a 7 year-old Chromebook to an Android tablet to a Linux desktop... all my building with Astro is done in a cloud development environment thanks to Gitpod! No local development environment? No problem!

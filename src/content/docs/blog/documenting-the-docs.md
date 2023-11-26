@@ -5,7 +5,7 @@ authors:
   name: 'Sarah'
   title: ''
   picture: '/profile.jpg'
-  url: 'https://github.com/sarah11918'
+  url: 'https://sarah-starlight.netlify.app/about/'
 date: 2022-04-06
 pubDate: "2022-04-06"
 excerpt: "A brief history of what's been going on in the Astro docs."

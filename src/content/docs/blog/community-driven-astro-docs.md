@@ -5,7 +5,7 @@ authors:
   name: 'Sarah'
   title: ''
   picture: '/profile.jpg'
-  url: 'https://github.com/sarah11918'
+  url: 'https://sarah-starlight.netlify.app/about/'
 date: 2022-11-04
 pubDate: 2022-11-04
 excerpt: "What community-driven means to Astro Docs."

@@ -5,7 +5,7 @@ authors:
   name: 'Sarah'
   title: ''
   picture: '/profile.jpg'
-  url: 'https://github.com/sarah11918'
+  url: 'https://sarah-starlight.netlify.app/about/'
 date: 2022-02-10
 pubDate: 2022-02-10
 excerpt: Have you ever been reading documentation for an open source project and found a typo, or an out-of-date code example? If there's an "edit this page on GitHub" link, then you're only a few clicks away from contributing to Open Source and helping out a project!
