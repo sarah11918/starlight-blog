@@ -1,6 +1,6 @@
 ---
 title: Photography
-description: My Photography
+description: About my photography. Mostly birds.
 template: doc
 ---
 

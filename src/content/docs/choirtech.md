@@ -1,6 +1,6 @@
 ---
 title: Choir Tech
-description: Choir tech
+description: Tips for choir apps and resources.
 template: doc
 ---
 
