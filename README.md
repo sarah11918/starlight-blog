@@ -1,4 +1,4 @@
-
+Uses [Astro's Starlight](https://github.com/withastro/starlight) and [Hideoo's Starlight Blog](https://github.com/HiDeoo/starlight-blog) integration to combine a documentation framework and a blog.
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
