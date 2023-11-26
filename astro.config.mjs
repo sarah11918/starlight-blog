@@ -11,6 +11,14 @@ export default defineConfig({
 			customCss: [
         './src/styles/custom.css',
       ],
+			head: [
+				{tag: "meta", 
+					attrs: {
+						property: "og:image", 
+						content: "/flatjay.jpg",
+					}
+			 }
+			],
 			social: {
 				github: 'https://github.com/sarah11918/starlight-blog',
 				mastodon: 'https://m.webtoo.ls/@astro',
