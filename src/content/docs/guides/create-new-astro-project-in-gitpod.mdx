@@ -1,0 +1,79 @@
+---
+ 
+title: Create a new Astro project with Gitpod
+description: A guide to starting a new Astro project using GitHub and Gitpod.
+---
+Although you can open any of Astro's official starter templates in a few different cloud environments at [astro.new](https://astro.new), the best way to get started with a new Astro project in Gitpod is to start from an existing repository of your own.
+
+Use the instructions below every time you want to make a new Astro (or [Starlight](https://starlight.astro.build)) website!
+
+## Create a repository
+
+1. Create a new, blank repository on GitHub, GitLab or BitBucket. Do not add any files when creating this repo, such as a README or a `.gitignore`. You will need a blank repository with no existing content.
+
+## Open your repository in Gitpod
+
+2. Open that new repository in Gitpod using one of the following methods:
+    - Install [Gitpod's browser extension](https://www.gitpod.io/docs/browser-extension) or [Gitpod's browser bookmarklet](https://www.gitpod.io/docs/browser-bookmarklet) to add an "Open in Gitpod" button right on your GitHub/GitLab repository page.
+        
+    - Prefix your GitHub/GitLab repository's full URL with `gitpod.io/#` and enter that URL into a browser window, for example:
+    
+    ```html ins="gitpod.io/#"
+    gitpod.io/#https://github.com/[username]/new-astro-project
+    ```
+
+## Run the Astro CLI wizard
+
+3. When your repository finishes opening in Gitpod's editor, launch the Astro CLI wizard in the terminal with the following command.This will guide you through setting up a new project. 
+
+    ```bash
+    npm create astro@latest
+    ```
+
+    :::tip
+    To start a new project from an existing Astro theme or template, use [the template flag](https://docs.astro.build/en/install/auto/#starter-templates) as shown in Astro docs.
+    
+    For example, to open a new Starlight project, type:
+    
+    ```bash
+    npm create astro@latest -- --template starlight
+    ```
+    :::
+      
+4. Follow the instructions and when asked where to install the project, type `./` (Do not add a folder name. This will create your project at the root of your repository.)
+      
+5. The final set of instructions will tell you to how start the dev server with the command `npm run dev`. Your workspace is now ready for coding!
+
+## (Optional) Add a `.gitpod.yml` file
+
+6. Add a `.gitpod.yml` file to the root of your project to automatically run commands every time you re-open your Astro project. My file installs dependencies, starts the dev server and opens a preview of my site in another browser tab every time my project launches:
+
+      ```yaml title=".gitpod.yml"
+      tasks:
+        - init: npm install
+          command: npm run dev
+
+      ports:
+        - port: 4321
+          onOpen: open-browser
+      ```
+
+## Commit and publish your changes
+
+7. After working on your site, you can commit your changes to local version control, and eventually back to your source repository (or throw them away!) via the Source Control menu item in the left navigation. The first time you commit back to your online repository, you will need to type the following commands manually into the terminal.
+
+    ```bash
+    git remote add origin https://github.com/[username]/new-astro-project.git
+    git branch -M main
+    git push -u origin main
+    ```
+
+    Any subsequent commits can be done using the Source Control commit button, which will then become a "publish" button in order to sent your changes back to your online repository. Both steps are necessary to update your project at GitHub or GitLab.
+    
+    Any changes you make are saved to this "Workspace" which is a particular instance of your repository. This workspace will save its own state, even between starting/stopping the workspace, but will only push back to your online source code when you choose to commit and sync.
+
+## Edit your existing project
+
+8. To revisit your project and work on **this** exact version of your code, re-open the workspace from your Gitpod dashboard. To go back and start fresh from source again, re-open your repository from one of the two earlier methods.
+    
+    If you don't like what you did in a particular workspace, then just delete (or ignore) the workspace! Unused workspaces will automatically delete after 14 days of inactivity via [Gitpod's Garbage Collection](https://www.gitpod.io/docs/life-of-workspace/#garbage-collection). You can have multiple workspaces editing the same source project at the same time. They are completely independent of each other.

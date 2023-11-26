@@ -37,13 +37,14 @@ export default defineConfig({
 				{ label: 'Gear', link: '/gear/' },
 				{ label: 'Photography', link: '/photography/' },
 				{ label: 'Choir Tech', link: '/choirtech/' },
-				// {
-				// 	label: 'Guides',
-				// 	items: [
-				// 		// Each item here is one entry in the navigation menu.
-				// 		{ label: 'Example Guide', link: '/guides/example/' },
-				// 	],
-				// },
+				{
+					label: 'Guides',
+					autogenerate: { directory: 'guides' },
+					// items: [
+						// Each item here is one entry in the navigation menu.
+						// { label: 'Example Guide', link: '/guides/example/' },
+					//],
+				},
 				// {
 				// 	label: 'Reference',
 				// 	autogenerate: { directory: 'reference' },
