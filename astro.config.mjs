@@ -30,7 +30,7 @@ export default defineConfig({
 				},
 				{tag: "script",
 				 	attrs: {
-					 "data-goatcounter": "https://11918.goatcounter.com/count",
+					 "data-goatcounter": "https://sarah-starlight.goatcounter.com/count",
 					 async: true,
 					 src: "//gc.zgo.at/count.js",
 				 	}
