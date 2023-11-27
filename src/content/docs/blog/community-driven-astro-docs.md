@@ -2,10 +2,7 @@
  
 title: "Astro's Community-Driven Docs"
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2022-11-04
 pubDate: 2022-11-04
 excerpt: "What community-driven means to Astro Docs."

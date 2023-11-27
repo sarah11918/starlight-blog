@@ -2,10 +2,7 @@
 title: Javascript 5-pin bowling simulation in CodePen
 description: "One of my early learning activities -- building a bowling game."
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2021-08-25
 excerpt: "When you code for @jbrains, you get 5-pin bowling coding assignments!"
 tags: ["javascript", "no local dev environment"]

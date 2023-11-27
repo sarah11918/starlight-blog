@@ -2,10 +2,7 @@
 title: Astro is a learner's paradise!
 description: How Astro makes it easy to learn new frameworks, all in your own existing project.
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2021-09-30
 excerpt: One of Astro's selling points has been that you can bring your own mix-and-match components... but I didn't really get the power of that as a *learner* until just now, listening to Fred K. Schott interviewed on devtools.fm
 tags: ["astro", "blogging"]

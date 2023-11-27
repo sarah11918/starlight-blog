@@ -2,10 +2,7 @@
 title: "Thinking in Astro, Coming from React"
 description: "Differences in an Astro MPA project from a React Router app."
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2021-11-12
 excerpt: "Astro sites allow you to *use* React, but they *aren't* React, themselves. Understanding the differences between React and Astro can help you get started more quickly, so here are some thoughts on how to think like an Astro-naut!"
 tags: ["react", "astro"]

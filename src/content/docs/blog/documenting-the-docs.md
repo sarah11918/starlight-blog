@@ -2,10 +2,7 @@
  
 title: "Doc'ing the Docs!"
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2022-04-06
 pubDate: "2022-04-06"
 excerpt: "A brief history of what's been going on in the Astro docs."

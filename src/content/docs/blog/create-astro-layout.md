@@ -3,10 +3,7 @@ title: "Creating an Astro layout - screencast and transcript"
 description: "A video walkthrough of creating your first Astro layout."
 date: 2022-01-20
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 excerpt: This is a screencast and transcript of refactoring one of the basic Astro examples to create an initial BaseLayout component.
 tags: ["videos", "astro"]
 ---

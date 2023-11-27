@@ -2,10 +2,7 @@
 title: Creating individual tag pages in Astro via dynamic routes
 description: Building pages to view your blog posts by tags.
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2022-01-12
 excerpt: "Now that I'm on a roll with dynamic routing via getStaticPaths() in Astro, I'm checking the next item off my Astro blog wish list: pages to display blog posts by tag."
 tags: ["blogging", "astro"]

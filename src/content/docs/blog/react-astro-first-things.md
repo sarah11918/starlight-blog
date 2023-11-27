@@ -2,10 +2,7 @@
 title: "Getting started with React components in Astro"
 description: "Having trouble with your React components Astro. Check these three things!"
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2021-10-13
 excerpt: Yes, you can write and render your React components in your Astro page. But remember, Astro *isn't* React, and you might be getting error messages when you *totally know* your React component should work. It's not complicated to establish the Astro-React relationship, but you might not be used to doing these things. . . 
 tags: ["react", "astro"]

@@ -5,7 +5,17 @@ import starlightBlog from 'starlight-blog';
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
-		starlightBlog(),
+		starlightBlog({
+			authors: {
+				sarah: {
+					name: 'Sarah',
+					title: '',
+					picture: '/profile.jpg',
+					url: 'https://sarah-starlight.netlify.app/about/',
+				}
+			},
+			recentPostCount: 5
+		}),
 		starlight({
 			title: "🐦 Sarah Rainsberger",
 			customCss: [

@@ -2,10 +2,7 @@
 title: "React to XElement in Astro: sBird to xBird"
 description: "Rewriting a React Router app as an Astro XElement app."
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2022-03-07
 excerpt: aFuzzyBear and I have started a community, build-in-public project where we take my React-in-Astro sBird app and recreate all the same functionality using XElement, natively in Astro! The first video is now up on YouTube.
 tags: ["videos", "astro", "xelement"]

@@ -2,10 +2,7 @@
 title: Rewriting a React Component as an Astro Component
 description: Walking through converting a .jsx React component to an Astro component
 authors:
-  name: 'Sarah'
-  title: ''
-  picture: '/profile.jpg'
-  url: 'https://sarah-starlight.netlify.app/about/'
+  - sarah
 date: 2021-09-09
 excerpt: I'd been using a lot of components in my Astro blog, but I realized that they were almost all *React* components, because that's what I know. So, I wanted to try reproducing some functionality by replacing a React component with a corresponding Astro component.
 tags: ["react", "astro"]
