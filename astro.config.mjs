@@ -17,7 +17,14 @@ export default defineConfig({
 						property: "og:image", 
 						content: "/flatjay.jpg",
 					}
-			 }
+				},
+				{tag: "script",
+				 	attrs: {
+					 "data-goatcounter": "https://11918.goatcounter.com/count",
+					 async: true,
+					 src: "//gc.zgo.at/count.js",
+				 	}
+				}
 			],
 			social: {
 				github: 'https://github.com/sarah11918/starlight-blog',
