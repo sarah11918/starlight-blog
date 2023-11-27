@@ -1,0 +1,26 @@
+[[redirects]]
+  from = "/2016/02/19/direct-link-to-image-in-google-photos-for-html-image-tag"
+  to = "/guides/direct-link-for-posting-google-photos-image/"
+
+[[redirects]]
+  from = "/posts/2016-02-19-direct-link-to-image-in-google-photos-for-html-image-tag"
+  to = "/guides/direct-link-for-posting-google-photos-image/"
+ 
+  
+[[redirects]]
+  from = "/:year/:month/:day/:slug"
+  to = "/blog/:year-:month-:day-:slug"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/posts/:year-:month-:day-:slug"
+  to = "/blog/:year-:month-:day-:slug"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/posts/*"
+  to = "/blog/*"
+  status = 301
+  force = false
