@@ -11,7 +11,7 @@ export default defineConfig({
 					name: 'Sarah',
 					title: '',
 					picture: '/profile.jpg',
-					url: 'https://sarah-starlight.netlify.app/about/',
+					url: 'https://rainsberger.ca/about/',
 				}
 			},
 			recentPostCount: 5
