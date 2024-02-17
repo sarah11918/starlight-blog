@@ -5,17 +5,6 @@ import starlightBlog from 'starlight-blog';
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
-		starlightBlog({
-			authors: {
-				sarah: {
-					name: 'Sarah',
-					title: '',
-					picture: '/profile.jpg',
-					url: 'https://rainsberger.ca/about/',
-				}
-			},
-			recentPostCount: 5
-		}),
 		starlight({
 			title: "🐦 Sarah Rainsberger",
 			customCss: [
@@ -44,11 +33,6 @@ export default defineConfig({
 				youtube: 'https://youtube.com/sarahrainsberger',
 				email: 'mailto:sarah@rainsberger.ca',
 			},
-			components: {
-			  MarkdownContent: 'starlight-blog/overrides/MarkdownContent.astro',
-			  Sidebar: 'starlight-blog/overrides/Sidebar.astro',
-			  ThemeSelect: 'starlight-blog/overrides/ThemeSelect.astro',
-			},
 			sidebar: [
 				{ label: 'About', link: '/about/' },
 				{ label: 'Gear', link: '/gear/' },
@@ -67,6 +51,19 @@ export default defineConfig({
 				// 	autogenerate: { directory: 'reference' },
 				// },
 			],
+			plugins: [
+				starlightBlog({
+					authors: {
+						sarah: {
+							name: 'Sarah',
+							title: '',
+							picture: '/profile.jpg',
+							url: 'https://rainsberger.ca/about/',
+						}
+					},
+					recentPostCount: 5
+				}),
+			]
 		}),
 	],
 });
