@@ -11,7 +11,7 @@ excerpt: >-
 One issue (among many!) that people are having with the transition from Picasa Web Albums to Google Photos is how to directly link to a photo from Google Photos.
 
 <!-- more -->
-<h1>2019-12-29 Update:</h1>
+<h2>2019-12-29 Update:</h2>
 
 Since people are *still* using this page to figure out how to post Google Photos images to message boards, I thought I'd leave a more current update. The method below *still* works, and is *still* what we have to do in order to post a photo that's in your Google Photos account to a message board. (Shout out to all the various message board peeps who end up here! I love finding that new message boards have linked here!)
 
@@ -19,7 +19,7 @@ Some of you rightly point out that Google Photo links expire, but, *not if you c
 
 Let's see what photo updates 2020 brings! Happy message board posting! Keep sharing pics of your cars, model trains, knitting projects and all of your other wonderful hobbies!
 
-# 2017-04-21 Update:
+## 2017-04-21 Update:
 
 Here are my updated (and simplified!) instructions for getting an image's direct link in Google Photos. This works for using your Google Photos images in other places around the web: blogs, forum and message board posts as well as sharing a direct link with a friend. 
 
@@ -64,7 +64,7 @@ Right click on the image itself, and select "Copy Image Address." The direct lin
 
 Paste that URL into an html tag, a message board or forum post as you would use any other image link.
 
-### Notes:
+### Notes
 
  + The URL is <em>long</em> and <em>ugly</em>! If you need to share this link, or use the text for this link, consider shortening it or "hiding" it behind alternative display text with this long URL as the attached link.
  + The URL (shown in an html tag as an example) is of the form:

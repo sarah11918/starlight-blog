@@ -4,10 +4,9 @@ description: About my photography. Mostly birds.
 template: doc
 ---
 
-
 My bird and nature photography hobby began with a Nikon P900 super-zoom camera. I then upgraded to the Sony RX10iv, and now use a Nikon D7500 and D500.
 
-### Android Birding Apps
+## Android Birding Apps
   <ul>
     <li><a href="https://play.google.com/store/apps/details?id=com.audubon.mobile.android">Audubon</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=edu.cornell.birds.ebird">eBird</a></li>
@@ -16,7 +15,7 @@ My bird and nature photography hobby began with a Nikon P900 super-zoom camera. 
     <li><a href="https://play.google.com/store/apps/details?id=com.thenerdbirder.GoBird">GoBird</a></li>
   </ul>
 
-### Android Photography Apps
+## Android Photography Apps
   <ul>
     <li><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.photos">Google Photos</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.flickr.android">Flickr</a></li>
@@ -30,6 +29,6 @@ My bird and nature photography hobby began with a Nikon P900 super-zoom camera. 
     <li><a href="https://play.google.com/store/apps/details?id=com.goodtemperapps.renamephotosandvideos.pro">Rename Photos and Videos</a></li>
   </ul>
 
-### Albums
+## Albums
 
  <a data-flickr-embed="true" data-header="true" data-footer="false" href="https://www.flickr.com/photos/sarahrainsberger/albums/72177720295657321" title="PEI Canada Nature"><img src="https://live.staticflickr.com/65535/51792833621_0c9da5df8d_z.jpg" width="640" height="480" alt="PEI Canada Nature"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
