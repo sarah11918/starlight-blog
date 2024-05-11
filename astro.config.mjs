@@ -32,6 +32,7 @@ export default defineConfig({
 				discord: 'https://astro.build/chat',
 				twitter: 'https://twitter.com/sarah11918',
 				youtube: 'https://youtube.com/sarahrainsberger',
+				rss: 'https://www.rainsberger.ca/blog/rss.xml',
 				email: 'mailto:sarah@rainsberger.ca',
 			},
 			sidebar: [
