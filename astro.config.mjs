@@ -4,7 +4,7 @@ import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://sarah-starlight.netlify.app',
+	site: 'https://www.rainsberger.ca',
 	integrations: [
 		starlight({
 			title: "🐦 Sarah Rainsberger",
