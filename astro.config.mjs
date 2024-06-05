@@ -7,6 +7,7 @@ export default defineConfig({
 	site: 'https://www.rainsberger.ca',
 	integrations: [
 		starlight({
+			credits: true,
 			title: "🐦 Sarah Rainsberger",
 			customCss: [
         './src/styles/custom.css',
