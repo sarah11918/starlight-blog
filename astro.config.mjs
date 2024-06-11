@@ -25,6 +25,14 @@ export default defineConfig({
 					 async: true,
 					 src: "//gc.zgo.at/count.js",
 				 	}
+				},
+				{ tag: "script",
+				 	attrs: {
+						defer: true,
+						src: "https://cloud.umami.is/script.js",
+						"data-website-id": "a0abfc56-ed61-426d-b0bb-5a046918e4c6"
+					}
+					
 				}
 			],
 			social: {
