@@ -84,7 +84,7 @@ justify-content: space-between;
 		}
 
 		astro-image-gallery :global(img:not(.astro-image-gallery-image)) {
-			aspect-ratio: 1;
+			
 			object-fit: cover;
 			width: 100%;
 			height: auto;
@@ -303,12 +303,46 @@ justify-content: space-between;
 	</script>
 
 	<style is:global>
+
+.big-gallery {
+    display: grid 
+gap: 0.5rem; 
+
+
+
+@media (min-width: 1024px) { 
+  margin-left: -4rem;
+margin-right: -4rem; 
+ }
+@media (min-width: 1280px) { 
+   }
+  }
+
+  .next-class {
+    display: flex; 
+		position: absolute; 
+		top: 1.25rem;
+		right: 1.25rem;
+		bottom: 1.25rem;
+		left: 1.25rem; 
+		bottom: auto; 
+		gap: 1.25rem; 
+		justify-content: space-between; 
+  }
+
+  .close {
+    width: 1.5rem; 
+    height: 1.5rem;
+
+  }
+ 
 		:root {
 			--astro-image-gallery-animation-duration: 150ms;
 		}
 
 		body:has(dialog.astro-image-gallery-dialog[open]) {
 			overflow: hidden;
+		
 		}
 
 		astro-image-gallery img {
@@ -341,6 +375,7 @@ justify-content: space-between;
 			width: 100%;
 			height: 100%;
 		}
+
 	</style>
 
 	<style>
@@ -396,5 +431,6 @@ justify-content: space-between;
 		:global(.astro-image-gallery-opened) button {
 			opacity: 1;
 		}
+	
 	</style>
 </astro-image-gallery>

@@ -11,16 +11,16 @@ interface Props {
 }
 
 const imageGlob = import.meta.glob<{ default: ImageMetadata }>(
-	"../assets/astro-together-montreal/gallery/*",
+	"../assets/photogallery/*",
 );
 const resolvedImages = await Promise.all(
 	Astro.props.images.map(async ({ src, alt }) => {
-		const imageLoader = imageGlob[`../assets/astro-together-montreal/gallery/${src}`];
+		const imageLoader = imageGlob[`../assets/photogallery/${src}`];
 
 		if (!imageLoader) {
 			throw new AstroError(
 				`Failed to load gallery image "${src}"`,
-				`Couldn’t find \`${src}\` in \`src/assets/astro-together-montreal/gallery/\`.`,
+				`Couldn’t find \`${src}\` in \`src/assets/photogallery/\`.`,
 			);
 		}
 
