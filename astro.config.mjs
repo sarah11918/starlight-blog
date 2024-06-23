@@ -9,6 +9,9 @@ export default defineConfig({
 		starlight({
 			credits: true,
 			title: "🐦 Sarah Rainsberger",
+			components: {
+        Footer: './src/components/License.astro'
+      },
 			customCss: [
         './src/styles/custom.css',
       ],
