@@ -10,7 +10,7 @@ export default defineConfig({
 			credits: true,
 			title: "🐦 Sarah Rainsberger",
 			components: {
-        Footer: './src/components/License.astro'
+        Footer: './src/components/ConditionalFooter.astro'
       },
 			customCss: [
         './src/styles/custom.css',
