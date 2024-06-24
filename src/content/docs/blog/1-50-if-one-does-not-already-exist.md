@@ -9,7 +9,7 @@ tags: ["docs", "50 tips in 50 days"]
 ---
 
 :::tip
-When instructing the reader to make a new file or folder, acknowledge that one might already exist.
+When instructing a reader to make a new file or folder, acknowledge that one might already exist.
 :::
 
 Astro Docs publishes a lot of guides from community contributors that involve connecting with a third-party service such as a CMS or deploy host. This can mean instructing the reader to add files for environment variables or other necessary "glue" to connect the services, or to ensure the project contains a specific folder.
