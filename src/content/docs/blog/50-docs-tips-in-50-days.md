@@ -4,7 +4,7 @@ authors:
   - sarah
 date: 2024-06-24
 pubDate: '2024-06-24'
-excerpt: "It's 50 days until I turn 50! So I thought we'd celebrate with a different docs tip every day."
+excerpt: "It's 50 days until I turn 50! So I thought I'd celebrate with a different docs tip every day."
 tags: ["docs", "50 tips in 50 days"]
 ---
 I realized while working *on* this site that it's been a while since I've written *for* this site!
