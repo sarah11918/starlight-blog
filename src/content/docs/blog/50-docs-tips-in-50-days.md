@@ -9,7 +9,9 @@ tags: ["docs", "50 tips in 50 days"]
 ---
 I realized while working *on* this site that it's been a while since I've written *for* this site!
 
-So, I'm hoping I can jump-start my writing by taking advantage of the delightful coincidence that I've got 50 days left until I'm 50 and motivate myself to write one, small, helpful or interesting tidbit per day.
+So, I'm hoping I can jump-start my writing by taking advantage of the delightful coincidence that I've got 50 days left until I'm 50 and motivate myself to write one, small, helpful or interesting tidbit per day. 
+
+(At least, I hope they are! They are things that help me while [leading Astro's community-driven documentation site](/blog/community-driven-astro-docs/).)
 
 I'll make a separate post for each one, and will share in a Fediverse thread on my Mastodon account but I'll come back to this one and update the list as we go.
 
