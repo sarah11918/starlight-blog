@@ -18,7 +18,7 @@ One PR edit I am often suggesting is to **state the condition that applies *befo
 
 - ✅ "If you are using content collections, create the file `src/content/config.ts` to define your schema."
 
-- "Create the file `src/content/config.ts` to define your schema if you are using content collections.
+- 😐 "Create the file `src/content/config.ts` to define your schema if you are using content collections.
 
 Many readers will be following your instructions faithfully, sometimes line-by-line or even word-by-word. If a step doesn't apply to them, they need to know before they attempt it! This can prevent your reader from doing extra work, or even from feeling a temporary moment of confusion ("A schema? Why would I need that? OH! That's only for content collections...") as they progress through your content. 
 
