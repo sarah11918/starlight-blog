@@ -17,6 +17,8 @@ I'll make a separate post for each one, and will share in a Fediverse thread on 
 
 Let's see if I can do it!
 
-1. [When instructing a reader to make a new file or folder, acknowledge that one might already exist.](/blog/1-50-if-one-does-not-already-exist)
+1. [When instructing a reader to make a new file or folder, acknowledge that one might already exist](/blog/1-50-if-one-does-not-already-exist).
 
-2. [When an instruction is conditional, put the condition *before* the action to perform.](/blog/50-2-put-the-condition-first)
+2. [When an instruction is conditional, put the condition *before* the action to perform](/blog/50-2-put-the-condition-first).
+
+3. [Repetition is a pedagogical tool to reinforce a concept, not a safety net.](/blog/50-3-repetition-pedagogical-tool).

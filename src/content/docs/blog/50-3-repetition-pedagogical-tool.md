@@ -1,0 +1,30 @@
+---
+title: 'Tip 3 - repetition is a pedagogical tool'
+authors:
+  - sarah
+date: 2024-06-26
+pubDate: '2024-06-26'
+excerpt: 'Tip 3 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Repetition is a pedagogical tool to reinforce a concept, not a safety net.
+:::
+
+In Astro Docs, we will often say the same thing multiple times, or in multiple ways, to help our readers connect with terms they need to understand to be successful. However, it can be difficult to strike a balance between saying the same thing too often.
+
+One PR edit I am often suggesting is to **use repetition only when the intention is to reinforce a concept, not for emphasis**:
+
+
+- ✅ "In content collections, a schema allows you to define the shape of your frontmatter values and is used to alert you to potential errors or omissions. [...] Schemas allow you to specify exactly which properties each of your blog posts must (or may optionally) have, and will warn you when one is missing or of the wrong data type."
+
+- 😐 "Create the file `src/content/config.ts` to define your schema if you are using content collections. [...] Don't forget to define your schema!
+
+When first learning a concept, some readers will benefit from hearing the same description phrased different ways, or gently repeated in relevant sections. This form of repetition often helps solidify new concepts. Repeating an *instruction* can sound patronizing or insulting! ("Yes, I did that. You already told me to! Do you think that I'm stupid and can't follow instructions?") 
+
+
+Don't use repetition to make up for confusing instructions where you are worried about the reader's ability to follow, or because you haven't yet decided exactly *how* you want to explain something to your readers. I don't know about you, but I find these are both potential smells that my writing could use another editing pass. 😅
+
+
+The fewer words your reader has to process, especially *while performing another action* (like, following your instructions!), the better. But, there can be a time for strategic repetition or restatement of new concepts in material designed to educate and explain. For example, I will often use this strategy when I want to first provide a concise, information-dense or jargon-heavy technical definition, but then restate later in a way that is more reader-friendly.
