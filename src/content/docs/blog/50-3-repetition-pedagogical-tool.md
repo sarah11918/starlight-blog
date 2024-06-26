@@ -9,7 +9,7 @@ tags: ["docs", "50 tips in 50 days"]
 ---
 
 :::tip
-Repetition is a pedagogical tool to reinforce a concept, not a safety net.
+Repetition is a pedagogical tool to reinforce a concept, not as a safety net.
 :::
 
 In Astro Docs, we will often say the same thing multiple times, or in multiple ways, to help our readers connect with terms they need to understand to be successful. However, it can be difficult to strike a balance between saying the same thing too often.
