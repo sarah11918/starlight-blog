@@ -22,3 +22,5 @@ Let's see if I can do it!
 2. [When an instruction is conditional, put the condition *before* the action to perform](/blog/50-2-put-the-condition-first).
 
 3. [Repetition is a pedagogical tool to reinforce a concept, not a safety net.](/blog/50-3-repetition-pedagogical-tool).
+
+3. [When you think (or realize) you'll reference something frequently, make it a heading.](/blog/50-4-make-it-a-heading).
