@@ -23,4 +23,8 @@ Let's see if I can do it!
 
 3. [Repetition is a pedagogical tool to reinforce a concept, not a safety net.](/blog/50-3-repetition-pedagogical-tool).
 
-3. [When you think (or realize) you'll reference something frequently, make it a heading.](/blog/50-4-make-it-a-heading).
+4. [When you think (or realize) you'll reference something frequently, make it a heading.](/blog/50-4-make-it-a-heading).
+
+<!-- 
+5. [Don't let the easy fix distract you from the better edit.](/blog/50-5-easy-fix-better-edit) 
+-->
