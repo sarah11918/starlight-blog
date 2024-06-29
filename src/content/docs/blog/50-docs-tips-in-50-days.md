@@ -26,3 +26,5 @@ Let's see if I can do it!
 4. [When you think (or realize) you'll reference something frequently, make it a heading.](/blog/50-4-make-it-a-heading).
 
 5. [Don't let the easy fix distract you from the better edit.](/blog/50-5-easy-fix-better-edit) 
+
+6. [New gets old fast. Save it for timely or dated posts.](/blog/50-6-new-gets-old)
