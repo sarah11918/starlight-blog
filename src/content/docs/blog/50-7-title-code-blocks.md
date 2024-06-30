@@ -1,0 +1,35 @@
+---
+title: 'Tip 7 - title your code blocks'
+authors:
+  - sarah
+date: 2024-06-30
+pubDate: '2024-06-30'
+excerpt: 'Tip 7 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Add file names as titles to your code blocks.
+:::
+
+Astro Docs includes a *lot* of code snippets! We spend a lot of time making sure the code in our examples is not just correct, but as minimal as necessary to illustrate one key idea. However, providing the best code example in the world isn't helpful if your reader doesn't know where to put it!
+
+One PR edit I am often making is to **title code blocks with the name of the file containing the code**. However you add titles to your code samples ([Starlight](https://starlight.astro.build/) documentation sites include [Expressive Code](https://expressive-code.com/) enabled by default), I suggest using that space to display the filename:
+
+```astro title="src/pages/index.astro"
+---
+import Layout from './layouts/Layout';
+---
+<Layout>
+  <h1>Welcome, world!</h1>
+</Layout>
+
+```
+
+Be honest: do you sometimes just scan docs looking for the code examples to copy? 😅 (And, is it *only* sometimes?)
+
+Especially in larger guides that involve multiple files (e.g. a layout, a dynamic routing page, a component), code samples without titles rely on your paragraph text to explain where this code is (or is to be added). This can mean rereading and double-checking of instructions, especially if your code examples only show the *new* lines of code to be added and not the surrounding code to give a hint as to which file you're now talking about.
+
+Providing the file name in the title is a great way to add helpful, contextual information without extra "explainy" words. It's the kind of "information dense" presentation that doesn't overwhelm your reader. And as a title, it exists outside of the code itself so that it doesn't get copied to the clipboard.
+
+If your reader is following along in their own project, seeing the title gives them a chance to navigate to their corresponding file even before they see the code. They may be juggling a lot in their head as they work through your instructions, and keeping the the location of the code tightly coupled with the code itself in one bundle can be a helpful convenience.
