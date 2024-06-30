@@ -4,7 +4,7 @@ authors:
   - sarah
 date: 2024-06-29
 pubDate: '2024-06-29'
-excerpt: 'Tip 4 of "50 tips in 50 days before I turn 50!"'
+excerpt: 'Tip 6 of "50 tips in 50 days before I turn 50!"'
 tags: ["docs", "50 tips in 50 days"]
 ---
 

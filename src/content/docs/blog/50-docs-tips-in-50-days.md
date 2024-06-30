@@ -28,3 +28,6 @@ Let's see if I can do it!
 5. [Don't let the easy fix distract you from the better edit.](/blog/50-5-easy-fix-better-edit) 
 
 6. [New gets old fast. Save it for timely or dated posts.](/blog/50-6-new-gets-old)
+<!--
+7. [Add file names as titles to your code blocks.](/blog/50-7/title-code-blocks)
+-->
