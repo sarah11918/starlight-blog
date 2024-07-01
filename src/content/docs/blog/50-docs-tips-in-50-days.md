@@ -31,3 +31,4 @@ Let's see if I can do it!
 
 7. [Add file names as titles to your code blocks.](/blog/50-7-title-code-blocks)
 
+8. [You can't remember (or forget) what you didn't already know.](/blog/50-8-dont-forget)

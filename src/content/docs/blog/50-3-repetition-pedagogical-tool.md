@@ -16,10 +16,9 @@ In Astro Docs, we will often say the same thing multiple times, or in multiple w
 
 One PR edit I am often suggesting is to **use repetition only when the intention is to reinforce a concept, not for emphasis**:
 
-
 - ✅ "In content collections, a schema allows you to define the shape of your frontmatter values and is used to alert you to potential errors or omissions. [...] Schemas allow you to specify exactly which properties each of your blog posts must (or may optionally) have, and will warn you when one is missing or of the wrong data type."
 
-- 😐 "Create the file `src/content/config.ts` to define your schema if you are using content collections. [...] Don't forget to define your schema!
+- 😐 "Create the file `src/content/config.ts` to define your schema if you are using content collections. [...] Don't forget to define your schema!"
 
 When first learning a concept, some readers will benefit from hearing the same description phrased different ways, or gently repeated in relevant sections. This form of repetition often helps solidify new concepts. Repeating an *instruction* can sound patronizing or insulting! ("Yes, I did that. You already told me to! Do you think that I'm stupid and can't follow instructions?") 
 
