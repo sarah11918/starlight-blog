@@ -32,3 +32,5 @@ Let's see if I can do it!
 7. [Add file names as titles to your code blocks.](/blog/50-7-title-code-blocks)
 
 8. [You can't remember (or forget) what you didn't already know.](/blog/50-8-dont-forget)
+
+9. [Don't make people figure out how one thing is "like" something else.](/blog/50-9-dislike-like)

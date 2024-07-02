@@ -1,0 +1,27 @@
+---
+title: 'Tip 9 - I dislike "like"'
+authors:
+  - sarah
+date: 2024-07-02
+pubDate: '2024-07-02'
+excerpt: 'Tip 9 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Don't make people figure out how one thing is "like" something else.
+:::
+
+In docs, we write tons of examples showing our readers how something works. These often follow a more general explanation or definition to illustrate how to use this feature or idea in their project. Just like [remembering and forgetting assumes prior awareness](/50-8-dont-forget), the word "like" often does a lot of heavy lifting! 
+
+I never want my reader to struggle to figure out what I mean by, "Do it *like this*... ". You cannot assume that your reader knows which part of a code snippet is meaningful, especially when surrounding lines of code are shown for context. What specifically am I modelling? What's the pattern are they supposed to notice and be able to repeat?
+
+One PR edit I regularly make is **removing "like" in favour of a more explicit comparison or explanation**:
+
+- ✅ "To connect your CMS to your Astro project, set the value for `token` using your personal token available in your CMS dashboard:"
+
+- 😐 "Connect your Astro project to your CMS *like so*:"
+
+Similarly, when I want to draw on my reader's (presumed) prior knowledge to relate a new concept to something familiar, I don't assume they'll automatically perceive what *I* think is a similarity. "See this dog? It's just like balloon, of course! Got it?" (You have to hold on to the leash tightly, or it will get away.)
+
+Don't make your readers guess what seems obvious to *you*, and they will "like" reading your docs a whole lot more!
