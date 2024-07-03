@@ -1,0 +1,40 @@
+---
+title: 'Tip 10 - headings get used'
+authors:
+  - sarah
+date: 2024-07-03
+pubDate: '2024-07-03'
+excerpt: 'Tip 10 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Consider everywhere your headings will be used, not just in the body of the page.
+:::
+
+
+Everyone seems to want to add more and more "asides" (e.g. note, info, tip, or caution call outs) whenever they think something is important to point out. Instead, I often [make it a heading](/blog/50-4-make-it-a-heading) because section headings are a docs site's best friend! Titles and subtitles help us organize our content both to group similar things together and to separate distinct items. 
+
+But more than that, headings often have other functions in a docs site that may affect how you write them.
+
+In Astro Docs, `<h2>` and `<h3>` level headings show up automatically in our "On this page" navigation component. When a reader arrives on a page, this table of contents helps readers quickly scan to find specific content, or even figure out whether they are on the right page.
+
+One PR edit I regularly make is **adjusting headings to create helpful table of contents**. In order to be helpful as visual markers, I try to keep headings short. This often means removing repetitive, non-descriptive words and end punctuation that looks out of place in a separate list:
+
+- ✅ "Integrations"
+
+- 😐 "About integrations:"
+
+Headings also gives me an opportunity to consider a section's "one key point." A section heading doesn't have to be a complete sentence or a full thought. Unlike when I'm [being explicit about what "like" means](/blog/50-9-dislike-like), this is my chance to distill a section down to a few key words.
+
+
+> ### My component is not interactive
+> 
+> When you notice that your component renders on the page but is not responding to user interaction...
+
+
+Inside paragraphs of text, I may sacrifice brevity when I want to reinforce the vocabulary and concepts of the project. It is *helpful* for my readers to be able to describe their situation in terms of rendering and interactivity, especially when they want to troubleshoot or ask for help in support channels. It is less helpful for navigating a page when the section heading itself tries to provide those details.
+
+It also makes for one darn ugly anchor link!
+
+`#my-component-renders-on-the-page-but-is-not-responding-to-user-interaction`

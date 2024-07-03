@@ -34,3 +34,5 @@ Let's see if I can do it!
 8. [You can't remember (or forget) what you didn't already know.](/blog/50-8-dont-forget)
 
 9. [Don't make people figure out how one thing is "like" something else.](/blog/50-9-dislike-like)
+
+10. [Consider everywhere your headings will be used, not just in the body of the page.](/blog/50-10-headings-used-in-toc)
