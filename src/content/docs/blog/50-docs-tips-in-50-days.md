@@ -36,3 +36,5 @@ Let's see if I can do it!
 9. [Don't make people figure out how one thing is "like" something else.](/blog/50-9-dislike-like)
 
 10. [Consider everywhere your headings will be used, not just in the body of the page.](/blog/50-10-headings-work-alone)
+
+<!-- 11. [Alternative versions are more helpful than alternate histories.](/blog/50-11-what-could-have-been.md) -->
