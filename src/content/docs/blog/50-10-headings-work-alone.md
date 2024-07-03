@@ -1,5 +1,5 @@
 ---
-title: 'Tip 10 - headings get used'
+title: 'Tip 10 - headings need to work alone'
 authors:
   - sarah
 date: 2024-07-03
