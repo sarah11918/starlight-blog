@@ -40,3 +40,5 @@ Let's see if I can do it!
 11. [Alternative versions are more helpful than alternate histories.](/blog/50-11-what-could-have-been)
 
 12. [Let your docs tell their own story.](/blog/50-12-cool-story-bro)
+
+13. [Be aware of words that may have an unintended nuance.](/blog/50-13-inadvertently-inappropriate)
