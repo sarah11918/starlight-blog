@@ -1,0 +1,30 @@
+---
+title: "Tip 12 - cool story bro"
+authors:
+  - sarah
+date: 2024-07-05
+pubDate: '2024-07-05'
+excerpt: 'Tip 12 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Let your docs tell their own story.
+:::
+
+When helping to craft Astro Docs, I'm always aware of the "story" that the features are telling. A "good story" is one where the feature works as you'd expect it to and explanations are pleasantly smooth to write. These stories tell themselves, and don't need a narrator.
+
+One PR edit I am often suggesting is to **remove narrating the progression of your docs**. This is a quick way to keep your word count down and your text focused without losing any key content.
+
+- ✅ "Import the `rss` helper from the `@astrojs/rss` package and pass it the following paramaters:"
+
+- 😐 "Import the `rss` helper from the `@astrojs/rss` package, which takes several parameters. We will explore each one below:"
+
+There can be a time for letting your reader know what to expect. But, I normally reserve this for situations like a tutorial where I need my readers to hang in there for an extended period of time. When I am worried that they might give up partway through if they can't see a light at the end of the tunnel, I will lay out the plan at the beginning of the page.
+
+But for most documentation, organized with headings and a visible table of contents, the extra annotation can be just extra words on the page for your reader. We're always on the lookout for ways to keep our docs shorter and to the point. Removing the narrator from the story is one specific way to remove non-essential content.
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />
+

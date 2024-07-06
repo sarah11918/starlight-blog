@@ -37,4 +37,6 @@ Let's see if I can do it!
 
 10. [Consider everywhere your headings will be used, not just in the body of the page.](/blog/50-10-headings-work-alone)
 
-11. [Alternative versions are more helpful than alternate histories.](/blog/50-11-what-could-have-been.md)
+11. [Alternative versions are more helpful than alternate histories.](/blog/50-11-what-could-have-been)
+
+12. [Let your docs tell their own story.](/blog/50-12-cool-story-bro)
