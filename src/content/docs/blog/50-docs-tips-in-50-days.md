@@ -42,3 +42,5 @@ Let's see if I can do it!
 12. [Let your docs tell their own story.](/blog/50-12-cool-story-bro)
 
 13. [Be aware of words that may have an unintended nuance.](/blog/50-13-inadvertently-inappropriate)
+
+14. [Make it clear whether your list is partial or complete.](/blog/50-14-this-post-includes-advice)
