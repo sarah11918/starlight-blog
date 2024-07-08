@@ -44,3 +44,5 @@ Let's see if I can do it!
 13. [Be aware of words that may have an unintended nuance.](/blog/50-13-inadvertently-inappropriate)
 
 14. [Make it clear whether your list is partial or complete.](/blog/50-14-this-post-includes-advice)
+
+15. [Don't document workarounds. Fix them!](/blog/50-15-dont-doc-when-you-can-fix)
