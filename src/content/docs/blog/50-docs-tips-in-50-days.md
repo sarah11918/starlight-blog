@@ -46,3 +46,5 @@ Let's see if I can do it!
 14. [Make it clear whether your list is partial or complete.](/blog/50-14-this-post-includes-advice)
 
 15. [Don't document workarounds. Fix them!](/blog/50-15-dont-doc-when-you-can-fix)
+
+16. [You don't know what your reader wants. Save effort (and words!) by not trying to guess.](/blog/50-16-if-you-want-to)
