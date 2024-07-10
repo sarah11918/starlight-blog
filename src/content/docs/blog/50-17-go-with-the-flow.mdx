@@ -1,0 +1,33 @@
+---
+title: "Tip 17 - go with the flow"
+authors:
+  - sarah
+date: 2024-07-10
+pubDate: '2024-07-10'
+excerpt: 'Tip 17 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Group the most similar items together for a definition that flows.
+:::
+
+Docs writing is all about crafting concise, yet meaningful, definitions. It's not always easy! Sometimes, you have a few key ideas that you really want to get across to give your reader a great introduction to a term. Presenting your reader with the right amount of information to explain without being overwhelming is only part of the job. The individual parts also have to flow.
+
+
+One type of PR suggestion I make is to **deconstruct your definition into its elements, then recombine them in the order that causes the least context switching.** I am often introducing a term that may have a format, a purpose, a structure, a main benefit, a notable caveat or constraint...  As a result, definitions are often information-dense, meant to be unpacked over the course of the section or page. You can help your reader successfully navigate a lot of thoughts expressed in not a lot of words by putting these separate pieces in a logical order.
+
+Below, I suggest starting with the technical properties of the file (type and location) together, followed by implementation details of its contents. This allows someone looking for a straight definition to stop there and keeps them focused on the concept of a particular file in their project. Then, I suggest moving on to describing how powerful and useful it is.
+
+
+- ✅ "An API Route is a `.js` or `.ts` file within the `src/pages` folder that takes a Request and returns a Response. A powerful feature of SSR-enabled projects, API routes are able to securely execute code on the server side."
+
+- 😐 "API Routes is a powerful feature of SSR, represented by a `.js` or `.ts` file. They take a Request and return a Response while begin able to securely execute code on the server side. These should be located within the `src/pages` folder. 
+
+This is not the only way to organize those ideas! If the purpose of a page is selling a feature, not defining it, then one might choose to start with how powerful and useful API routes can be.
+
+No matter how you slice it, an introduction or definition runs the risk of throwing a lot of facts at a reader... right upfront! I consider it my responsibility to at least be throwing from the same direction as often as I can.
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />
