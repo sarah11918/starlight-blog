@@ -52,3 +52,5 @@ Let's see if I can do it!
 17. [Group the most similar items together for a definition that flows.](/blog/50-17-go-with-the-flow)
 
 18. [Use sequence words to help your reader progress through your instructions.](/blog/50-18-twist-then-pull)
+
+19. [When communicating updates to your project, emphasize what has changed for the reader.](/blog/50-19-be-the-change)
