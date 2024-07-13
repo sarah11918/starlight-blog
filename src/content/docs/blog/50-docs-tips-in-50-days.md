@@ -54,3 +54,5 @@ Let's see if I can do it!
 18. [Use sequence words to help your reader progress through your instructions.](/blog/50-18-twist-then-pull)
 
 19. [When communicating updates to your project, emphasize what has changed for the reader.](/blog/50-19-be-the-change)
+
+20. [Make sure readers can actually add your “add this code” examples.](/blog/50-20-add-this-code)
