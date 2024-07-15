@@ -1,0 +1,33 @@
+---
+title: "Tip 22 - and then"
+authors:
+  - sarah
+date: 2024-07-15
+pubDate: '2024-07-15'
+excerpt: 'Tip 22 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Start with one idea per sentence. Let it tell you whether it wants to be longer or shorter.
+:::
+
+We all agree that in most situations, most of the time, "less is more" when it comes to writing. For content-heavy contexts like docs writing, it's always a struggle to provide *enough* information while sticking to this adage. We want our readers to have *alllll* the information they ~~could possibly want~~ need to be successful!
+
+
+
+One PR suggestion I often make is to **start by deconstructing separate ideas into their own sentences ruthlessly.** A little bit of sentence variety is fine, and can even make prose [easier to read](https://www.redwoodink.com/resources/why-varying-sentence-length-engages-your-reader). But starting from the smallest possible building blocks ensures that I am building back up intentionally. 
+
+Paradoxically, "make shorter sentences" often means... "make longer sentences!" 😅 You may need to *add* words to provide context you might have lost by turning a phrase into a full sentence. I find that "over-zealous chopping" + "reintroduce context" can often get me pretty close to readable docs:
+
+- ✅ These features require some one-time code set up. After that, your site will automatically update in response to changes. Astro will rebuild a new version of your site each time using both the current files in your project and any data returned by the most recent fetch calls.
+
+- 😐 These features require some one-time code set up, then will re-run at build time and return updated results based on the current files in your project and any data returned by the most recent fetch call.
+
+Another advantage to splitting and recombining ideas: it can be easier to spot a better (re)grouping of these ideas than you originally had. Docs isn't a jigsaw puzzle with only one correct spot for each piece! Docs is maybe more like a Scrabble rack of tiles: individual letters you position and reposition in search of a good word to play.
+
+As with any tip, your mileage may vary... just like your sentence lengths! But, I'm often pleasantly surprised that the "longer" shorter sentences end up improving the readability and flow of the entire paragraph. At the same time, my "shorter" shorter sentences can be direct and punchy. In both cases, it's easier for me to intentionally control the flow of information to my reader.
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />

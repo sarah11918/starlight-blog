@@ -58,3 +58,5 @@ Let's see if I can do it!
 20. [Make sure readers can actually add your “add this code” examples.](/blog/50-20-add-this-code)
 
 21. [Consider the surrounding context around your changes.](/blog/50-21-prepare-to-be-assimilated)
+
+22. [Start with idea per sentence. Let it tell you whether it wants to be longer or shorter.](/blog/50-22-and-then)
