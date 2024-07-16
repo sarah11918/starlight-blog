@@ -60,3 +60,5 @@ Let's see if I can do it!
 21. [Consider the surrounding context around your changes.](/blog/50-21-prepare-to-be-assimilated)
 
 22. [Start with idea per sentence. Let it tell you whether it wants to be longer or shorter.](/blog/50-22-and-then)
+
+23. [Write the docs you have, not how you got them.](50-23-is-not-was)
