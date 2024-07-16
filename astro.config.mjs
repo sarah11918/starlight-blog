@@ -52,6 +52,12 @@ export default defineConfig({
 				{ label: 'Gear', link: '/gear/' },
 				{ label: 'Photography', link: '/photography/' },
 				{ label: 'Choir Tech', link: '/choirtech/' },
+				{ label: 'Featured Posts', 
+						items: [
+							{ label: '50 docs tips in 50 days', link: '/blog/50-docs-tips-in-50-days' },
+						]
+						
+				},
 				{
 					label: 'Guides',
 					autogenerate: { directory: 'guides' },
