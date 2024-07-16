@@ -13,7 +13,7 @@ So, I'm hoping I can jump-start my writing by taking advantage of the delightful
 
 (At least, I hope they are! They are things that help me while [leading Astro's community-driven documentation site](/blog/community-driven-astro-docs/).)
 
-I'll make a separate post for each one, and will share in a Fediverse thread on my Mastodon account but I'll come back to this one and update the list as we go.
+I'll make a separate post for each one, and will share in [a Fediverse thread on my Mastodon account](https://mastodon.social/@sarah11918/112671713862058779) but I'll come back to this one and update the list as we go.
 
 Let's see if I can do it!
 
