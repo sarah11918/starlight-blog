@@ -63,4 +63,6 @@ Let's see if I can do it!
 
 23. [Write the docs you have, not how you got them.](/blog/50-23-is-not-was)
 
-24. [Mise en place](/blog/50-24-mise-en-place).
+24. [Front load prerequisites to avoid distracting side quests.](/blog/50-24-mise-en-place).
+
+25. [Your enthusiasm isn't always contagious.](/blog/50-25-just-follow-this-tip)
