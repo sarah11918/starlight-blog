@@ -66,3 +66,5 @@ Let's see if I can do it!
 24. [Front load prerequisites to avoid distracting side quests.](/blog/50-24-mise-en-place).
 
 25. [Your enthusiasm isn't always contagious.](/blog/50-25-just-follow-this-tip)
+
+26. [Use the words you mean.](/blog/50-26-use-this)
