@@ -68,3 +68,5 @@ Let's see if I can do it!
 25. [Your enthusiasm isn't always contagious.](/blog/50-25-just-follow-this-tip)
 
 26. [Use the words you mean.](/blog/50-26-use-this)
+
+27. [Focus on your reader's needs, not their mechanics.](/blog/50-27-writing-that-clicks)
