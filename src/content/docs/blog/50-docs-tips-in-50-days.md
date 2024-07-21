@@ -70,3 +70,5 @@ Let's see if I can do it!
 26. [Use the words you mean.](/blog/50-26-use-this)
 
 27. [Focus on your reader's needs, not their mechanics.](/blog/50-27-writing-that-clicks)
+
+28. [Acknowledge the similarities to and differences from earlier instructions.](/blog/50-28-this-time)

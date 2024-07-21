@@ -1,0 +1,37 @@
+---
+title: "Tip 27- this time"
+authors:
+  - sarah
+date: 2024-07-21
+pubDate: '2024-07-21'
+excerpt: 'Tip 28 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Acknowledge the similarities to and differences from earlier instructions.
+:::
+
+Because docs has to be written for everyone, we often can't know our readers' prior actions and experiences. But, when writing guides, it's safe to assume they've followed any and all previous steps. In my books, that's fair game for an assumed frame of reference!
+
+One PR suggestion I often make is to **point out when a similar or identical step has already been performed.** This can assure your reader that yes, they've seen this before. It can also helpfully call attention to subtle differences.
+
+
+> **Use the same method** to fetch data your data from Contentful as above, **but this time**, on a page that will create a unique page route for each blog post.
+> 
+> Create a new file named `[slug].astro` in `src/pages/posts/`.
+> 
+> **As you previously did** in `src/pages/index.astro`, import the `BlogPost` interface and `contentfulClient` from `src/lib/contentful.ts`. 
+>
+> **This time**, fetch your data inside a `getStaticPaths()` function.
+
+Most of the time, I don't want to presume that my reader has read *anything* else earlier on the page... and certainly not on any other page! One *disadvantage* of [using precise headings as anchor links](/blog/50-4-make-it-a-heading) is sending your reader to a part of the page where even the preceeding line (and often helpful context!) is scrolled out of view.
+
+However, your reader is working through a set of instructions from top to bottom. It is helpful to point out when they should find a task familiar ("Are we just going to pretend that we haven't done this before?") as well as when (and how) they should *not* mindlessly repeat it.
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />
+
+
+
