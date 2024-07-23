@@ -1,0 +1,36 @@
+---
+title: "Tip 30 - just a link in your chain"
+authors:
+  - sarah
+date: 2024-07-23
+pubDate: '2024-07-23'
+excerpt: 'Tip 30 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+When your users have users, you may want or need to document for them, too.
+:::
+
+It is not always easy to describe what something *is* or *does*. And, this difficulty isn't always reserved for difficult concepts! Sometimes the easiest, or most obvious, tools and features can be challenging to documenent in style that matches the rest of your documentation.
+
+Much of our API documentation falls nicely into repeatable patterns of stating what things *are*, and further breaking its components into smaller pieces and saying what they *are*. However, occasionally we may find ourselves tangled up in an explanation of what a thing *is* that just isn't working. When this happens, we need another way to think about our subject entirely.
+
+One PR suggestion I'll often give when a fresh perspective is necessary is to **take a pass documenting for the (very) end user**. At Astro, we are documenting for people who are building websites. They are our "readers." However, our "readers" are building websites that will be *used* by their own site visitors!
+
+Some of our documentation is best suited to thinking one level more removed, considering the the end product, and the end user. (And in the case of Starlight, these end users are *themselves* docs readers... of *our* readers' docs!)
+
+- ✅ Starlight's `<Tabs>` component allow readers to choose between different content views.
+
+- 😐 For your pieces of content that are relevant to only a percentage of your users (e.g. specific package manager or UI framework guidance), we have the `<Tabs>` component to help you.
+
+Instead of focusing on the experience of *our* reader ("you have content that is like this; you want to organize and display it like this"), we chose to focus on how *their* site visitor was going to interact with that content. This also subtly reminds our readers that they are using our tools to build *for* their visitors. It's easy to get caught up in the technical implementation and forget that these are just tools to create *experiences.*
+
+I'm not claiming that we got this "right," but we at least found it easier to talk about this feature in terms of its end use vs. its moving parts. And, you can almost never go wrong when you think about your (end) user!
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />
+
+
+

@@ -74,3 +74,5 @@ Let's see if I can do it!
 28. [Acknowledge the similarities to and differences from earlier instructions.](/blog/50-28-this-time)
 
 29. [Use visual emphasis for conveying meaning, not intonation.](/blog/50-29-seen-and-not-heard)
+
+30. [When your users have users, you may want or need to document for them, too.](/blog/50-30-link-in-your-chain)
