@@ -76,3 +76,5 @@ Let's see if I can do it!
 29. [Use visual emphasis for conveying meaning, not intonation.](/blog/50-29-seen-and-not-heard)
 
 30. [When your users have users, you may want or need to document for them, too.](/blog/50-30-link-in-your-chain)
+
+31. [Don't explain what's not in the example.](/blog/50-31-as-not-shown-here)
