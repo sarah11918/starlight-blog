@@ -78,3 +78,5 @@ Let's see if I can do it!
 30. [When your users have users, you may want or need to document for them, too.](/blog/50-30-link-in-your-chain)
 
 31. [Don't explain what's not in the example.](/blog/50-31-as-not-shown-here)
+
+32. [The better the name, the harder you have to work for the definition.](/blog/50-32-defining-the-obvious)
