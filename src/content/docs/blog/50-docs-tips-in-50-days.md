@@ -80,3 +80,5 @@ Let's see if I can do it!
 31. [Don't explain what's not in the example.](/blog/50-31-as-not-shown-here)
 
 32. [The better the name, the harder you have to work for the definition.](/blog/50-32-defining-the-obvious)
+
+33. [Start troubleshooting advice with the observable error, not what led to it.](/blog/50-33-whats-your-problem)
