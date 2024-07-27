@@ -82,3 +82,5 @@ Let's see if I can do it!
 32. [The better the name, the harder you have to work for the definition.](/blog/50-32-defining-the-obvious)
 
 33. [Start troubleshooting advice with the observable error, not what led to it.](/blog/50-33-whats-your-problem)
+
+34. [Show the right thing so readers don't internalize the wrong thing.](/blog/50-34-show-what-to-do)
