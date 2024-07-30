@@ -1,0 +1,33 @@
+---
+title: "Tip 37 - right words, wrong place"
+authors:
+  - sarah
+date: 2024-07-30
+pubDate: '2024-07-30'
+excerpt: 'Tip 37 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+The right words can be in the wrong place.
+:::
+
+Lots of docs writing tips focus on specific word usage: use them correctly; use more explicit words; use fewer of them! Sometimes, our words are actually pretty good.
+
+We can't get complacent, though! Sometimes writing that would fit very well in one place of your documentation doesn't quite work in another.
+
+One PR suggestion I often make **doesn't significantly change words, but rearranges them to align with the purpose of the content.** Writing may be clear, correct, and even helpful, but offered at the wrong time. The example below is going to need some context to show why I prefer one over the other. Otherwise, it's difficult to tell!
+
+The examples below occur immediately after a heading called "Setup" and the reader is assumed to be staring at a new, blank project.
+
+- ✅ Astro starter projects include a `tsconfig.json` file in your project. This file is important so that tools like Astro and VS Code know how to understand your project. Some features (like npm package imports) aren't fully supported in the editor without a `tsconfig.json` file. If you install Astro manually, be sure to create this file yourself.
+
+- 😐 Astro always treats your component code as TypeScript, but some features (like npm package imports) aren't fully supported in the editor without a `tsconfig.json` file. Even if you don't write TypeScript, this file is important so that tools like Astro and VS Code know how to understand your project. Astro starter projects include this file, but if you install Astro manually, be sure to create it yourself.
+
+The difference is subtle, but I think it exists. In this situation, I prefer to first call attention to the file itself. In fact, I *do* like the nuance that "Astro treats your code as TypeScript" (even if you only write JavaScript). In another context, it's a great lead-in! I would totally use it to set *a* stage, just not *this* stage.
+
+We wouldn't list steps out of order. (Well, *we* wouldn't do that. 😅) A sequence of concrete steps, like a set of instructions, gives us a natural structure to follow in our writing. Absent that, we have to do the heavy lifting ourselves to structure our (good) content in the context of the reader's journey through our docs, and the purpose of each page.
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />

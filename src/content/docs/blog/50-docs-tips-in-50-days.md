@@ -88,3 +88,5 @@ Let's see if I can do it!
 35. [Links are going to be clicked! Use them strategically when you want readers to leave your page.](/blog/50-35-link-in-bio)
 
 36. [Don't take responsibility for documenting someone else's project.](/blog/50-36-not-my-problem)
+
+37. [The right words can be in the wrong place.](/blog/50-37-right-words-wrong-place)
