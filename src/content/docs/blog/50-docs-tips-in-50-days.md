@@ -90,3 +90,5 @@ Let's see if I can do it!
 36. [Don't take responsibility for documenting someone else's project.](/blog/50-36-not-my-problem)
 
 37. [You may need to "rearrange" to support your reader's journey, not rewrite.](/blog/50-37-right-words-wrong-place)
+
+38. [Save “but” for a truly unexpected turn of events. You can use “and” more than you think!](/blog/50-38-this-and-that)
