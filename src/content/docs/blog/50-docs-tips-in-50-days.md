@@ -94,3 +94,5 @@ Let's see if I can do it!
 38. [Save “but” for a truly unexpected turn of events. You can use “and” more than you think!](/blog/50-38-this-and-that)
 
 39. [Don't sound smart; make your reader feel smart!](/blog/50-39-smarty-pants)
+
+40. ["Make things happen" in your life, not in your docs writing.](/blog/50-40-make-my-day)
