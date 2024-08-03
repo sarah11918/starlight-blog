@@ -96,3 +96,5 @@ Let's see if I can do it!
 39. [Don't sound smart; make your reader feel smart!](/blog/50-39-smarty-pants)
 
 40. ["Make things happen" in your life, not in your docs writing.](/blog/50-40-make-my-day)
+
+41. [Docs is not a conversation. Skip the pleasantries!](/blog/50-41-if-you-please)
