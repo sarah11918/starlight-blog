@@ -1,0 +1,34 @@
+---
+title: "Tip 42 - knock knock, who's there?"
+authors:
+  - sarah
+date: 2024-08-04
+pubDate: '2024-08-04'
+excerpt: 'Tip 42 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Assume that your reader knows whose docs they're reading.
+:::
+
+Writers work to avoid redundant phrases in their writing like, "very unique" or "new innovation." These modifiers repeat the idea already contained in the word being modified. In documentation, where we value writing concisely, these phrases are "quick wins" for getting that word count down (and, keeping that reader energy up)!
+
+There are other, sneakier ways that redundancy can creep into our writing.
+
+One PR suggestion I will make is to **use the name of the project only when it's helpful for clarity**. If my sentence works without name-checking the project, I can delete it!
+
+- ✅ You can add MDX pages to your project by adding `.mdx` files in the special `src/pages/` folder.
+- 😐 In Astro, you can add MDX pages to your project by adding `.mdx` files in the special `src/pages/` folder.
+
+This format *is* useful when comparing to a similar project, especially one that may work differently. If you're describing multiple projects, then identifying the project is important enough to be the stage setter of the sentence. Similarly, in a "What the heck *is* Astro?" section, your reader might be so unfamiliar with your project, what it does, and how it works that it's *like* you're comparing it... to anything they might know so you can make a meaningful connection!
+
+For the rest (most?) of our docs that explain "how a thing works in Astro," emphasizing the *in Astro* part isn't necessary and can be annoying for the reader. You can perform a, "What other project would we be talking about?" check to decide. (Add it to your "avoid sarcastic reader reactions" editing pass.)
+
+An unhelpful "in Astro" sometimes even feels to me a little like talking about yourself in the 3rd person. It also implies a comparison that no one made, and can feel "invented" just so you can take an agressive marketing position. ("Oh, did you realize that *in ASTRO* you can just...") And, if you think I'm "inventing interpretations" of a tiny, two-word phrase, may I introduce you to social media? 😅
+
+Mention your project when it's helpful. Otherwise, trust that your reader knows where they are!
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />

@@ -98,3 +98,5 @@ Let's see if I can do it!
 40. ["Make things happen" in your life, not in your docs writing.](/blog/50-40-make-my-day)
 
 41. [Docs is not a conversation. Skip the pleasantries!](/blog/50-41-if-you-please)
+
+42. [Assume that your reader knows whose docs they're reading.](/blog/50-42-whos-there)
