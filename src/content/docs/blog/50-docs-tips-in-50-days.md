@@ -100,3 +100,5 @@ Let's see if I can do it!
 41. [Docs is not a conversation. Skip the pleasantries!](/blog/50-41-if-you-please)
 
 42. [Assume that your reader knows whose docs they're reading.](/blog/50-42-whos-there)
+
+43. [Sneak "extra docs" in with meaningful example file names.](/blog/50-43-whats-in-a-name)
