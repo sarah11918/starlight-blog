@@ -101,4 +101,4 @@ Let's see if I can do it!
 
 42. [Assume that your reader knows whose docs they're reading.](/blog/50-42-whos-there)
 
-43. [Sneak "extra docs" in with meaningful example file names.](/blog/50-43-whats-in-a-name)
+43. [Sneak in "extra docs" with meaningful example file names.](/blog/50-43-whats-in-a-name)
