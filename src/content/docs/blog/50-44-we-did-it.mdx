@@ -1,0 +1,44 @@
+---
+title: "Tip 44 - we did it!"
+authors:
+  - sarah
+date: 2024-08-06
+pubDate: '2024-08-06'
+excerpt: 'Tip 44 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Separate yourself from, and instead focus on, your reader.
+:::
+
+I don't know your docs situation. I don't know your style guide. I don't know your constraints, your stakeholders, your audience. I also don't know your stress level, your mood, or your past experiences. You do.
+
+Some consider it "friendly" to write instructions as if you were sitting right there beside your reader, going through the steps with them. But, you're not. You're separated by time and space, at a minimum. There's probably a *lot* more going on that you don't share.
+
+"We" is — *at best* — a lie. At its worst, it's condescending. It does not reliably make it through the “avoid sarcastic reader reactions” editing pass. (*Now, we see...* "Who sees? I sure as heck don't see this!") 
+
+It can also be unclear who "we" is referring to in your docs. In some situations, it is used to include the reader. Other times, it may be used to speak on behalf of the project, as in "We recommend..."
+
+One PR suggestion I'm often making is to **address, not include, the reader.** This most often takes the form of changing step-by-step instructions from "We will now create a new page..." to "You will now create a new page..." 
+
+And, I hope if you do that, it feels a *little* weird to you, and it prompts you to try alternatives such as, "You must now create a new page..." Eventually, I hope it feels the most natural to just write "Create a new page..." and [give your reader a direct instruction](/blog/50-41-if-you-please)!
+
+- ✅ Use the `useStoryblokApi` hook to query your data. This will initialize a new client instance using your integration configuration.
+- 😐 We will use the `useStoryblokApi` hook to query our data. This will initialize a new client instance using our integration configuration.
+
+Trying to "support" your reader through your steps with "we" can quickly take a turn from friendly to awkward, or even disturbing. "We will use the API to..." is one thing. But referring to *"our"* data feels a little intrusive.
+
+Removing the reader-inclusive "we" also has an added benefit: it prevents you from thinking about *yourself* in the instruction. Using (or implying) “you” naturally puts the emphasis on your reader, and what they are doing. It guides you towards thinking about helping *them*. What might *their* set up look like? Writing “our” can trick you into thinking about your *own* context or situation that your reader might not share.
+
+I know I won't change *every* mind with this tip, even though it's one of my favourites! Using "we" is such a common docs practice that I can only assume that some find value in it.
+
+Whatever your take on "we", can *we* at least agree that using "I" is off the table? I don't know about you, but I don't expect to be reading a personal story or take in official docs.
+
+- 😬 I will use the `useStoryblokApi` hook to query my data. This will initialize a new client instance using my integration configuration.
+
+(I mean, it's not just me, right? You could imagine a reading where that even comes across as *creepy*...)
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />

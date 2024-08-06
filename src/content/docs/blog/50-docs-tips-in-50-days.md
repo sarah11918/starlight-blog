@@ -59,7 +59,7 @@ Let's see if I can do it!
 
 21. [Consider the surrounding context around your changes.](/blog/50-21-prepare-to-be-assimilated)
 
-22. [Start with idea per sentence. Let it tell you whether it wants to be longer or shorter.](/blog/50-22-and-then)
+22. [Start with one idea per sentence. Let it tell you whether it wants to be longer or shorter.](/blog/50-22-and-then)
 
 23. [Write the docs you have, not how you got them.](/blog/50-23-is-not-was)
 
@@ -102,3 +102,5 @@ Let's see if I can do it!
 42. [Assume that your reader knows whose docs they're reading.](/blog/50-42-whos-there)
 
 43. [Sneak in "extra docs" with meaningful example file names.](/blog/50-43-whats-in-a-name)
+
+44. [Separate yourself from, and instead focus on, your reader.](/blog/50-44-we-did-it)
