@@ -104,3 +104,5 @@ Let's see if I can do it!
 43. [Sneak in "extra docs" with meaningful example file names.](/blog/50-43-whats-in-a-name)
 
 44. [Separate yourself from, and instead focus on, your reader.](/blog/50-44-we-did-it)
+
+45. [Every new fact is “another thing,” but you don’t always need to call attention to it! ](/blog/50-45-and-another-thing)
