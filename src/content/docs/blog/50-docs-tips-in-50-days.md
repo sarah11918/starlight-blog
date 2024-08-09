@@ -108,3 +108,5 @@ Let's see if I can do it!
 45. [Every new fact is “another thing,” but you don’t always need to call attention to it! ](/blog/50-45-and-another-thing)
 
 46. [Emphasize the postive! Help your readers achieve, not avoid.](/blog/50-46-not-a-bug-its-a-feature) 
+
+47. [Document change like a *verb*, not just as a noun.](/blog/50-47-ch-ch-ch-ch-changes)
