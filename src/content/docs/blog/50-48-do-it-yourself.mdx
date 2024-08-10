@@ -1,0 +1,31 @@
+---
+title: "Tip 48 - do it yourself"
+authors:
+  - sarah
+date: 2024-08-10
+pubDate: '2024-08-10'
+excerpt: 'Tip 48 of "50 tips in 50 days before I turn 50!"'
+tags: ["docs", "50 tips in 50 days"]
+---
+
+:::tip
+Use examples to enhance your point, not make it.
+:::
+
+We can never have enough ideas to illustrate the sometimes abstract concepts we need to cover in our docs! Examples help contextualize ideas expressed in our terms, and relate them to our readers' world.
+
+As docs writers, we use both the abstract and the concrete. We can't write for every reader, so we have to write for all readers, using every tool available to us. Examples make *sense*, but are they sufficient for making *meaning*?
+
+One PR suggestion I often make is to **describe or define the general concept before launching in to examples**. Your list of examples isn't exhaustive; you won't necessarily list what your reader is hoping to do.
+
+Example first writing make your reader *synthesize* (put parts together to construct a whole) which is more challenging than *analysis* (breaking down a concept into its parts). You are asking your reader to create meaning out of selected examples instead of providing a solid foundation to expand upon. There is no guarantee they will draw the conclusion you want them to.
+
+- ✅ Enable Astro's view transitions to create animated transitions between different website views. This links elements from both an outgoing page and the incoming page, so you can persist or animate common elements such as a blog post image. You can even make the entire page appear to fade or slide in.
+- 😐 To fade into a new page, zoom in on the image when selecting a blog post, or make the next page slide in, enable Astro's view transitions.
+
+Astro Docs readers are already building their own projects. I try not to make them build their own definitions, too!
+  
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/blog/50-docs-tips-in-50-days" />
+

@@ -110,3 +110,5 @@ Let's see if I can do it!
 46. [Emphasize the postive! Help your readers achieve, not avoid.](/blog/50-46-not-a-bug-its-a-feature) 
 
 47. [Document change like a *verb*, not just as a noun.](/blog/50-47-ch-ch-ch-ch-changes)
+
+48. [Use examples to enhance your point, not make it.](/blog/50-48-do-it-yourself)
