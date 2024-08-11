@@ -112,3 +112,5 @@ Let's see if I can do it!
 47. [Document change like a *verb*, not just as a noun.](/blog/50-47-ch-ch-ch-ch-changes)
 
 48. [Use examples to enhance your point, not make it.](/blog/50-48-do-it-yourself)
+
+49. [What doesn't kill you makes (your docs) stronger.](/blog/50-49-nwtwwhb)
