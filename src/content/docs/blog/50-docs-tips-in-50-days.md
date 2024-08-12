@@ -114,3 +114,5 @@ Let's see if I can do it!
 48. [Use examples to enhance your point, not make it.](/blog/50-48-do-it-yourself)
 
 49. [What doesn't kill you makes (your docs) stronger.](/blog/50-49-nwtwwhb)
+
+50. [Use tips for actionable, optional, been-there-done-that content.](/blog/50-50-tip-your-server)
