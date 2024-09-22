@@ -7,7 +7,10 @@ import License from './License.astro';
 const isBlog = Astro.props.slug.slice(0,5) === 'blog/';
 const isTags = Astro.props.slug.slice(0,8) === 'blog/tags/';
 // console.log(Astro.props.slug.slice(0,10))
-console.log(isTags)
+
+const isHomePage = Astro.props.id === 'index.mdx';
+
+const isOtherPage = !isHomePage
 ---
 
 { isBlog && (
@@ -34,8 +37,12 @@ console.log(isTags)
 ) 
 }
 
-<Default {...Astro.props}><slot /></Default>
+{ isOtherPage && (
+<Default {...Astro.props}><slot /></Default> 
+)}
+
 <License />
+
 <style>
   .feedback {
   background-color: #fff3f6;
