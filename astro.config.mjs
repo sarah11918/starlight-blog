@@ -40,7 +40,8 @@ export default defineConfig({
 			],
 			social: {
 				github: 'https://github.com/sarah11918/starlight-blog',
-				mastodon: 'https://m.webtoo.ls/@astro',
+				mastodon: 'https://mastodon.social/@sarah11918',
+				blueSky: 'https://bsky.app/profile/sarah11918.rainsberger.ca',
 				discord: 'https://astro.build/chat',
 				twitter: 'https://twitter.com/sarah11918',
 				youtube: 'https://youtube.com/sarahrainsberger',
