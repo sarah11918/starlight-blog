@@ -12,9 +12,8 @@ const picurl= `https://www.flickr.com/photos/sarahrainsberger/${id}`
 // <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 const alt = description._content?.toString() || "a bird"
-console.log(alt)
+
 ---
 <div>
-  <p>{title} - {id}</p>
   <a href={picurl} ><img src={picsrc} width={width} alt={alt} /></a>
 </div>

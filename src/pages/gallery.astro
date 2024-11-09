@@ -7,9 +7,18 @@ const allPhotos = allPhotosResult.photos.photo;
 ---
 
 <StarlightPage frontmatter={{ title: 'My custom page' }}>
-  <p>This is a custom page with a custom component:</p>
-
+  <p>These are some photos I have taken. Clicking any photo will take you to the photo's Flickr page.</p>
+  <div class="gallery">
  {allPhotos.map((photo) => (
-    <FlickrPhoto photoprops = {photo} width="250" />
+    <FlickrPhoto photoprops = {photo} width="300" />
   ))}
+  </div>
 </StarlightPage>
+
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+</style>
