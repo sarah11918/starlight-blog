@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightBlog from 'starlight-blog';
 import { imageService } from "@unpic/astro/service";
-
+import starlightCoolerCredit from 'starlight-cooler-credit'
 import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
@@ -81,6 +81,7 @@ export default defineConfig({
               // },
           ],
           plugins: [
+              starlightCoolerCredit({credit: {title: "Built with Starlight Blog", href: "https://github.com/HiDeoo/starlight-blog", description: "Get your own Starlight Blog!"}}),
               starlightBlog({
                   authors: {
                       sarah: {
