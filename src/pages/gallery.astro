@@ -1,0 +1,24 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import FlickrPhoto from "../components/FlickrPhoto.astro";
+const allPhotosResponse = await fetch(`https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=${process.env.FLICKR_API_KEY}&user_id=28692845%40N03&extras=description&format=json&nojsoncallback=1`);
+const allPhotosResult = await allPhotosResponse.json();
+const allPhotos = allPhotosResult.photos.photo;
+---
+
+<StarlightPage frontmatter={{ title: 'Photo Gallery' }}>
+  <p>These are some photos I have taken. Clicking any photo will take you to the photo's Flickr page.</p>
+  <div class="gallery">
+ {allPhotos.map((photo) => (
+    <FlickrPhoto photoprops = {photo} width="300" />
+  ))}
+  </div>
+</StarlightPage>
+
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+</style>
