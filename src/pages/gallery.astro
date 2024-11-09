@@ -3,7 +3,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import FlickrPhoto from "../components/FlickrPhoto.astro";
 const allPhotosResponse = await fetch(`https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=${process.env.FLICKR_API_KEY}&user_id=28692845%40N03&extras=description&format=json&nojsoncallback=1`);
 const allPhotosResult = await allPhotosResponse.json();
-const allPhotos = allPhotosResult.photos.photo;
+const allPhotos = allPhotosResult.photos.photo.slice(0,-1);
 ---
 
 <StarlightPage frontmatter={{ title: 'Photo Gallery' }}>
