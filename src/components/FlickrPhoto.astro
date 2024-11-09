@@ -1,6 +1,6 @@
 ---
 const { photoprops, width } = Astro.props
-const { id, title, secret } = photoprops
+const { id, title, secret, description } = photoprops
 const picsrc= `https://live.staticflickr.com/65535/${id}_${secret}_z.jpg`
 const picurl= `https://www.flickr.com/photos/sarahrainsberger/${id}`
 
@@ -11,9 +11,10 @@ const picurl= `https://www.flickr.com/photos/sarahrainsberger/${id}`
 //  <img src="https://live.staticflickr.com/65535/51863664472_97f90bf34e_n.jpg" width="320" height="213" alt="Sparrow 002_3472"></a>
 // <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-
+const alt = description._content?.toString() || "a bird"
+console.log(alt)
 ---
 <div>
   <p>{title} - {id}</p>
-  <a href={picurl} ><img src={picsrc} width={width} alt={title} /></a>
+  <a href={picurl} ><img src={picsrc} width={width} alt={alt} /></a>
 </div>
