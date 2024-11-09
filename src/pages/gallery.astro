@@ -6,7 +6,7 @@ const allPhotosResult = await allPhotosResponse.json();
 const allPhotos = allPhotosResult.photos.photo;
 ---
 
-<StarlightPage frontmatter={{ title: 'My custom page' }}>
+<StarlightPage frontmatter={{ title: 'Photo Gallery' }}>
   <p>These are some photos I have taken. Clicking any photo will take you to the photo's Flickr page.</p>
   <div class="gallery">
  {allPhotos.map((photo) => (
