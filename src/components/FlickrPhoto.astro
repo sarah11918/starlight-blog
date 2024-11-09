@@ -1,0 +1,15 @@
+---
+const { photoprops, width } = Astro.props
+const { id, title, secret } = photoprops
+const picsrc= `https://live.staticflickr.com/65535/${id}_${secret}_z.jpg`
+const picurl= `https://www.flickr.com/photos/sarahrainsberger/${id}`
+
+//Public embed code example
+//<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/sarahrainsberger/51863664472/" title="Sparrow 002_3472"><img src="https://live.staticflickr.com/65535/51863664472_97f90bf34e_n.jpg" width="320" height="213" alt="Sparrow 002_3472"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+---
+<div>
+  <p>{title} - {id}</p>
+  <a href={picurl} ><img src={picsrc} width={width} alt={title} /></a>
+</div>

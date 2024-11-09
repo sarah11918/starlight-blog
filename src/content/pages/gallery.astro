@@ -1,0 +1,15 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import FlickrPhoto from "../../components/FlickrPhoto.astro";
+const allPhotosResponse = await fetch(`https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=${process.env.FLICKR_API_KEY}&user_id=28692845%40N03&format=json&nojsoncallback=1`);
+const allPhotosResult = await allPhotosResponse.json();
+const allPhotos = allPhotosResult.photos.photo;
+---
+
+<StarlightPage frontmatter={{ title: 'My custom page' }}>
+  <p>This is a custom page with a custom component:</p>
+
+ {allPhotos.map((photo) => (
+    <FlickrPhoto photoprops = {photo} width="250" client:load />
+  ))}
+</StarlightPage>
