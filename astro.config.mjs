@@ -18,17 +18,23 @@ export default defineConfig({
           credits: true,
           title: "🐦 Sarah Rainsberger",
           components: {
-      Footer: './src/components/ConditionalFooter.astro'
-    },
+            Footer: './src/components/ConditionalFooter.astro'
+          },
           customCss: [
-      './src/styles/custom.css',
-    ],
+            './src/styles/custom.css',
+          ],
           head: [
               {tag: "meta", 
                   attrs: {
-                      property: "og:image", 
-                      content: "/flatjay.jpg",
+                    property: "og:image", 
+                    content: "/flatjay.jpg",
                   }
+              },
+              {tag: "meta", 
+                attrs: {
+                    name: "fedierse:creator", 
+                    content: "@sarah11918@mastodon.social",
+                }
               },
               {tag: "script",
                   attrs: {
