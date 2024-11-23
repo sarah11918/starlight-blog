@@ -18,7 +18,7 @@ export default defineConfig({
           credits: true,
           title: "Sarah Rainsberger",
           logo: {
-            src: './src/assets/heartjay.webp',
+            src: './src/assets/heartjay200.webp',
             replacesTitle: true,
           },
           components: {
