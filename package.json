@@ -25,7 +25,6 @@
   "changelog": {
     "repo:": "sarah11918/starlight-blog",
     "labels": {
-      "feature": "New Feature",
       "enhancement": ":rocket: Enhancement",
       "bug": ":bug: Bug Fix",
       "documentation": ":memo: Documentation"

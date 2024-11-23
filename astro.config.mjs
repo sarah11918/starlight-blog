@@ -16,7 +16,11 @@ export default defineConfig({
   integrations: [
       starlight({
           credits: true,
-          title: "🐦 Sarah Rainsberger",
+          title: "Sarah Rainsberger",
+          logo: {
+            src: './src/assets/heartjay2.png',
+            replacesTitle: true,
+          },
           components: {
             Footer: './src/components/ConditionalFooter.astro'
           },

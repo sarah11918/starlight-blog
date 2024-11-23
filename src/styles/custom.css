@@ -43,3 +43,9 @@
 	--sl-color-gray-6: #350107;
 	--sl-color-black: #1b0203;
 }
+
+
+img:where(.astro-m46x6ez3) { 
+	/* height: calc(var(--sl-nav-height) - 2* var(--sl-nav-pad-y)); */
+	height: 100px;
+}
