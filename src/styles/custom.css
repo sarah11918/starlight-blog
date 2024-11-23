@@ -54,8 +54,8 @@ img:where(.astro-m46x6ez3) {
 		height:100px;
 	}
 
-	/* img:where(.astro-m46x6ez3):hover { 
-		transform: translateY(30px);	
+	img:where(.astro-m46x6ez3):hover { 
+		transform: translateY(5px);
 	} 
-	*/
+	
 }
