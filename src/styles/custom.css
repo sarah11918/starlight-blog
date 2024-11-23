@@ -45,7 +45,16 @@
 }
 
 
-img:where(.astro-m46x6ez3) { 
-	/* height: calc(var(--sl-nav-height) - 2* var(--sl-nav-pad-y)); */
-	height: 80px;
+@media (max-width: 799px) {
+	img:where(.astro-m46x6ez3) { 
+		/* height: calc(var(--sl-nav-height) - 2* var(--sl-nav-pad-y)); */
+		height: 80px;
+	}
+}
+
+@media (min-width: 800px) {
+	img:where(.astro-m46x6ez3) { 
+		/* height: calc(var(--sl-nav-height) - 2* var(--sl-nav-pad-y)); */
+		height:100px;
+	}
 }
