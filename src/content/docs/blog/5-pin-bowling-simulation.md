@@ -5,7 +5,7 @@ authors:
   - sarah
 date: 2021-08-25
 excerpt: "When you code for @jbrains, you get 5-pin bowling coding assignments!"
-tags: ["javascript", "no local dev environment"]
+tags: ["javascript",]
 ---
 ## Look at me, I'm a pin setter!
 
