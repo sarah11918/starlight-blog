@@ -69,7 +69,13 @@ export default defineConfig({
           sidebar: [
               { label: 'About', link: '/about/' },
               { label: 'Gear', link: '/gear/' },
-              { label: 'Photography', link: '/photography/' },
+              { label: 'Photography', 
+                items: [
+                   { label: 'Photography Apps', link: '/photography/' },
+                   { label: '#SilentSunday', link: '/photography/silent-sunday/' },
+                   { label: '#ArtAdventCalendar 2024', link: '/photography/art-advent-calendar/' },
+                ]
+              },
               { label: 'Choir Tech', link: '/choirtech/' },
               { label: 'Featured Posts', 
                       items: [
