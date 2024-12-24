@@ -101,4 +101,4 @@ When you *do* have new changes commited to your local fork of the project that y
 
 "Contribute" will start the process for a brand new pull request, first by checking for merge conflicts, and then by allowing you to provide a good title and description for your changes. Your pull request, once opened, is attached to the original project for review, and the cycle begins again!
 
-**Thank you for contributing to open source!**
+**Thank you for contributing to open source and Astro Docs!**
