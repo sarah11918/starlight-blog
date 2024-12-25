@@ -4,7 +4,7 @@ description: Tips for choir apps and resources.
 template: doc
 ---
 
-These are some of the tools I use that can help your choir!
+These are some of the tools that can help your choir!
     
 ## Android
 
