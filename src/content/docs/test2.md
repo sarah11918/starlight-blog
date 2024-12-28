@@ -5,5 +5,3 @@ and a line here
 ## This is a heading
 
 In holocron
-
-## In GitHub
