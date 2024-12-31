@@ -1,6 +1,6 @@
 # Welcome to StackEdit
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar. EDITED IN GITHUB
+Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar. EDITED IN GITHUB EDITED on SEPro
 
 # Files
 
@@ -141,5 +141,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjEyMDQxNyw0NDYzMjQzNl19
+eyJoaXN0b3J5IjpbMTg2Nzg4NTAwOCwtMzc2MTIwNDE3LDQ0Nj
+MyNDM2XX0=
 -->
