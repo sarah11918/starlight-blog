@@ -16,13 +16,12 @@ export default defineConfig({
   integrations: [
       starlight({
           credits: true,
-          title: "Sarah Rainsberger",
+          title: "rainsberger.ca",
           logo: {
             src: './src/assets/heartjay200.webp',
-            replacesTitle: true,
           },
           components: {
-            Footer: './src/components/ConditionalFooter.astro'
+            Footer: './src/components/ConditionalFooter.astro',
           },
           customCss: [
             './src/styles/custom.css',
