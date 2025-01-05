@@ -1,0 +1,46 @@
+---
+const {postURL, imageALT, photoURL} = Astro.props
+
+const picURL = `${photoURL.slice(0,-26)}original${photoURL.slice(-21)}`
+---
+
+<article class="fediverse-status" data-mastodon-host="mastodon.social" data-status="113777210846959549" data-created-by="https://github.com/UppaJung/embed-a-toot;v1.0.0;2025-01-05T18:41:23.266Z" data-update-counters data-update-content>
+    <header>
+      <a href="https://mastodon.social/@sarah11918" rel="external nofollow" title="view profile at @sarah11918@mastodon.social" class="authors-avatar-link">
+        <picture class="authors-avatar">
+          <source srcset="https://files.mastodon.social/accounts/avatars/000/011/967/original/f8789e7707cf523e.jpg" media="(prefers-reduced-motion: no-preference)"/>
+          <img src="https://files.mastodon.social/accounts/avatars/000/011/967/original/f8789e7707cf523e.jpg" alt="@sarah11918@mastodon.social avatar" class="authors-avatar"/>
+        </picture>
+      </a>
+      <div class="post-author">
+        <span class="post-authors-display-name">Sarah Rainsberger</span>
+          <a href="https://mastodon.social/@sarah11918" title="@sarah11918@mastodon.social" rel="external nofollow" class="post-authors-fediverse-identity">
+            <span class="at-symbol username-at-symbol">@</span>
+            <span class="post-authors-fediverse-username">sarah11918</span>
+            <span class="at-symbol server-at-symbol">@</span><span class="post-authors-fediverse-server">mastodon.social</span>
+          </a>
+      </div>
+    </header>
+
+    <main><p><a rel="tag" class="mention hashtag" href="https://mastodon.social/tags/SilentSunday">#<span>SilentSunday</span></a></p></main>
+    
+    <a href={postURL}><img alt={imageALT} src={picURL} class="fediverse-attachment" /></a>
+    <footer>
+      <a href={postURL}><time datetime="2025-01-05T18:41:00.439Z" class="post-time">5 Jan 2025, 14:41</time></a>
+      <time hidden datetime="" class="edit-time">edited at </time>
+      <a href=`${postURL}/favourites` title="favourites" class="counter-favourites">0</a>
+      <a href=`${postURL}/reblogs` title="reblogs" class="counter-reblogs">0</a>
+      <a href={postURL} title="replies" class="counter-replies">0</a>
+    </footer>
+  </article>
+
+<!-- Use:
+
+import EmbedAToot from '../../../components/EmbedAToot.astro';
+
+<EmbedAToot 
+  postURL="https://mastodon.social/@sarah11918/113777210846959549"
+  photoURL="https://files.mastodon.social/media_attachments/files/113/777/195/228/697/532/small/6c47e458fadfcb16.jpg"
+  imageALT="A male cardinal (deep red, medium sized bird with black around its beak and chin) perched on a curvy branch, angled down towards the ground. Its face, chest and beak are a bright orangey red while its wings and tail are a deeper, muted dark red. Its crest (hair feathers) are slightly raised and its bright, black eye is looking right at you. The background is a chaotic wilderness of green shoots and leaves and grey/brown stalks, deep in a forest but not too high off the ground."
+  dateTime= 
+/> -->
