@@ -66,7 +66,9 @@ export default defineConfig({
               email: 'mailto:sarah@rainsberger.ca',
           },
           sidebar: [
-              { label: 'About', link: '/about/' },
+              { label: 'About Me', link: '/about/' },
+              { label: 'Birding', link: '/birding/' },
+              { label: 'Choir Tech', link: '/choirtech/' },
               { label: 'Gear', link: '/gear/' },
               { label: 'Photography', 
                 items: [
@@ -75,8 +77,7 @@ export default defineConfig({
                    { label: '#ArtAdventCalendar 2024', link: '/photography/art-advent-calendar/' },
                 ]
               },
-              { label: 'Choir Tech', link: '/choirtech/' },
-              { label: 'Featured Posts', 
+              { label: 'Featured Blog Posts', 
                       items: [
                           { label: '50 docs tips in 50 days', link: '/blog/50-docs-tips-in-50-days' },
                       ]

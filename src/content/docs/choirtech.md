@@ -43,3 +43,7 @@ These are some of the tools that can help your choir!
 <p>Many times if you search for the title and arranger of a song, you can find a listing for it on a publisher's website or online sheet music store for sale. <a href="http://www.jwpepper.com/sheet-music/school-choir-music.jsp">JW Pepper</a> and <a href="https://www.halleonard.com/index.jsp?subsiteid=5">Hal Leonard</a> are two excellent resources for many popular arrangements. Often, these listings will have professional recordings of the songs that you can listen to online. Sometimes they are only 30 second clips, but very often you can hear the entire song performed by studio musicians. These can also be very helpful for learning your part because the recordings and individual voices are quite clear.</p>
   
 <p><a href="http://cypresschoral.com/Composers/Home.html">Cypress Choral</a> is an excellent Canadian Choral publisher with many recordings of their arrangements available online.</p>
+
+## My choir performances
+
+See a [playlist of my performances](https://www.youtube.com/playlist?list=PLowBAHWxr_2DdNpEhojRwVB0JTucgOo-4).

@@ -1,0 +1,48 @@
+---
+title: Birding
+description: The birding apps and tools I use
+template: doc
+---
+
+import { YouTube } from 'astro-embed';
+
+In 2014 my photography began to drift towards nature and birds. I started casually recording bird observations using the [Merlin birding app](https://merlin.allaboutbirds.org/) to identify and save observations locally. In 2018 I moved my observations over to [eBird.org](https://ebird.org) where you can find [my birding profile](https://ebird.org/profile/OTE3ODE4/world) (available to logged in users).
+
+## Participatory science
+
+Birding is great hobby that allows you to participate in [citizen science](https://en.wikipedia.org/wiki/Citizen_science) (also known by [the more inclusive "community science"](https://www.ecospark.ca/blog/q3yvjx673xfa12esi43295aosviyl2) since "citizen" is a term describing one's legal status within a jurisdiction). Your observations are used by research scientists to track and understand bird populations around the world.
+
+Global organizations like eBird and [iNaturalist](https://www.inaturalist.org/) connect your data with scientists and projects supporting education and biodiversity. Importantly for me, it's a hobby I can do wherever in the world I happen to be: from my own backyard to travelling around Europe.
+
+![Screenshot of an email from eBird with a collage of several bird photos in portrait mode, as if taken on a mobile phone with the text: Hi Sarah, Thank you for contributing photos to eBird and the Macaulay Library. This November, we released a new version of Photo ID in Merlin, and we wanted to extend our gratitude for the important part you played in the creation of this new resource. **1 of your photos were used to train Merlin to identify birds in photos.**](../../assets/your-photo-was-used.png)
+
+Canadians can also find [local citizen science initiatives to participate in at Birds Canada](https://www.birdscanada.org/you-can-help/citizen-science), organized by province. These range from continuous ongoing projects such as eBird checklists, targeted studies for one species of bird, and specific "blitz" days or weekends like the Christmas Bird Count or "Global Big Day" events.
+
+## Android Birding Apps
+
+The following apps for identifying and observing birds can be downloaded from Google Play:
+
+  <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.audubon.mobile.android">Audubon</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=edu.cornell.birds.ebird">eBird</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.labs.merlinbirdid.app">Merlin</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=org.inaturalist.android">iNaturalist</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.thenerdbirder.GoBird">GoBird</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=de.tu_chemnitz.mi.kahst.birdnet">BirdNET</a></li>
+  </ul>
+
+## sBirb
+
+After taking self-study courses at [Scrimba](https://scrimba.com/home) to learn JavaScript and React, I built [`sbirb`](https://sbirb.netlify.app/) in Astro and React to house my experiments working with the eBird API to fetch and display data in a way that is not available through eBird's website nor any other existing birding apps. It isn't pretty, but it works!
+
+I created this app specifically to track [**reported but not yet reviewed** rare or unusual bird sightings](https://sbirb.netlify.app/#unusual) so I could check on the status of my own observations and see when they were confirmed or denied. (Because reasons, this was otherwise impossible without direct access to the API.)
+
+Over time, I added other functions that **I** found useful when birding, such as a quick ["show me a list of which birds have been recently reported in this area"](https://sbirb.netlify.app/#recent) as a "gut check" when I think I've seen a certain bird that seems unusual for this time of year. If someone else has recently reported seeing that bird, then it's a safer bet that it is in fact the bird I think it is.
+
+<p>Watch 2 minutes of my React Conf 2021 talk "Learning in the Browser" where I describe building this tool as my very first React project!</p>
+    <YouTube 
+        id="5X-WEQflCL0" 
+        params="start=186&end=343"
+        title='Excerpt: How did I decide what to build? Solve a real problem you have!'
+        poster="https://lh3.googleusercontent.com/pw/AP1GczPqtri7_KSX0T1OMq6KrramYwQzdpIlfHdnvlNQmjcavNVF3FyzgI5S3lJxOP-6QNqo2IgbZ_lN6AYcgDLfTuUdU5M9YvyT10TGX64scBDmiRQB_wrv1EA5blbveINYjnFd2hdIrVtE6Ok7LQCbZ-PPlw=w1191-h655-s-no-gm?authuser=0"
+        />
