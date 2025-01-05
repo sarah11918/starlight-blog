@@ -72,7 +72,7 @@ export default defineConfig({
               { label: 'Gear', link: '/gear/' },
               { label: 'Photography', 
                 items: [
-                   { label: 'Photography Apps', link: '/photography/' },
+                   { label: 'My Photography', link: '/photography/' },
                    { label: '#SilentSunday', link: '/photography/silent-sunday/' },
                    { label: '#ArtAdventCalendar 2024', link: '/photography/art-advent-calendar/' },
                 ]
