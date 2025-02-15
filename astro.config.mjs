@@ -7,9 +7,10 @@ import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
-  image: {
-      service: imageService(),
-	  },
+//   Looks like there is an issue with an image in the public folder, not sure yet what it is.
+//   image: {
+//       service: imageService(),
+// 	  },
 
   site: 'https://www.rainsberger.ca',
 
@@ -97,7 +98,8 @@ export default defineConfig({
               // },
           ],
           plugins: [
-              starlightCoolerCredit({credit: {title: "Built with Starlight Blog", href: "https://github.com/HiDeoo/starlight-blog", description: "Get your own Starlight Blog!"}}),
+            // The starlight-cooler-credit plugin is not updated for Starlight 0.32.0 yet.
+            //   starlightCoolerCredit({credit: {title: "Built with Starlight Blog", href: "https://github.com/HiDeoo/starlight-blog", description: "Get your own Starlight Blog!"}}),
               starlightBlog({
                   authors: {
                       sarah: {

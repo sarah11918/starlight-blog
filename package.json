@@ -14,13 +14,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^5.5.4",
-    "@astrojs/starlight": "^0.29.0",
-    "@unpic/astro": "^0.0.47",
-    "astro": "^4.16.10",
+    "@astrojs/netlify": "^6.2.0",
+    "@astrojs/starlight": "^0.32.0",
+    "@unpic/astro": "^1.0.0",
+    "astro": "^5.3.0",
     "astro-embed": "^0.9.0",
     "sharp": "^0.32.5",
-    "starlight-blog": "^0.15.0",
+    "starlight-blog": "^0.17.0",
     "starlight-cooler-credit": "^0.1.0"
   },
   "changelog": {
