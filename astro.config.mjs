@@ -35,7 +35,7 @@ export default defineConfig({
               },
               {tag: "meta", 
                 attrs: {
-                    name: "fedierse:creator", 
+                    name: "fediverse:creator", 
                     content: "@sarah11918@mastodon.social",
                 }
               },
