@@ -6,7 +6,7 @@ authors:
 date: 2022-11-04
 pubDate: 2022-11-04
 excerpt: "What community-driven means to Astro Docs."
-tags: ["astro", "docs", "open-source"]
+tags: ["astro", "docs", "open source"]
 alt: '6 stacked achievement badges, showing Astro repo stats like "PR Perfectionist: reviewed 30 PRs", "Galactic Librarian: 30 Docs PRs", "Astronomer: Opened a PR in 3 Astro Repos" and "Little Green Bug: Opened an Issue."'
 
 ---

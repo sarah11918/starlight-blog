@@ -12,7 +12,7 @@ excerpt: |
 
     Two months ago, I switched to [IDX](https://idx.dev/) as my exclusive coding environment *(and you're not going to believe what happened next...)*"
 
-tags: ["no local dev environment", "community", "open-source"]
+tags: ["no local dev environment", "community", "open source"]
 ---
 I learned to code on a Chromebook in online editors. My very first Astro project was a forked CodeSandbox of an Astro v0.12 (!) starter template.
 
