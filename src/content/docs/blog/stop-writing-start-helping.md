@@ -8,6 +8,7 @@ excerpt: Good docs can be the difference between a happy, successful user of you
 img: ../../../assets/helpfuldocs.png
 alt: "A blue jay sitting on a branch with head tilted asking the question Are your docs helpful?"
 tags: ["docs", "open-source"]
+featured: true
 ---
 *(approximate transcript below, in "speaker notes" formatting rather than properly written, with some slides sprinkled in and [resources and references](#references-and-resources) at the end)*
 
@@ -66,9 +67,9 @@ I would argue, the sole purpose of documentation, the only reason it exists, is 
 
 - **internal docs:** help with cross-team collaboration and onboarding
 - **external docs:** help people understand, evaluate and use your project
-- **open-source docs:** help people contribute to your project
+- **open source docs:** help people contribute to your project
 
-![Three blue jays standing in a row, each labelled as a different kind of docs: internal, external, open-source]( ../../../assets/typesofdocs.png)
+![Three blue jays standing in a row, each labelled as a different kind of docs: internal, external, open source]( ../../../assets/typesofdocs.png)
 
 Documentation even helps **you** as you're building, making design decisions, learning, and leaving yourself notes.
 

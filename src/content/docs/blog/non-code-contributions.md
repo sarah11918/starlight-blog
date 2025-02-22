@@ -8,6 +8,7 @@ pubDate: '2023-05-20'
 excerpt: One of the most rewarding parts about leading Astro Docs is welcoming non-code contributors to open source! We still have work to do, but the open source community is slowly starting to realize (and capitalize on!) the value of writers, translators, designers, testers, content creators, speakers, community support members.
 alt: "Screenshot from Hacktoberfest 2022 page describing low-code and no-code contributions that would count for credit in writing, design and advocacy."
 tags: ["docs", "open-source"]
+featured: true
 ---
 ## The value of non-code contributions
 

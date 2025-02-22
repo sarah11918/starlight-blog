@@ -49,7 +49,7 @@ Gitpod also allowed me to open the same repository in multiple workspaces at the
 
 IDX's strict, "We know you already have a workspace for this repo, so this is the one you get!" policy seemed more limiting at first. But now I'm finding that I enjoy my dashboard *actually* being workspaces that correspond to the projects I'm working on. It's not a random mess of single-use, arbitrarily named items. I'm finding I have become more organized, and more disciplined, with better repo maintenance habits.
 
-Perhaps because of this difference, IDX handles simultaneous changes upstream and downstream *much* better than my Gitpod workspaces, which always seemed to throw errors and require git commands in the terminal to resolve. It's a small difference, but when the whole point of open-source repos is to work collaboratively, having IDX handle this aspect seamlessly makes a huge difference. It feels like it's working *with* my workflow, not against it.
+Perhaps because of this difference, IDX handles simultaneous changes upstream and downstream *much* better than my Gitpod workspaces, which always seemed to throw errors and require git commands in the terminal to resolve. It's a small difference, but when the whole point of open source repos is to work collaboratively, having IDX handle this aspect seamlessly makes a huge difference. It feels like it's working *with* my workflow, not against it.
 
 So, while I *hope* IDX initialization and browser preview gets faster, I have no complaints with reliability. Not everyone can handle opening a workspace, and *then* going to make a quick coffee (not the reverse). And I wouldn't blame you if you were one of those people! 
 

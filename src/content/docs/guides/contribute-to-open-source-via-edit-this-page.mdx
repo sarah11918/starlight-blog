@@ -6,13 +6,15 @@ With open source projects, not only can you *see* the code, you can help *edit a
 
 Here's an example of how you can contribute to [Astro's documentation](https://docs.astro.build), right from your browser!
 
-## Edit this page
+## Prerequisites
 
-On every page of the Astro documentation, there is a pencil icon and a link to "Edit this page" in the right hand sidebar.
+To contribute to the Astro Docs, you must have a [GitHub](https://github.com) account.
 
-![Astro Docs home page, with the edit this page link circled.](https://lh3.googleusercontent.com/pw/AM-JKLU_kl-WFfHVC6TBI-CZe7esReIiCzC_xaPd4kdjQFri7mVsOFovee04s5p76FzRKR_hKbPtVUjdYYDeFUx6lzuIsXp52p9H5KqzSvkn0uQz8JYtKKzcp50J7B0g56lxQ-itFF3mhbfsCH9zxcwM7vQiTg=w2367-h1334-no?)
+## Edit the current page
 
-Click this link!  Your browser will navigate to the Astro Docs source repository on GitHub, taking you directly to the file for the page you're viewing. 
+On every page of the Astro documentation, there is a pencil icon and a link to "Edit page".
+
+Click this link! Your browser will navigate to the Astro Docs source repository on GitHub, taking you directly to the file for the page you're viewing. 
 
 To make a contribution to this file, select the pencil icon to edit. If you are not logged in, you will be prompted to log in to GitHub. 
 
@@ -27,7 +29,7 @@ If you *are* logged in, the pencil icon will take you to edit this file in your 
 
 ## Propose Changes
 
-After clicking the pencil icon to edit that file, you will be greeted by a banner reminding you that you do not have permission to make changes *directly* to the file. Instead, you will make changes in your *own* copy of the document, then submit a pull request to the original project.
+After clicking the pencil icon to edit that file, you will be greeted by a banner reminding you that you do not have permission to make changes *directly* to the file. Instead, you will make changes in your *own* copy of the document, then submit a pull request (a request to contribute) to the original project.
 
 In edit mode, you can toggle between typing Markdown source code and previewing those changes on the page.
 
@@ -42,7 +44,8 @@ Be sure to include a short but descriptive title of what you changed, and option
 After "proposing changes," you'll still have two more steps to go (and two more chances to back out!) in order to create a pull request. So there's absolutely no risk in going this far!
 
 ## Create a pull request
-Next, you'll be taken to a page that performs a check to make sure that your changes are able to be merged, without conflict, into the open source repository. 
+
+Next, you'll be taken to a page that performs a check to make sure that your changes are able to be merged, without conflict, into the open source repository. (Because many people contribute to open source projects at the same time, your proposal might conflict with someone else's work.)
 
 It's at this point that you'll click the submit button to "create a pull request" (PR)... but this is only the button that takes you to *another* page where you'll have a chance to edit your PRs title and description before *actually* sending your proposed changes to the original repository. 
 
@@ -54,32 +57,41 @@ The next page you'll reach will again confirm that your changes can be merged wi
 
 ![The Open a Pull Request page on GitHub. A more advanced editor for creating a more elaborate description, and then a final create pull request button at the bottom.](https://lh3.googleusercontent.com/pw/AM-JKLXinD_jpQl7ciFjpI2yN8E-lJPgpcTbPOu7O89Bm9CC85AL0cC9udngyowgur5QFzAJV0-UVibRylt8RGTP9EZKtxx6ZbnkagBZCObaKJ2-N-PLrNg6CVEQy4UnYXnW2OxhYd7cW-OmINk1RIGPO9KwtQ=w1747-h836-no?authuser=0)
 
->⚠️ **When you click "Create a pull request" on this screen, now you *actually* create a pull request! This one counts!**
+:::caution
+**When you click "Create a pull request" on this screen, now you *actually* create a pull request! This one counts!**
+:::
 
 Here, you can leave a comment in Markdown, and also preview your comment. So, if you'd like to add a more descriptive or elaborate description of your changes here using standard Markdown lists, formatting, code blocks... you can also upload images or gifs, such as before and after screenshots.
 
-Also, there is a checkbox (selected by default) at the bottom, just before the submit button, for allowing edits by maintainers. This allows a maintainer of the project to accept your pull request while still making a change like fixing a typo or addressing a style issue. Please leave this box checked.
+:::tip[Allow edits by maintainers]
+Please leave this checkbox (selected by default) checked!
 
-By checking this box, you're allowing the maintainer to modify your changes which improves the chances that they can accept your pull request even if it is not *perfect*. Otherwise, if the maintainer cannot accept your changes *exactly* as you've proposed them, they will need to ask you to make changes and resubmit, or will be forced to deny your proposed changes entirely.
+This helps project maintainers accept your pull request even if it is not *perfect*. Otherwise, if the maintainer cannot accept your changes *exactly* as you've proposed them, they will need to ask you to make changes and resubmit, or will be forced to deny your proposed changes entirely.
+:::
 
 Once you are satisfied with the content of your pull request, click the button to submit (for realz!) and you'll be taken to a confirmation screen that shows your "open" pull request, in the original repository.
 
 ## Success!
+
 ![A GitHub page for a completed pull request, showing its status as open, options for closing it or adding another comment, as well as a button to unsubscribe from further notifications about this request.](https://lh3.googleusercontent.com/pw/AM-JKLVm_4gUSrAdry7tFHPm2qiWnXNHS_x4LoYOLRRDnbXIYlg31Ia4uVOxynamMfysRFj1M9c8PI01AlrVi1vhmJmMaQ5-WpP2DG_zJnJ7yX_O0e_CBL1Ciydd42ojuO4nNOeF7k2qqsqu3x-Epzl2-J3JoA=w1806-h1229-no?authuser=0)
 
 Congratulations! Your contribution has left your hands! Your pull request joins all the other pull requests (the total number is shown in the upper left of the screen with) to that project. 
 
-You can still add a follow up comment or decide to close the pull request at any time by revisiting this page. You can't "delete" a pull request, but you can "close" it to let the maintainers of the project know that you are withdrawing your proposed changes. The pull request continues to exist, (and can even be re-opened with the press of a button!) but closed PRs are typically hidden out of sight behind a default filter that only shows "open" (in progress) pull requests.
+## Follow up activity
+
+You can still edit your PR description, update the content of your proposed changes, add a follow up comment, or decide to close the pull request at any time by revisiting this page.
+
+You can't "delete" a pull request, but you can "close" it to let the maintainers of the project know that you are withdrawing your proposed changes. The pull request continues to exist, (and can even be re-opened with the press of a button!) but closed PRs are typically hidden out of sight behind a default filter that only shows "open" (in progress) pull requests.
 
 Also be aware that you will be automatically subscribed to receive notifications for any activity on this pull request. You can customize your notification preferences, but by default, you will receive a GitHub notification (based on your account's notification settings) when there is any activity on your request.
 
 ## Continuing to Contribute
 
-Your GitHub profile will now contain local copies, that *you* own, of the repositories to which you submitted changes. This means, you can easily revisit them at any time and contribute again and again!
+Your GitHub profile will now contain local copies, that live in *your* own account, of the repositories to which you submitted changes. This means, you can easily revisit them at any time and contribute again and again!
 
 ![A GitHub profile page showing the user's repositories. Under each local repository, it reads Forked from... the original project](https://lh3.googleusercontent.com/pw/AM-JKLVtcxnpUc5qai86ZKw32mIiHV6FpZMVqqUEtvsagHAXMskeohdGKB-QWJYfp42U-Mud9BBUJmuMTn9iIMq8vnw9SoAsL7VXUFgv4Kykf1DNIt9Rb_7A4dSizI1krJsn2rRXl-OfLAYN80fpZcleeRtqIw=w1828-h694-no?authuser=0)
 
-You can continue to edit files on GitHub, or you can open these repositories however you prefer to work on them: locally on your machine, in an online development environment or code editor like Gitpod or CodeSandbox, or by using the handy `.` (period key) shortcut while on GitHub to open github.dev for a VS Code editing experience.
+You can continue to edit files on GitHub, or you can open these repositories however you prefer to work on them: locally on your machine, in an online development environment or code editor like Gitpod or StackBlitz, or by using the handy `.` (period key) shortcut while on GitHub to open a `github.dev` Codespace for a VS Code editing experience.
 
 ### ⚠️ Avoid merge conflicts!
 

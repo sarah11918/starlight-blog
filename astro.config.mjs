@@ -77,12 +77,6 @@ export default defineConfig({
                    { label: '#ArtAdventCalendar 2024', link: '/photography/art-advent-calendar/' },
                 ]
               },
-              { label: 'Featured Blog Posts', 
-                      items: [
-                          { label: '50 docs tips in 50 days', link: '/blog/50-docs-tips-in-50-days' },
-                      ]
-                      
-              },
               {
                   label: 'Guides',
                   autogenerate: { directory: 'guides' },
@@ -90,6 +84,13 @@ export default defineConfig({
                       // Each item here is one entry in the navigation menu.
                       // { label: 'Example Guide', link: '/guides/example/' },
                   //],
+              },
+              { label: 'Featured Blog Posts', 
+                      items: [
+                          { label: '50 docs tips in 50 days', link: '/blog/50-docs-tips-in-50-days' },
+                          { label: "Stop writing docs. Start helping!" , link: '/blog/stop-writing-start-helping' },
+                          { label: "The value of non-code contributions to open source" , link: '/blog/non-code-contributions' },
+                      ]
               },
               // {
               // 	label: 'Reference',
