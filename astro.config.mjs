@@ -81,22 +81,10 @@ export default defineConfig({
               {
                   label: 'Guides',
                   autogenerate: { directory: 'guides' },
-                  // items: [
-                      // Each item here is one entry in the navigation menu.
-                      // { label: 'Example Guide', link: '/guides/example/' },
-                  //],
               },
               { label: 'Featured Blog Posts', 
-                      items: [
-                          { label: '50 docs tips in 50 days', link: '/blog/50-docs-tips-in-50-days' },
-                          { label: "Stop writing docs. Start helping!" , link: '/blog/stop-writing-start-helping' },
-                          { label: "The value of non-code contributions to open source" , link: '/blog/non-code-contributions' },
-                      ]
+                items: ['blog/50-docs-tips-in-50-days', 'blog/stop-writing-start-helping', 'blog/non-code-contributions',]
               },
-              // {
-              // 	label: 'Reference',
-              // 	autogenerate: { directory: 'reference' },
-              // },
           ],
           plugins: [
             // The starlight-cooler-credit plugin is not updated for Starlight 0.32.0 yet.
