@@ -83,7 +83,11 @@ export default defineConfig({
                   autogenerate: { directory: 'guides' },
               },
               { label: 'Featured Blog Posts', 
-                items: ['blog/50-docs-tips-in-50-days', 'blog/stop-writing-start-helping', 'blog/non-code-contributions',]
+              items: [
+                { label: '50 docs tips in 50 days', link: '/blog/50-docs-tips-in-50-days' },
+                { label: "Stop writing docs. Start helping!" , link: '/blog/stop-writing-start-helping' },
+                { label: "The value of non-code contributions to open source" , link: '/blog/non-code-contributions' },
+            ]
               },
           ],
           plugins: [
@@ -98,12 +102,12 @@ export default defineConfig({
                       }
                   },
                   recentPostCount: 10,
-                  postCount: 10,
+                  postCount: 15,
               }),
           ]
       }),
 	],
 
-  output: 'static',
-  adapter: netlify(),
+  // output: 'static',
+  // adapter: netlify(),
 });
