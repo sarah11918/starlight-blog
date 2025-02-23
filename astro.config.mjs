@@ -93,12 +93,12 @@ export default defineConfig({
                   authors: {
                       sarah: {
                           name: 'Sarah',
-                          title: '',
                           picture: '/profile.jpg',
                           url: 'https://rainsberger.ca/about/',
                       }
                   },
-                  recentPostCount: 5
+                  recentPostCount: 10,
+                  postCount: 10,
               }),
           ]
       }),
