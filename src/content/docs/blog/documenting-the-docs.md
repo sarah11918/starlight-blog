@@ -6,7 +6,7 @@ authors:
 date: 2022-04-06
 pubDate: "2022-04-06"
 excerpt: "A brief history of what's been going on in the Astro docs."
-tags: ["astro", "docs", "open source"]
+tags: ["astro", "docs", "open-source"]
 alt: "An experimental preview of Astro Docs, showing GitHub avatars of every contributor to the repository. These Docs are brought to you by all these helpful people. Join us on GitHub!"
 
 ---

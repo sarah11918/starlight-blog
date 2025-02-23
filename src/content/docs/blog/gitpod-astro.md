@@ -7,7 +7,7 @@ date: 2023-10-18
 pubDate: '2023-10-18'
 excerpt: From a 7 year-old Chromebook to an Android tablet to a Linux desktop... all my building with Astro is done in a cloud development environment thanks to Gitpod! No local development environment? No problem!
 alt: "A screenshot of the Gitpod logo as a workspace is starting up."
-tags: ["docs", "open source", "astro", "no local dev environment"]
+tags: ["docs", "open-source", "astro", "no local dev environment"]
 ---
 I spend much of my day making sure people can get started and build with [Astro](https://astro.build). I am regularly working in several Astro websites: this personal site, Astro Docs, Astro Docs Docs... 
 
