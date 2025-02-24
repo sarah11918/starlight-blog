@@ -7,7 +7,7 @@ date: 2022-02-10
 pubDate: 2022-02-10
 excerpt: Have you ever been reading documentation for an open source project and found a typo, or an out-of-date code example? If there's an "edit this page on GitHub" link, then you're only a few clicks away from contributing to Open Source and helping out a project!
 alt: "Side bar of a documentation site with a menu item called Edit This Page"
-tags: ["docs", "open source"]
+tags: ["docs", "open-source"]
 ---
 With open source projects, not only can you *see* the code, you can help *edit and maintain* the code, too!
 
