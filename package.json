@@ -1,9 +1,5 @@
 {
   "name": "starlight-blog",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sarah11918/starlight-blog.git"
-  },
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -16,19 +12,9 @@
   "dependencies": {
     "@astrojs/netlify": "^6.2.2",
     "@astrojs/starlight": "^0.32.2",
-    "@unpic/astro": "^1.0.0",
     "astro": "^5.4.0",
     "astro-embed": "^0.9.0",
     "sharp": "^0.32.5",
-    "starlight-blog": "^0.18.0",
-    "starlight-cooler-credit": "^0.1.0"
-  },
-  "changelog": {
-    "repo:": "sarah11918/starlight-blog",
-    "labels": {
-      "enhancement": ":rocket: Enhancement",
-      "bug": ":bug: Bug Fix",
-      "documentation": ":memo: Documentation"
-    }
+    "starlight-blog": "^0.18.0"
   }
 }
