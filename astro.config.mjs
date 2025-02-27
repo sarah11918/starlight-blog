@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightBlog from 'starlight-blog';
-import { imageService } from "@unpic/astro/service";
-import starlightCoolerCredit from 'starlight-cooler-credit'
+// import { imageService } from "@unpic/astro/service";
+// import starlightCoolerCredit from 'starlight-cooler-credit'
 import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
