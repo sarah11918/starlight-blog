@@ -7,7 +7,7 @@ pubDate: '2023-10-05'
 excerpt: Good docs can be the difference between a happy, successful user of your project and ... a happy, successful user of *someone else's* project. But documentation is often a task left to people who don't feel comfortable writing it. This talk presented at ViteConf 2023 presents a new way to think about "writing good docs" and some action items that will immediately improve any existing documentation... without doing any writing at all!
 img: ../../../assets/helpfuldocs.png
 alt: "A blue jay sitting on a branch with head tilted asking the question Are your docs helpful?"
-tags: ["docs", "open source"]
+tags: ["docs", "open source", "conference talks"]
 featured: true
 ---
 *(approximate transcript below, in "speaker notes" formatting rather than properly written, with some slides sprinkled in and [resources and references](#references-and-resources) at the end)*
