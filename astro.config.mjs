@@ -57,16 +57,16 @@ export default defineConfig({
               
           }
       ],
-      social: {
-          github: 'https://github.com/sarah11918/starlight-blog',
-          mastodon: 'https://mastodon.social/@sarah11918',
-          blueSky: 'https://bsky.app/profile/sarah11918.rainsberger.ca',
-          discord: 'https://astro.build/chat',
-          twitter: 'https://twitter.com/sarah11918',
-          youtube: 'https://youtube.com/sarahrainsberger',
-          rss: 'https://www.rainsberger.ca/blog/rss.xml',
-          email: 'mailto:sarah@rainsberger.ca',
-      },
+      social: [
+          { icon: 'github', label: 'GitHub', href: 'https://github.com/sarah11918/starlight-blog' },
+          { icon: 'mastodon', label: 'Mastodon', href: 'https://mastodon.social/@sarah11918' },
+          { icon: 'blueSky', label: 'Bluesky', href: 'https://bsky.app/profile/sarah11918.rainsberger.ca' },
+          { icon: 'discord', label: 'Discord', href: 'https://astro.build/chat' },
+          { icon: 'twitter', label: 'Twitter', href: 'https://x.com/sarah11918' },
+          { icon: 'youtube', label: 'YouTube', href: 'https://youtube.com/sarahrainsberger' },
+          { icon: 'rss', label: 'RSS', href: 'https://www.rainsberger.ca/blog/rss.xml' },
+          { icon: 'email', label: 'email', href: 'mailto:sarah@rainsberger.ca' },
+      ],
       sidebar: [
           { label: 'About Me', link: '/about/' },
           { label: 'Birding', link: '/birding/' },
