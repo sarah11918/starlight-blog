@@ -35,13 +35,15 @@ const isOtherPage = !isHomePage
    </div>
    </details> 
 ) 
+
 }
 
 { isOtherPage && (
 <Default><slot /></Default> 
+<License />
 )}
 
-<License />
+
 
 <style>
   .feedback {
