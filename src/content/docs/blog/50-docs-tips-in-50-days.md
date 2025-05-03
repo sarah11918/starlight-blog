@@ -9,6 +9,7 @@ tags: ["docs tips", "50 tips in 50 days"]
 featured: true
 prev: false
 next: false
+blueskyUri: 'at://did:plc:iwhvwluesbbqtslwwdzgiize/app.bsky.feed.post/3lddsfv7euu2n'
 ---
 I realized while working *on* this site that it's been a while since I've written *for* this site!
 
