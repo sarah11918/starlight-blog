@@ -43,7 +43,7 @@
 	--sl-color-black: #1b050c;
 }
 
-/* Light mode colors. */
+/* Light mode colors:pinkish */
 :root[data-theme='light'] {
 	--sl-color-accent-low: #f6cfa8;
 	--sl-color-accent: rgb(107, 34, 58);
@@ -59,7 +59,7 @@
 	--sl-color-black: #ffffff;
 }
 
-/* Dark mode colors. */
+/* Dark mode colors: HotDog */
 :root {
 	--sl-color-accent-low: #341f00;
 	--sl-color-accent: #905e00;
@@ -74,7 +74,7 @@
 	--sl-color-black: #1b0203;
 }
 
-/* Light mode colors. */
+/* Light mode colors: Gold and Blue */
 :root[data-theme='light'] {
 	--sl-color-accent-low: #cfd4f7;
 	--sl-color-accent: #5755d8;

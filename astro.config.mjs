@@ -28,6 +28,7 @@ export default defineConfig({
       customCss: [
         './src/styles/custom.css',
       ],
+      lastUpdated: true,
       head: [
           {tag: "meta", 
               attrs: {
@@ -98,8 +99,8 @@ export default defineConfig({
           starlightBlog({
               authors: {
                   sarah: {
-                      name: 'Sarah',
-                      title: '',
+                      name: 'Sarah Rainsberger',
+                      title: 'Creates and solves problems. Sometimes, in that order.',
                       picture: '/profile.jpg',
                       url: 'https://rainsberger.ca/about/',
                   }
