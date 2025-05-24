@@ -1,0 +1,129 @@
+---
+title: "Pocket to Wallabag (Hosted): Chrome extension"
+description: Configuring the Wallabagger Chrome browser extension
+authors:
+  - sarah
+date: 2025-05-24
+excerpt: It's the end of the Pocket era, and the first day of testing out alternatives! A "read it later" service is only as good as its save/share tooling. So, today I power past the negative reviews and figure out how to add the Wallabagger Chrome browser extension when you are using the `app.wallabag.it` hosting service.
+tags: ["solutions", "tools", "open source",]
+---
+import { Steps } from '@astrojs/starlight/components';
+
+Since [Pocket is shutting down](https://getpocket.com/farewell), I will need to find another place to send articles to maybe someday (probably never) read. In some quick searching for alternatives, two services jumped out as potential "read it later" options: [Readwise Reader](https://readwise.io/read) and [Wallabag](https://wallabag.org/#).
+
+See what happened when I embarked on Wallabag's free trial, or just jump ahead for instructions on [how to configure the Wallabagger Chrome extension for wallabag.it](#how-to-configure-the-wallabagger-chrome-extension-for-hosted-accounts) if that's what you're here for!
+
+## Features I need
+
+Neither of these options are free, but I was happily paying for the premium version of Pocket. A reasonable replacement cost is fine for the features I use:
+
+- an Android app for reading (and share-to-save) on my phone and tablet
+- offline, full-content access to articles in app (with auto background syncing)
+- tags to organize saved content
+- content search
+- a Chrome browser extension for web clipping
+- a web app for occasional reading/management on Chromebook and desktop
+
+And that's really it! I don't combine Pocket with any 3rd-party apps and services, nor my RSS reader. I don't need a "bookmark manager" as this is more for "reading on my own terms" and a "long-term memory of things I've read."
+
+I certainly don't need any "discovery" features, since I already have too much saved: I don't need my read-it-later service to push even more at me!
+
+## Today's experiment: Wallabag
+
+Wallabag is meant to be self-hosted (i.e. you provide your own back end data storage and control your own information), but there is an (official?) hosted version at `wallabag.it` as well as a few recommendations for other hosted services listed in the project's GitHub README... which, yes, Wallabag is open source!
+
+I'm not an "I need to see the source to trust it" person, but it is helpful to know I can check on Issues and PRs on GitHub to see what is even happening. So the fact that it is an open source project, with development (and complaints, and suggestions) happening in public makes the product feel like less of a "black box." And, it automatically gives you access to a community you can check out. You can figure out who are the main or currently active developers, and see how they react and interact with their users.
+
+### Getting Started Tasks
+
+So, I set out this morning on my 14-day free trial to at least complete the bare minimum setup tasks:
+
+- [ ] sign up for an account and configure basic account settings
+- [ ] test the web interface
+- [ ] check out "import from Pocket" options
+- [ ] install the Android app on my phone and tablet and configure basic app settings
+- [ ] install the Chrome clipper extension (Wallabagger) - I guess we're "bagging", not "clipping" or "saving!"
+- [ ] save my first article!
+
+I honestly didn't expect any friction from any one of these activities; these all seem like "Step 0" tasks ... but I hit some!
+
+### Wallabagger Chrome extension
+
+My first moment of hesitation was seeing the negative reviews for the Wallabagger Chrome extension. In fact, before even attempting to install the extension, I went to check out the project's GitHub Issues. This can be a good way to get more context on negative reviews: is there a bug? is it just unclear how to use it? how many people are saying the same thing, and has anyone proposed any solutions or workarounds?
+
+As previously stated, Wallabag is primarily intended for self-hosting. This means that firstly, they expect a reasonably savvy tech (dev) user. And secondly, they expect you to know and understand a bit about the back end that is hosting your data... since they expect that you are the one that had to set it up!
+
+When your data is hosted for you, you mostly don't have to know or care too much about anything more than your username and password. You'll simply "log in" to your service through your app, website, or tool (like a Chrome extension) that needs access to your account. You may be less *experienced* with what's required to get things up and running because you don't have to do it. Or, you simply may *not have access* to the typical back end information because you are not the one who set up your own hosting or who runs those services. The same set of instructions might not work for you if they were written for the intended self-hosting crowd.
+
+Knowing that I was taking the "less happy path" through Wallabag, I was prepared to have to modify some instructions. But, I would still need to know *how* to modify them for this special case! I saw several GitHub issues about the non-self-hosted path, using `wallabag.it`. It took reading through a few threads to figure out *why and how* these people were having issues, and were they ones that *I* was likely to encounter?
+
+At this point, I will note that I'm not sure I've ever spent this long at the "install the Chrome extension" stage. And in truth, the negative reviews and pile of issues almost stopped me. If I hadn't spend the last three years of my life in software documentation, and playing around enabling developer accounts for popular services, then I probably would have struggled setting up this extension, too!
+
+But the (good?) news is, I think this is a problem solved by documentation! So now that you've read the blog post about my journey to a small Tuscan village I where confronted some past emotional trauma but then came out the other side having stumbled upon inspiration for the greatest dish ever, here's the recipe:
+
+### How to: Configure the Wallabagger Chrome extension for hosted accounts
+
+The Wallabagger Chrome extension requires more than just your login credentials to configure. In particular, you need to create a "client" to interact with your Chrome extension.
+
+These instructions will help you locate and add the extra information you need!
+
+#### Prerequisites
+
+This set of instructions assumes that you have already:
+- signed up for a [Wallabag](https://wallabag.org) account with hosting at `wallabag.it`
+- installed the [Wallabagger Chrome extension](https://chromewebstore.google.com/detail/Wallabagger/gbmgphmejlcoihgedabhgjdkcahacjlj) from the Chrome Web storage
+- successfully navigated to and viewed your account in the Wallabag web app [`app.wallabag.it`](https://app.wallabag.it/).
+
+Before continuing, complete the steps above if you have not already done so.
+
+#### Create a new client
+
+You will need to provide the extension with a `Client ID` and a `Client secret` in addition to your login credentials.
+
+The Chrome extension will tell you that this information is located at [`https://app.wallabag.it/developer`](https://app.wallabag.it/developer), but it is not... yet! You can **create** this information there. But it does not exist until you create a "client" specifically to use with the extension.
+
+<Steps>
+1. Navigate to [`https://app.wallabag.it/developer`](https://app.wallabag.it/developer). (This is also the same as navigating through the menu in the web app: **My Account** > **API clients management**.)
+2. Select "Create a new client".
+3. Provide a client name (e.g. "Chrome extension")
+
+    You can enter any name you wish. This is only for your identification purposes. Choose anything that will help you remember that this is the "client" created for the Chrome extension!
+
+4. Leave the optional "Redirect URI" field blank. It is not required.
+5. Select "Create a new client" to generate the necessary client information for your app.
+6. Copy your `Client ID` and `Client secret`. These can be pasted into your extension's settings.
+</Steps>
+
+#### Enter your information in the extension settings
+
+<Steps>
+1. Navigate to Wallabagger's extension options.
+
+    You can select Wallabagger from your list of browser extensions [`chrome://extensions/`](chrome://extensions/), then select "Extension Options", or find the Wallabagger icon in your extension menu bar and select "Options" from the three dot menu.
+
+2. Enter `app.wallabag.it` for the Wallabag URL and select "check URL."
+
+    This check is meant for those self-hosting to verify that their own URL is recognized as a valid Wallabag host. You will still have to perform the check even when using `app. wallabag.it`, though it really should not fail!
+
+3. Paste your client information.
+
+    Paste the `Client ID` and `Client Secret` from your Chrome extension client into the appropriate fields. If you need to get this information again, you can now follow the link provided to [`https://app.wallabag.it/developer`](https://app.wallabag.it/developer) and view all of your existing clients.
+
+4. Provide your account user login and password.
+
+    Enter your **email address** (not your `username`) and password for your Wallabag account.
+
+5. Select "Get token"
+
+    If successful, you will see that the status of your API token will be updated to "Granted." There will also be a token expiry of "1 hour" listed, but you do not need to worry about this. This token will expire, but it is self-renewing.
+
+    Your extension is now ready to use! If you ever encounter an error that your token is expired when using the Chrome extension, you can come back to these settings and "Get token" again.
+
+6. (Optional) Set extension options
+
+    There are a few additional options you can configure, and update at any time. Set these options based on how you prefer to use the service.
+    
+    These are automatically saved as you toggle them. You may exit this page at any time without explicitly saving.
+</Steps>
+
+Happy 'bagging!
