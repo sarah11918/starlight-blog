@@ -35,3 +35,7 @@
   to = "/blog/*"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/about/"
+  to = "/"

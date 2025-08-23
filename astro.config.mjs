@@ -69,7 +69,7 @@ export default defineConfig({
           { icon: 'email', label: 'email', href: 'mailto:sarah@rainsberger.ca' },
       ],
       sidebar: [
-          { label: 'About Me', link: '/about/' },
+          // { label: 'About Me', link: '/about/' },
           { label: 'Birding', link: '/birding/' },
           { label: 'Choir Tech', link: '/choirtech/' },
           { label: 'Gear', link: '/gear/' },
@@ -101,7 +101,7 @@ export default defineConfig({
                       name: 'Sarah Rainsberger',
                       title: 'Creates and solves problems. Sometimes, in that order.',
                       picture: '/profile.jpg',
-                      url: 'https://rainsberger.ca/about/',
+                      url: 'https://www.rainsberger.ca/',
                   }
               },
               metrics: {

@@ -6,11 +6,7 @@ import License from './License.astro';
 
 const isBlog = Astro.locals.starlightRoute.id.slice(0,5) === 'blog/';
 const isTags = Astro.locals.starlightRoute.id.slice(0,8) === 'blog/tags/';
-// console.log(Astro.props.slug.slice(0,10))
 
-const isHomePage = Astro.locals.starlightRoute.id === '';
-
-const isOtherPage = !isHomePage
 ---
 
 { isBlog && (
@@ -38,11 +34,8 @@ const isOtherPage = !isHomePage
 
 }
 
-{ isOtherPage && (
 <Default><slot /></Default> 
 <License />
-)}
-
 
 
 <style>
