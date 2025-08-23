@@ -1,0 +1,35 @@
+---
+title: "Tip 14 - this post includes advice"
+authors:
+  - sarah
+date: 2024-07-07
+pubDate: '2024-07-07'
+excerpt: "Make it clear whether your list is partial or complete."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Make it clear whether your list is partial or complete.
+:::
+
+Your official documentation is the primary resource for how your project works. Readers come to your docs to get the "truth" that they often cannot get anywhere else. This is one reason that docs have a responsibility to be precise: really, only we truly *know* our own project. Everyone else relies on us to be an accurate source.
+
+One PR edit I **received** (credit where credit is due!) to Astro docs was to **avoid using "including" to introduce an exhaustive list**. Inclusions are commonly interpreted as examples and can leave your reader wondering whether your list is complete:
+
+- ✅ "Entries can be written in two supported data formats: YAML (`.yaml`) and JSON (`.json`)."
+
+- 😐 "Entries can be written in data formats including YAML (`.yaml`) and JSON (`.json`)."
+
+Yes, there are situations when a list of what is included is (and is interpreted as) complete. "Your ticket includes seat selection, priority check-in, and one checked bag," may feel exhaustive and conclusive.
+
+But, we have to write for *all* our readers. If we can reasonably expect someone to ask, "Is that *all* that's included?" then we adjust our wording to remove any doubt. (And, to help our support squad volunteers who now probably have one fewer support thread to deal with!)
+
+And, because this post only *includes* advice... I am also including a little celebration that today marks two weeks of tips!
+
+I'll let you in on a little secret: I had no grand plan with this series of tips. I happened to realize *two days before I started* that there was a 50 day stretch before my birthday during which I could do... something. I did **not** have 50 tips ready to go. I didn't stop to think about whether I even *had* 50 tips in me! But, it felt like something I should be able to accomplish.
+
+So, thank you for starting this journey with me, and I'm going to try my best to get us to our intended destination!
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />

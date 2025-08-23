@@ -1,0 +1,35 @@
+---
+title: "Tip 34 - show what to do"
+authors:
+  - sarah
+date: 2024-07-27
+pubDate: '2024-07-27'
+excerpt: "Show the right thing so readers don't internalize the wrong thing."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Show the right thing so readers don't internalize the wrong thing.
+:::
+
+If you've been following this series of tips, you may have thought that my examples of "pretty good" (✅) vs. "meh" (😐) for each of these tips are in an unintuitive order. And I'll admit, sometimes it feels a little odd to me, too!
+
+It's very common to show the "wrong" thing, then correct it. But, I am a strong supporter of "showing positive models." Often in Astro Docs, you won't even ever see the "wrong" way to do something! Why would we put that in our docs?
+
+There's a good reason for that: how do you become a better writer? **Read quality writing** so you can internalize patterns to use in your own writing. What this means for docs is showing the "good" version and not the "bad" version so that you don't inadvertantly introduce, or reinforce, unwanted patterns.
+
+One PR suggestion I am often making is to **avoid showing anti-patterns in favour of showing positive models**. In these tips, it means showing what I consider helpful documentation first, and only after that, showing a "less-optimal" version of documentation. (In my mind, the "wrong" way should seem *so obviously less helpful* in compmarison to what you just read that you would never consider doing that. It's always shown in relation to something better.)
+
+I even considered *not* showing the "before" of the PR edits here at all! I want to share helpful models, and my strategy has been "show an example of my tip in action first, and only then, show something that you can perceive by contrast isn't as helpful."
+
+- ✅ `<script>...</script>`
+
+- 😐 ❌ This doesn't work! ❌ `<button onClick={handleClick}>Nothing will happen when you click me!</button>`
+
+Sometimes it makes sense to document what your users are naturally (and mistakenly) doing as a "What not to do." But, if they weren't going to do that in the first place, why put that idea in their mind?
+
+If your readers constantly struggle with something they *expect* to work, then it can make sense to call out that this pattern is not supported. But, my instinct will *always* be to present things in the positive: this is how Astro works, and this is how you do this in Astro. The less attention I give to things that don't actually work, the better.
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />

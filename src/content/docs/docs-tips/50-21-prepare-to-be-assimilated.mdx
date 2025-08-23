@@ -1,0 +1,35 @@
+---
+title: "Tip 21 - prepare to be assimilated"
+authors:
+  - sarah
+date: 2024-07-14
+pubDate: '2024-07-14'
+excerpt: "Consider the surrounding context around your changes."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Consider the surrounding context around your changes.
+:::
+
+A large part of updating Astro Docs isn't adding brand new feature docs written from scratch. For example, when an existing feature gains a new config value, the current docs need to reflect this addition.
+
+In some ways, it's easier to document entirely new features: when you are dealing with all aspects of a feature at once, you can more easily picture the entire context. When updating a section of existing docs, you may not have the introductory paragraph or troubleshooting suggestions top of mind.
+
+One PR suggestion I often make is to **update previous sections that are inconsistent with the proposed changes**. It doesn't take long for docs to get outdated. "Choose one of Astro's three rendering modes" is great... until a fourth is added! 😅
+
+And, even if you do successfully make an update in the immediate context, none of your existing code examples, guides, or recipes in *other* parts of your docs will show this option. While this doesn't make your existing docs *wrong*, it could make them *less helpful* to your readers. If this new mode exists in reference documentation only, then one ever "sees it in action" in the context of more task-oriented docs.
+
+To try to catch these situations, I will always "work my way up" the page hierarchy when I'm given a change to incorporate. I first check whether anything needs changing in the immediate paragraph of text before or after that introduces/summarizes my new content. Then, I will check each increasing section abstracting up the page for any general or introductory sentence where this new content should now be included:
+
+- Is there **a specific number** of items mentioned or an **exhaustive list** that needs updating?
+- Is there a list of features, benefits, examples, caveats, exclusions that **would have included this when originally written**, if it existed at the time?
+- Is there a **general usage example** that could be updated to include this item, even if the code sample is not *about* that item... and *especially* if it would be a common use of the new item documented?
+
+Incremental docs often *look* like smaller changes than they are. Even one change can ripple throughout your docs in ways you didn't anticipate. And, these accumulated changes can add up over time, and leave you with a feature that is non-trivially different than the one you "introduced" at the top of the page! 
+
+I find it helps to take the time at each change to ask, "Would I have written anything differently with this information available at the time?"
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />

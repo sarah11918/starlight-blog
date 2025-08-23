@@ -1,0 +1,23 @@
+---
+title: 'Tip 1 - if one does not already exist'
+authors:
+  - sarah
+date: 2024-06-24
+pubDate: '2024-06-24'
+excerpt: 'When instructing a reader to make a new file or folder, acknowledge that one might already exist.'
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+When instructing a reader to make a new file or folder, acknowledge that one might already exist.
+:::
+
+Astro Docs publishes a lot of guides from community contributors that involve connecting with a third-party service such as a CMS or deploy host. This can mean instructing the reader to add files for environment variables or other necessary "glue" to connect the services, or to ensure the project contains a specific folder.
+
+One PR edit I am often suggesting is to **append any such instruction to create a new file or folder with, "if one does not already exist."** If this is something that might reasonably already exist in someone's project, then it's helpful to acknowledge that and assure the reader. This also demonstrates reader empathy by showing you have put a little thought into what their project might look like, and earns reader trust with your attention to a small detail.
+
+At this point in their guide, they may very well be struggling with *two* platforms that they may or may not know well. Every little bit of assurance that they're on the right track is some friction removed from their journey!
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />

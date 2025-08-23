@@ -1,0 +1,30 @@
+---
+title: "Tip 46 - it's not a bug; it's a feature!"
+authors:
+  - sarah
+date: 2024-08-08
+pubDate: '2024-08-08'
+excerpt: "Emphasize the positive! Help your readers achieve, not avoid."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Emphasize the positive! Help your readers achieve, not avoid.
+:::
+
+Docs is a resource for how things work... and is often consulted when they don't! Troubleshooting references can help people look up their issue by problem or symptom. However, when people are in your docs to learn or explore, there is nothing wrong with presenting an idealized state of your project.
+
+Are there caveats and gotchas in your project? I'd be shocked if there weren't! Will everyone hit them? Maybe not. Should docs scare someone preemptively? I prefer not to. 
+
+One PR suggestion, contributed by an Astro Team Docs member, is to **help your reader do X to achieve Y, rather than to avoid Z**. Turn that frown upside down! That thing that you're worried *might not work* if they get it wrong? It's a *feature of your project* when they get it right! Help them succeed.
+
+- ✅ To run middleware for pre-rendered pages, set `edgeMiddleware: true`. This allows you to use middleware to perform actions such as authentication checks or redirects while still rendering static HTML output.
+
+- 😐 If you use Middleware to implement authentication, redirects, or similar things, you may need to enable `edgeMiddleware: true`. Otherwise, your Middleware will not run at runtime for pre-rendered pages.
+
+*"Avoid"* threatenening your reader with consequences. Don't make them juggle learning how something works in theory with how it might go wrong in practice. Problems are only relevant to people who have them. To everyone else, it's more information being thrown at them, sometimes making them feel like they have to be overly cautious.
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />
+

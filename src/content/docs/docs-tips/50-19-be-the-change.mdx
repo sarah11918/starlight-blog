@@ -1,0 +1,41 @@
+---
+title: "Tip 19 - be the change you want to see"
+authors:
+  - sarah
+date: 2024-07-12
+pubDate: '2024-07-12'
+excerpt: "When communicating updates to your project, emphasize what has changed for the reader."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+When communicating updates to your project, emphasize what has changed for the reader.
+:::
+
+Release notes and changelogs are documentation, too! These announce that you have made "bug fixes and improvements" to your project. While they often signal what's *new*, it's maybe even more important that they tell your reader what is *different*.
+
+New is shiny! New is fun! You are very proud of your New Thing™ and can't wait to show it off! But, not everyone is immediately ready for something new.
+
+If something has *changed* with something I use or rely on, however, you can be sure I want to know! In particular, I want to know *how it affects me* (if it in fact does at all).
+
+One PR suggestion I often make is to **describe the change from your reader's perspective**. Your reader is someone who *uses* your project, not someone who works on it. They are usually most concerned with changes in *their own* code, not changes in yours. Your average user cares more about knowing that fetching data from multiple collections at once is now faster than they do about the specific magic you did behind the scenes for the performance gains. (Sorry!)
+
+Sometimes, it can be challenging to present internal refactors or architectural decisions in a way that is meaningful to someone working *with*, not working *on*, your project. While I don't stress out about it, I do at least make an attempt. There's always a *reason* someone changed the code, right? Even a change doesn't have much of a user-facing effect, it often can be *expressed in relation to* a part of the user experience.
+
+- ✅ Improves type checking and error handling when you pass an image import directly to `getImage()`.
+
+- 😐 Adds an internal field to the type returned by an ESM import to detect if an ESM image has been passed directly.
+
+To be clear, the description of the implementation change was pretty darn good already! This would be a great statement to have within the pull request or commit description itself. In projects where these notes are intended exclusively for other developers on the project, you might even choose this style of release notes consistently. 
+
+And, some users of your project *are* interested in these code details. These users are often comfortable following the digital trail on their own to view the code changes and even the code itself to learn more.
+
+I would argue that a user-friendly description in your public release notes is even helpful to those advanced users: they can more quickly see at a glance *whether or not to care and explore further* based on which area of the project or user experience has changed. You have to get pretty far in that second example before you have the *context* of the change that was made.
+
+So don't just focus on the new and exciting! Don't let your devs get away with "now returns a cloned array." Be up for the challenge: documenting change is a great way to practice your "reader empathy" skills.
+
+If you can make internal refactors sound relatable, imagine how great you'll be at writing reference material that resonates with your reader!
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />

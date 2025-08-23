@@ -1,0 +1,37 @@
+---
+title: "Tip 47 - Ch-ch-ch-ch-changes"
+authors:
+  - sarah
+date: 2024-08-09
+pubDate: '2024-08-09'
+excerpt: "Document change like a *verb*, not just as a noun."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Document change like a *verb*, not just as a noun.
+:::
+
+I get it! You're excited to tell your community about new updates to your project. Your team worked hard and is celebrating an accomplishment. They may have done some Clever Things™️ or removed some long-standing pain points. You publish release notes or update a CHANGELOG with *what you did*. (*mic drop; dust hands; walk away*)
+
+But, the task has only just begun for the people who use your project! Not only do they have to learn about your changes. They may have to change their own code or how they use your project.
+
+One PR suggestion I often make is to **include actionable guidance alongside the description of a change**. Your project *has* changes. Your reader needs to *make* changes! Connecting those dots in your change documentation can remove a lot of the pain, suffering, and stress of upgrading to a new version.
+
+- ✅ Astro v3.0 changes the default port from 3000 to 4321. 🚀 Update any existing references to `localhost:3000`, for example in tests or in your README, to reflect the new port `localhost:4321`.
+
+- 😐 The new default port is 4321. 🚀
+
+Don't just tell them *what*. Show them *how*.
+
+Don't make me tap the ["no one ever complained that docs were too easy to read"](https://vimeo.com/238673931#t=2045s) sign again!
+
+You may think the "advice" is trivial. Surely, your reader will know what to *do* with the information. But, your team has already written tests for various situations and can pinpoint which areas of a project might need updating. Who wouldn't appreciate a checklist to ensure they didn't miss anything during a major upgrade?
+
+ It's how we write the [Astro upgrade guide breaking changes](https://docs.astro.build/en/upgrade-astro/#upgrade-guides) (And, I document [our preferred breaking changes docs format](https://contribute.docs.astro.build/upgrade-guides/breaking-changes/) in Astro Docs Docs.)
+
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />
+

@@ -1,0 +1,37 @@
+---
+title: "Tip 45 - and another thing..."
+authors:
+  - sarah
+date: 2024-08-07
+pubDate: '2024-08-07'
+excerpt: "Every new fact is 'another thing', but you don't always need to call attention to it!"
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Every new fact is "another thing," but you don't always need to call attention to it!
+:::
+
+In Astro docs, we try to limit the number of "asides" (UI elements marked as "note", "tip", "caution" etc... like the one above!) to information that is truly tangential to the core material in some way. Otherwise, if it's just part of "how things work," we believe we should include it in the regular documentation text.
+
+We have to have this guidance because it is very common for people to learn a new fact, realize it's not explicitly stated in our docs, and then submit a contribution to add a "tip" or a "note" with this new piece of information.
+
+Unfortunately, this TIL (*"Today I learned..."*) approach can easily lead to docs looking like a board of sticky notes. When *everything* stands out, *nothing* stands out. [Banner blindness](https://en.wikipedia.org/wiki/Banner_blindness) is real!
+
+
+In addition to, "omg stop making everything a flaming orange caution; your project won't explode because you didn't add a client directive", one PR suggestion I'll make is to **remove extra words like "also" when you don't mean to emphasize the "additional-ness" of an idea**. "Also" is helpful to call out a "similar addition," but not *every* addition.
+
+"Components are reusable. Components are also composable. You can also write components from several different frameworks. Components can also pass and receive props." It's easy to go overboard "sticky note"-ing "also" on to every new idea, whether or not the *similarity of the addition* is interesting, important, true, or helpful.
+
+
+- ✅ To avoid repeating the same HTML elements on every page, you can move common elements into a layout component. You can use as many or as few layout components as you’d like.
+- 😐 To avoid repeating the same HTML elements on every page, you can move common elements into a layout component. You can also use as many or as few layout components as you’d like.
+
+Just like ["but" sets the reader up to expect a surprise](/docs-tips/50-38-this-and-that), "also" can make the reader think they missed something important that came before. We can file this under "words mean things," and I like to make sure that each word I include in my docs is contributing to the reader's experience as intended. 
+
+Certainly, if what came before *is helpful* to understanding this sentence, I will make that connection! If a superfluous word like "also" gives me a better reading flow, I might decide to use it. It's (usually!) not wrong. It's occasionally overwhelming. It's sure to grab my attention while editing *just in case* it doesn't provide any benefit.
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />
+

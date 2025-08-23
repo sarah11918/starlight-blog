@@ -1,0 +1,31 @@
+---
+title: "Tip 41 - if you please"
+authors:
+  - sarah
+date: 2024-08-03
+pubDate: '2024-08-03'
+excerpt: "Docs is not a conversation. Skip the pleasantries!"
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Docs is not a conversation. Skip the pleasantries!
+:::
+
+Docs writing often addresses the reader to avoid clunky sentences or passive voice. When writing instructions, letting your reader know what "you will see" can be helpful and reassuring as they work through your guides. Docs is, though, a one-way broadcast.
+
+Writing your docs *to* your readers doesn't mean you have to follow conversational conventions. You can respect your readers without being "polite."
+
+One PR suggestion I will make is to **remove formalities and pleasantries when I'm not soliciting or recognizing particular action**. We typically don't "thank" our readers at the end for completing our guide. (Though, we may thank visitors for expressing an interest in contributing when they land on our Contributing guide!) It's just as out of place to preface instructions or explain features with "please."
+
+- ✅ Adding the official Astro MDX integration allows you to write standard Markdown with JSX variables, expressions and components.
+- 😐 Please install the official `@astrojs/mdx` integration to use JSX variables, expressions and components.
+
+No, I'm also not a fan of "Please see the view transitions guide for more information." I am not *asking* them to go there. I am *informing* them that there is more information available. "Please" implies a request. Or, it is overly formal/flowery language that doesn't belong in our docs anyway.
+
+I try to make Astro docs as full-service as possible. If I'm doing it right, I shouldn't need to "ask" you to do anything. Just sit back and enjoy the docs!
+
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />

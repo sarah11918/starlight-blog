@@ -8,8 +8,15 @@
 
 [[redirects]]
   from = "/blog/1-50-if-one-does-not-already-exist"
-  to = "/blog/50-1-if-one-does-not-already-exist"
+  to = "/docs-tips/50-01-if-one-does-not-already-exist"
+
+[[redirects]]
+  from = "/blog/50-1-if-one-does-not-already-exist"
+  to = "/docs-tips/50-01-if-one-does-not-already-exist"
  
+[[redirects]]
+  from = "/blog/50-50-tip-your-server"
+  to = "/docs-tips/50-50-tip-your-server"
   
 [[redirects]]
   from = "/:year/:month/:day/:slug"

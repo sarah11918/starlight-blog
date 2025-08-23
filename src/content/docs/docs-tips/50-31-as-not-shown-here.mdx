@@ -1,0 +1,37 @@
+---
+title: "Tip 31 - as not shown here"
+authors:
+  - sarah
+date: 2024-07-24
+pubDate: '2024-07-24'
+excerpt: "Don't explain what's not in the example."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Don't explain what's not in the example.
+:::
+
+You will rarely hear me complaining about a good "The following example shows..." preamble to a code snippet! Introducing code blocks is standard Astro docs practice.
+
+[Prefacing these examples with a hand-wavy "like this"](/docs-tips/50-09-dislike-like) makes your reader guess which part of the code sample you're talking about. It's a hard habit to break and I totally understand the impulse. This means I get lots of practice helping writers get specific to direct readers to their desired take aways. While not as common, I would like to further suggest that we can remove "*not* like this" from our writing patterns.
+
+One PR suggestion I occasionally have to make is **to constrain your introduction to what the example actually shows**. There is a time and a place for comparison and contrast. But your readers simply can't focus their attention on too many things at once, and especially when one of those things isn't even there.
+
+- ✅ The following examples shows CSS written in a `<style>` tag for styles scoped to the individual component.
+
+- 😐 While in this example the component is styled using a scoped `<style>` tag, pages can also be styled using global CSS.
+
+Presenting concepts that are *not* demonstrated in the example is information overload. How something works and how something works *differently from something else* are different concepts. It also requires already understanding the second thing, or else the comparison isn't helpful.
+
+An introduction like above can also "introduce" more questions than it answers. ("Why are you telling me about pages and global styling, while showing me scoped component styling? Is this more common or preferred? How do I style a page globally? Why aren't you showing me that? Should I be doing that instead? Why would you bring it up?")
+
+It can be challenging enough to make sure our readers are making the connections we intend from an existing code example. Don't "haunt" them with phantom docs! 👻
+
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />
+
+
+

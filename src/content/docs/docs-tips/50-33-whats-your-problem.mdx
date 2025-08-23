@@ -1,0 +1,33 @@
+---
+title: "Tip 33 - what's your problem?"
+authors:
+  - sarah
+date: 2024-07-26
+pubDate: '2024-07-26'
+excerpt: "Start troubleshooting advice with the observable error, not what led to it."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+Start troubleshooting advice with the observable error, not what led to it.
+:::
+
+Much of our documentation covers what happens when things work properly. Sometimes, our writing is for when things go wrong.
+
+And when things go wrong, the first thing our readers experience is that something is not functioning as expected. They *may* have already realized what *caused* the error (step 2) when they consult our docs. But it's likely they have not yet progressed to step three: knowing what to do about it. That's what we're for!
+
+One PR suggestion I will make is to **follow the reader's journey through an issue they way they experienced it**. The cause of the error may be unknown to them, but they can identify the problem they are having.
+
+- ✅ If the Translation Status Overview incorrectly shows "needs updating" for a page (e.g. a typo fix to an English page was merged without the "ignore" label and triggered the status update), take the following steps to manually update the tracker:
+
+- 😐 If a PR that should have been marked as an ignored change was merged without the label, the Translation Status Overview will consider the page's translations as "needs updating" when there are no changes to translate. If this occurs, and there aren't any other updates needed for that translation, take the following steps to manually update the tracker:
+
+Starting from the reason to explain what goes wrong feels to me like, "Fun fact: if you do this, this will happen!" I'm not entirely convinced that fact is so fun to someone who's experiencing it.
+
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />
+
+
+

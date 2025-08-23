@@ -1,0 +1,35 @@
+---
+title: "Tip 8 - don't forget"
+authors:
+  - sarah
+date: 2024-07-01
+pubDate: '2024-07-01'
+excerpt: "You can't remember (or forget) what you didn't already know."
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+You can't remember (or forget) what you didn't already know.
+:::
+
+It's common when writing to "help" your readers by anticipating their problems or mistakes and preemptively calling out things they may have forgotten to do. However, **remembering and forgetting both imply the information has been covered before**. (And, if you've already said it, [why are you saying it again](/docs-tips/50-03-repetition-pedagogical-tool)?)
+
+One PR edit I regularly make is removing phrases about remembering and forgetting, especially when the thing to remember or forget has not yet been stated:
+
+- ✅ "If you did not previously have a value for `base` set and are only configuring this value so that you can deploy to GitHub, you must update your internal page links to now include your `base`."
+
+- 😐 If you are setting up `base` only to deploy to GitHub, do not forget to update your internal page links to include your `base`."
+
+"Don't forget!" is not a special code for "pay extra attention to this next instruction!" It tells your reader that there is something they should have known, but you do not trust them to have remembered it. This tone may not be well-received at the best of times. And, if you *haven't* actually given them this important knowledge yet, the chances that they will *not* take kindly to this framing only increase.
+
+There are other ways to signify that a step is particularly important or troublesome. For example, you can stop your instructions and include a short "check point" or "before moving on" section. Alternatively you can emphasize the importance of a previous step with a mention of the step that came before:
+
+> Before moving on, verify that all your internal links are working. Your site may not deploy or function as expected with a broken link, so this is a good time to stop and check for problems.
+
+Yes, many people will only skim or read your docs half-heartedly. Yes, they may make a mistake or even skip an important a step entirely. I prefer not to *assume* that my reader is unable to follow my instructions. (And, even if I did make that assumption, I wouldn't *tell* them so directly!)
+
+Instead, I trust that they know how to scroll up for anything they might have missed if something didn't work the first time. For situations where I *do* worry about their ability to be successful, I can nudge them to slow down and pay extra attention in a way that is both respectful and helpful!
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />

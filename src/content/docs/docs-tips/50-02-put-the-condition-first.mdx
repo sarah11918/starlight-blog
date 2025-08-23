@@ -1,0 +1,29 @@
+---
+title: 'Tip 2 - put the condition first'
+authors:
+  - sarah
+date: 2024-06-25
+pubDate: '2024-06-25'
+excerpt: 'When an instruction is conditional, put the condition before the action to perform.'
+tags: ["docs tips", "50 tips in 50 days"]
+---
+
+:::tip
+When an instruction is conditional, put the condition *before* the action to perform.
+:::
+
+In Astro, there are often several ways to achieve the same result. For example, your site could be configured to prerender static pages at build time, or generate pages on demand at request time. Your blog could use Astro's built-in automatic routing for any page files in the special `src/pages/` folder, or you could use content collections to organize your Markdown content in `src/content/`.
+
+One PR edit I am often suggesting is to **state the condition that applies *before* the step to take:** 
+
+- ✅ "If you are using content collections, create the file `src/content/config.ts` to define your schema."
+
+- 😐 "Create the file `src/content/config.ts` to define your schema if you are using content collections.
+
+Many readers will be following your instructions faithfully, sometimes line-by-line or even word-by-word. If a step doesn't apply to them, they need to know before they attempt it! This can prevent your reader from doing extra work, or even from feeling a temporary moment of confusion ("A schema? Why would I need that? OH! That's only for content collections...") as they progress through your content. 
+
+Every time your reader has to stop and question (your instructions, themselves, whether your guide is worth the effort to finish...) is a moment they are taken out of their flow. These tiny stops and starts add up over time, and I believe it's my responsibility to remove as many of these as I can... especially when I can often do so simply by swapping the order of ideas in my sentences!
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="See the whole list of tips!" href="/docs-tips/" />
