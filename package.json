@@ -10,12 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^6.3.2",
-    "@astrojs/starlight": "^0.34.2",
-    "astro": "^5.7.10",
+    "@astrojs/netlify": "^6.5.8",
+    "@astrojs/starlight": "^0.35.2",
+    "astro": "^5.13.3",
     "astro-ai-robots-txt": "^0.1.1",
     "astro-embed": "^0.9.0",
     "sharp": "^0.32.5",
-    "starlight-blog": "^0.21.0"
+    "starlight-blog": "^0.24.1"
   }
 }
