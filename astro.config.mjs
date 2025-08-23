@@ -36,6 +36,40 @@ export default defineConfig({
                 content: "/flatjay.jpg",
               }
           },
+          {tag: "link", 
+            attrs: {
+              rel: "icon",
+              type: "image/png",
+              href: "/favicon-96x96.png",
+              sizes: "96x96",
+            }
+          },
+          {tag: "link", 
+            attrs: {
+              rel: "icon",
+              type: "image/svg+xml",
+              href: "/favicon.svg",
+            }
+          },
+          {tag: "link", 
+            attrs: {
+              rel: "shortcut icon",
+              href: "/favicon.svg",
+            }
+          },
+          {tag: "link", 
+            attrs: {
+              rel: "apple-touch-icon",
+              href: "/apple-touch-icon.png",
+              sizes: "180x180",
+            }
+          },
+          {tag: "link", 
+            attrs: {
+              rel: "manifest",
+              href: "/site.webmanifest",
+            }
+          },
           {tag: "meta", 
             attrs: {
                 name: "fediverse:creator", 
