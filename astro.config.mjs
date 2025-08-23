@@ -73,13 +73,7 @@ export default defineConfig({
           { label: 'Birding', link: '/birding/' },
           { label: 'Choir Tech', link: '/choirtech/' },
           { label: 'Gear', link: '/gear/' },
-          { label: 'Photography', 
-            items: [
-               { label: 'My Photography', link: '/photography/' },
-               { label: '#SilentSunday', link: '/photography/silent-sunday/' },
-               { label: '#ArtAdventCalendar 2024', link: '/photography/art-advent-calendar/' },
-            ]
-          },
+          { label: 'Photography', link: '/photography/' },
           {
             label: 'Guides',
             autogenerate: { directory: 'guides' },
@@ -91,6 +85,11 @@ export default defineConfig({
               { label: "Stop writing docs. Start helping!" , link: '/blog/stop-writing-start-helping' },
               { label: "The value of non-code contributions to open source" , link: '/blog/non-code-contributions' },
             ]
+          },
+          {
+            label: 'Docs Tips',
+            collapsed: true,
+            autogenerate: { directory: 'docs-tips' },
           },
       ],
       plugins: [
@@ -104,6 +103,10 @@ export default defineConfig({
                       picture: '/profile.jpg',
                       url: 'https://rainsberger.ca/about/',
                   }
+              },
+              metrics: {
+                readingTime: true,
+                words: 'total',
               },
               recentPostCount: 10,
               postCount: 15,
