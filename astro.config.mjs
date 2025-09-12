@@ -107,6 +107,7 @@ export default defineConfig({
           { label: 'Birding', link: '/birding/' },
           { label: 'Choir Tech', link: '/choirtech/' },
           { label: 'Gear', link: '/gear/' },
+          { label: 'Influences', link: '/influences/' },
           { label: 'Photography', link: '/photography/' },
           {
             label: 'Guides',

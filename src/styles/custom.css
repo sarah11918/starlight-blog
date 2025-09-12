@@ -90,6 +90,9 @@
 	--sl-color-black: #ffffff;
 }
 
+:root {
+	--link-preview-description-lines: 10;
+}
 .site-title {
 	gap:0;
 }
@@ -274,3 +277,19 @@ img:where(.astro-m46x6ez3) {
 }
 	
 }
+
+/* Astro Embed Styles */
+
+.link-preview {
+	--link-preview-corners: 0.5em;
+	--link-preview-padding-inline: 0.75rem;
+	background-color: floralwhite;
+	color: darkblue;
+	font-family: sans-serif;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .link-preview a {
+	color: purple;
+	font-weight: bold;
+	text-decoration: none;
+  }
