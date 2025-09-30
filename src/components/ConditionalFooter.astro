@@ -2,6 +2,7 @@
 import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/Footer.astro';
 import License from './License.astro';
+import Webrings from './Webrings.astro';
 
 
 const isBlog = Astro.locals.starlightRoute.id.slice(0,5) === 'blog/';
@@ -36,7 +37,7 @@ const isTags = Astro.locals.starlightRoute.id.slice(0,8) === 'blog/tags/';
 
 <Default><slot /></Default> 
 <License />
-
+<Webrings />
 
 <style>
   .feedback {
@@ -71,6 +72,11 @@ color: #582436
 } 
 .btn-primary {
   
+}
+.badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
 
