@@ -2,6 +2,7 @@
 import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/Footer.astro';
 import License from './License.astro';
+import Webrings from './Webrings.astro';
 
 
 const isBlog = Astro.locals.starlightRoute.id.slice(0,5) === 'blog/';
@@ -36,14 +37,7 @@ const isTags = Astro.locals.starlightRoute.id.slice(0,8) === 'blog/tags/';
 
 <Default><slot /></Default> 
 <License />
-<div class="badges">
-<a href="https://astro-webrings.lou.gg/next?site=sarah11918&ring=built-with-astro">
-  <img src="https://astro-webrings.lou.gg/_astro/built-with-astro.ZeMNzKwy_2a91sG.webp" alt="Astro Built with Astro webring badge" width="88" height="31" />
-</a>
-<a href="https://astro-webrings.lou.gg/next?site=sarah11918&ring=friends-of-houston">
-  <img src="https://astro-webrings.lou.gg/_astro/friends-of-houston.BfnM847t_NxJJe.webp" alt="Astro Friends of Houston webring badge" width="88" height="31" />
-</a>
-<div>
+<Webrings />
 
 <style>
   .feedback {
