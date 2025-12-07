@@ -10,7 +10,7 @@ tags: ["astro", "docs", "open source"]
 alt: "An experimental preview of Astro Docs, showing GitHub avatars of every contributor to the repository. These Docs are brought to you by all these helpful people. Join us on GitHub!"
 
 ---
-Since the docs are about to get a lot more eyes on them after the Astro Beta Lauch Week, I thought I'd take a moment to "doc the docs" for those who might want a window into our recent progress.
+Since the docs are about to get a lot more eyes on them after the Astro Beta Launch Week, I thought I'd take a moment to "doc the docs" for those who might want a window into our recent progress.
 
 People have very kindly been referring to "the new docs" or "a re-writing of the docs" but, docs are *always* evolving... and at least in the case of a pre-v1 beta product, potentially outdated as soon as they're published! It sometimes feels like they'll never be caught up enough to qualify as "new." But they are "actively maintained," and sometimes, that's the best you can hope for. 😅
 
@@ -39,7 +39,7 @@ I'd *like* to think that it probably tells you well enough about the thing that,
 ## Support-Team-Docs!
 Our eager team, with a full community of support behind us, has been working steadily for months to make the Astro docs a clean, reliable resource to get you started with Astro v1. We know it's not perfect, and we do have plans for more, and more *types* of content going forward. It's never going to be "done"... but that's just the reality of supporting developers. And, that's what docs are: support.
 
-Astro is known for (notorious for??) its committment to community. We have long had a dedicated "Support Squad" whose members each receive individual notifications for every new support question posted in our Discord. Recently, we also added a "Team Docs" role that can similarly summon members with a mere mention. Both of these opt-in roles are open to any member of the community who feels like they don't already get enough notifications. 
+Astro is known for (notorious for??) its commitment to community. We have long had a dedicated "Support Squad" whose members each receive individual notifications for every new support question posted in our Discord. Recently, we also added a "Team Docs" role that can similarly summon members with a mere mention. Both of these opt-in roles are open to any member of the community who feels like they don't already get enough notifications. 
 
 We are all eager and enthusiastic to help you through any issues and get you back to building your site! And, we hope you'll help us help you!
 

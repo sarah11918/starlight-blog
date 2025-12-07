@@ -8,9 +8,9 @@ pubDate: 2022-11-04
 excerpt: "What community-driven means to Astro Docs."
 tags: ["astro", "docs", "open source"]
 alt: '6 stacked achievement badges, showing Astro repo stats like "PR Perfectionist: reviewed 30 PRs", "Galactic Librarian: 30 Docs PRs", "Astronomer: Opened a PR in 3 Astro Repos" and "Little Green Bug: Opened an Issue."'
-
+featured: true
 ---
-*This was orignally written in early June 2022, in response to the question, "Have you written anything about your community-driven approach to Docs at Astro?" My first response was, "Give me a few days." My second response was this.*
+*This was originally written in early June 2022, in response to the question, "Have you written anything about your community-driven approach to Docs at Astro?" My first response was, "Give me a few days." My second response was this.*
 
 ## Community-Driven
 To us, community-driven means:
@@ -43,7 +43,7 @@ Yeah. But, we accept this tradeoff. It's a simple way to ensure that an author d
 
 - We **set realistic expectations of the process of "getting merged,"** and that not every idea immediately makes it into production. And, it gives explicit permission to think about the PR carefully, as well as to wait for other perspectives, or second-thoughts, to surface.
 
-- We  **provide an open opportunity for public proof of open source involvment**, and our contributors can claim and own this experience.
+- We  **provide an open opportunity for public proof of open source involvement**, and our contributors can claim and own this experience.
 
 ## Support as Docs
 

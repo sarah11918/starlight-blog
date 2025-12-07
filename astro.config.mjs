@@ -118,6 +118,7 @@ export default defineConfig({
               { label: '50 docs tips in 50 days', link: '/blog/50-docs-tips-in-50-days' },
               { label: "Stop writing docs. Start helping!" , link: '/blog/stop-writing-start-helping' },
               { label: "The value of non-code contributions to open source" , link: '/blog/non-code-contributions' },
+              { label: "Astro's Community-Driven Docs" , link: '/blog/community-driven-astro-docs'},
             ]
           },
           {
@@ -142,7 +143,7 @@ export default defineConfig({
                 readingTime: true,
                 words: 'total',
               },
-              recentPostCount: 10,
+              recentPostCount: 4,
               postCount: 15,
           }),
       ]
