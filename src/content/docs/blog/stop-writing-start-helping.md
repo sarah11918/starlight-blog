@@ -75,7 +75,7 @@ Documentation even helps **you** as you're building, making design decisions, le
 
 Documentation is... a source of truth, docs is support, docs is record-keeping, docs is even marketing, promotion and community building ... 
 
-![A small structure covered in grafitti with crows on top listing all the things docs is from the previous sentence.]( ../../../assets/docsis.png)
+![A small structure covered in graffiti with crows on top listing all the things docs is from the previous sentence.]( ../../../assets/docsis.png)
 
 ... but ultimately docs **exist** to *help*.
 
@@ -198,7 +198,7 @@ You might even have some existing documentation that . . . isn’t really helpin
 - Less is more: both in content AND in style!
 - Use clear, simple language: No one ever complained, "Gee, these docs are just [too easy to read](https://vimeo.com/238673931#t=2045s)!"
 
-![Screenshot of Ashley Bischoff giving a talk called 1Up Your Writing with Plain Language at Fronteers Conference 2017 and a slide that reads Because no one has ever complained that somethign was too easy to read.]( ../../../assets/tooeasytoread.png)
+![Screenshot of Ashley Bischoff giving a talk called 1Up Your Writing with Plain Language at Fronteers Conference 2017 and a slide that reads Because no one has ever complained that something was too easy to read.]( ../../../assets/tooeasytoread.png)
 
 If you're not sure whether something in your docs is entirely clear and correct, and you can't immediately see how to make it better... REMOVE IT: 
 
@@ -263,9 +263,9 @@ If every statement in your docs is true, and people can find, read and understan
 
 But, of *course*, there *are* characteristics of well-written docs, and there are also some pretty common anti-patterns.
 
-There's no shortage of talks on "how to write good documenation" that go into specifics, and I DO recommend you check out some great ones if you want to get better at writing! But that can get overwhelming and we already know that WRITING is secondary to HELPING.
+There's no shortage of talks on "how to write good documentation" that go into specifics, and I DO recommend you check out some great ones if you want to get better at writing! But that can get overwhelming and we already know that WRITING is secondary to HELPING.
 
-![A collage of images of various resource; talks, books, podcasts that are linked from ths post.]( ../../../assets/resources.png)
+![A collage of images of various resource; talks, books, podcasts that are linked from this post.]( ../../../assets/resources.png)
 
 - It might feel like there's a scary Docs Police waiting to criticize you and that there are a lot of potential failure pitfalls.
 - Instead of thinking of these as things to worry about getting wrong, think of them as things that you DON'T have to worry about; things NOT TO DO because they are NOT YOUR JOB as a helper. 
@@ -318,7 +318,7 @@ In conclusion, think of yourself as a HELPER. Someone who just happens to be hel
 - they need to make CLEAR, CORRECT information available. Ideally in such a way that readers can DISCOVER, and NAVIGATE it. (CTRL+F is your friend!)
 
 And The best help is CONTEXTUAL: it is FOR someone who is trying to DO something specific.
-- this person may also not be in the greatest state to RECIEVE help, but they are in your docs because they need it.
+- this person may also not be in the greatest state to RECEIVE help, but they are in your docs because they need it.
 - don't overwhelm. Less is always more.
 - You can probably improve your docs RIGHT NOW by *deleting*, not writing more!
     - delete words like "should"; delete outdated or unmaintained docs, even if you can't yet replace them; delete entire pages if you are afraid people won't find them, and put everything on one page if you need to!
