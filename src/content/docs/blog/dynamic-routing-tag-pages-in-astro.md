@@ -7,6 +7,12 @@ date: 2022-01-12
 excerpt: "Now that I'm on a roll with dynamic routing via `getStaticPaths()` in Astro, I'm checking the next item off my Astro blog wish list: pages to display blog posts by tag."
 tags: ["blogging", "astro"]
 ---
+:::note
+This post refers to an older version of my site. The methodology is still the same, but this site no longer contains the pages mentioned below. The current version of this site uses [Astro Starlight](https://starlight.astro.build/) with [Hideoo's Starlight Blog plugin](https://github.com/HiDeoo/starlight-blog) which handles all blog routing, dynamic and otherwise, for the current version of this site.
+
+For a current example of creating an index page of blog post tags, and dynamic pages for each tag, see the [Astro Docs blog tutorial code](https://github.com/withastro/blog-tutorial-demo/tree/complete/src/pages/tags), which was based on this post.
+:::
+
 One issue I was struggling to fully understand regarding `getStaticPaths()` in Astro was... why?
 
 As I "sneak-previewed" when I described [adding an RSS feed to this Astro blog](/blog/rss-in-astro/), generating a page for each `tag` from all my blog posts can be done with **dynamic routing**. This is the concept I set out to learn to start the new year, since thus far, all my pages have been created via Astro's automatic **static routing** which only requires placing `.md` and/or `.astro` files somewhere under the `src/pages/` path.
@@ -139,7 +145,7 @@ export async function getStaticPaths({ }) {
 }
 ```
 
-And now... yes, we have tags! You can [see the list of tags](/tags) and you can click on any tag to be taken to its tag page.
+And now... yes, we have tags! You can see the list of tags and you can click on any tag to be taken to its tag page.
 
 ## Linking to tag pages elsewhere on the site
 You might notice that on this post's page itself, you can see a list of clickable tags generated from its front matter: `tags: ["blogging", "astro"]`. This is an array that can be used in any `.astro` component that fetches your front matter data. 

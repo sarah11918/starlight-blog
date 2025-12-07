@@ -44,7 +44,7 @@ Astro is known for (notorious for??) its commitment to community. We have long h
 We are all eager and enthusiastic to help you through any issues and get you back to building your site! And, we hope you'll help us help you!
 
 ## Go, You!
-If you find a typo, a link to a page that we've moved, or the term `renderer` when it should be an `integration` now, you can let us know, or you can [edit the page on GitHub](/posts/contribute-open-source-docs-edit-page-on-github/) yourself! One of the most rewarding aspects of working closely with the docs team this year has been seeing the number of small edits submitted by "first-time contributors." 
+If you find a typo, a link to a page that we've moved, or the term `renderer` when it should be an `integration` now, you can let us know, or you can [edit the page on GitHub](/blog/contribute-open-source-docs-edit-page-on-github/) yourself! One of the most rewarding aspects of working closely with the docs team this year has been seeing the number of small edits submitted by "first-time contributors." 
 
 If you feel a topic hasn't been covered in docs, or an example is confusing, come chat in our `#docs` channel, or file a [GitHub Issue](https://github.com/withastro/docs/issues) in the docs repository. (Maybe if you have the time, do a quick check to see if someone has already mentioned something similar, or whether there's an active [pull request](https://github.com/withastro/docs/pulls) related to your comment first... but do get involved!)
 
