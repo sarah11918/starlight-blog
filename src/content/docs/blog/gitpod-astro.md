@@ -9,6 +9,12 @@ excerpt: From a 7 year-old Chromebook to an Android tablet to a Linux desktop...
 alt: "A screenshot of the Gitpod logo as a workspace is starting up."
 tags: ["docs", "open source", "astro", "no local dev environment"]
 ---
+
+:::note[2025-12-07 update]
+Gitpod no longer exists. But, the content about my coding in online IDEs is still valid. I currently use [Google Firebase Studio](https://firebase.studio/) as a replacement.
+:::
+
+
 I spend much of my day making sure people can get started and build with [Astro](https://astro.build). I am regularly working in several Astro websites: this personal site, Astro Docs, Astro Docs Docs... 
 
 Even though I wrote a tutorial that includes instructions on setting up and using VS Code for your first Astro project, I don't actually have a local code editor installed on any machine I use!
@@ -66,7 +72,7 @@ Of course, most of my time is spent working on existing projects. With my Gitpod
 
 - Work on my personal websites
 
-- Contribute to Astro Docs, knowning that my "fork" is never behind or out of date
+- Contribute to Astro Docs, knowing that my "fork" is never behind or out of date
 
 - Edit Pull Requests to the Astro Docs, because I can open up any PR branch and work in my full editing environment
 

@@ -1,0 +1,58 @@
+---
+ 
+title: Developing Astro with Firebase Studio
+authors:
+  - sarah
+date: 2025-12-07
+pubDate: '2025-12-07'
+excerpt: All my building with Astro is done in a cloud development environment thanks to Firebase Studio! No local development environment? No problem!
+tags: ["open source", "astro", "no local dev environment"]
+---
+
+Just leaving a little "status update" post as I clean up some content to no longer feature Gitpod (RIP) on this site.
+
+## The more things change, the more they stay the same
+
+There is not much new to say [about my use of online IDEs (notably Gitpod)](/blog/gitpod-astro/) since Gitpod shut down. In preparation of its impending demise, I [familiarized myself with IDX](/blog/idx-first-impressions/), Google's "Gitpod alternative" at the time.
+
+Since then, Gitpod became Ona (and refocused its offerings away from public, open-source projects) and Project IDX became [Google Firebase Studio](https://firebase.studio/). I still code exclusively in the cloud, so I guess I'm the only one who hasn't rebranded!
+
+I switch between a Chromebook and a Linux desktop frequently, even during the course of a single day. Both Gitpod and Firebase Studio were/are *very* reliable at saving my current state, to the keystroke, and allowing me to work on either machine (or both at the same time!) in the exact same environment. I can even add the 14" Samsung Android tablet into the mix! This was particularly important when my 7 year old Chromebook was prone to freezing up and crashing regularly.
+
+I officially made the switch to Google's offering a year ago, and admittedly there's also not a lot more to say about Firebase Studio since its rebranding, 1 year in. It's still pretty dependable, with similarly dependable quirks, and it's still pretty slow. 😂
+
+## Good thing it's not a race
+
+One thing I've mentioned in a support forum is that for some reason, it often seems to want to "load" (?) additional pages in the online preview window, which takes a considerable amount of time.
+
+In my terminal, as I've been working on this post, I can see what Firebase Studio is loading. From my home page in that preview, (which iteslf had refreshed a couple of times as I edited this post), I just now clicked the link to my `/blog/` page, and this is what I just saw in my terminal:
+
+```shell
+15:14:04 [starlight-docs-loader] Reloaded data from blog/firebase-studio-astro.mdx
+15:14:08 [200] / 1466ms
+15:14:13 [starlight-docs-loader] Reloaded data from blog/firebase-studio-astro.mdx
+15:14:21 [200] /photography/ 778ms
+15:14:21 [200] /guides/direct-link-for-posting-google-photos-image/ 117ms
+15:14:21 [200] /guides/contribute-to-open-source-via-edit-this-page/ 120ms
+15:14:21 [200] /blog/50-docs-tips-in-50-days 68ms
+15:14:22 [200] /gear/ 237ms
+15:14:36 [200] /blog/ 13069ms
+```
+
+At least those intermediate loads were quick, but this is what happened when I clicked from this current blog post to my home page in the first place. Firebase Studio seemed to make a full-on pit stop at my `/blog/` page for no reason before eventually loading my home page (twice, which is another thing that happens):
+
+```shell
+15:05:43 [starlight-docs-loader] Reloaded data from blog/firebase-studio-astro.mdx
+15:05:45 [200] /blog/firebase-studio-astro/ 1188ms
+15:05:57 [starlight-docs-loader] Reloaded data from blog/firebase-studio-astro.mdx
+15:05:59 [200] /blog/firebase-studio-astro/ 2132ms
+15:06:42 [200] / 648ms
+15:06:57 [200] /blog/ 12534ms
+15:06:57 [200] / 81ms
+```
+
+## Still my workhorse
+
+So yeah, I think we're still lacking somewhat in the speed department, but I do have a lot of confidence that my edits are safe, even if not yet committed. It means that whatever is happening around me, I don't worry about losing data. Any device in my house can jump in and pick up in exactly the same spot, and I don't have to maintain updates or worry about anything OS-specific.
+
+Right now, it solves more problems than it creates (kind of like me!) so it's still my daily driver.
