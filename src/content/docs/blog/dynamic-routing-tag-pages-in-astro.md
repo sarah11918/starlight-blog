@@ -4,20 +4,18 @@ description: Building pages to view your blog posts by tags.
 authors:
   - sarah
 date: 2022-01-12
-excerpt: "Now that I'm on a roll with dynamic routing via getStaticPaths() in Astro, I'm checking the next item off my Astro blog wish list: pages to display blog posts by tag."
+excerpt: "Now that I'm on a roll with dynamic routing via `getStaticPaths()` in Astro, I'm checking the next item off my Astro blog wish list: pages to display blog posts by tag."
 tags: ["blogging", "astro"]
 ---
 One issue I was struggling to fully understand regarding `getStaticPaths()` in Astro was... why?
 
-As I "sneak-previewed" when I described [adding an RSS feed to this Astro blog](https://www.rainsberger.ca/posts/rss-in-astro/), generating a page for each `tag` from all my blog posts can be done with **dynamic routing**. This is the concept I set out to learn to start the new year, since thus far, all my pages have been created via Astro's automatic **static routing** which only requires placing `.md` and/or `.astro` files somewhere under the `src/pages/` path.
+As I "sneak-previewed" when I described [adding an RSS feed to this Astro blog](/blog/rss-in-astro/), generating a page for each `tag` from all my blog posts can be done with **dynamic routing**. This is the concept I set out to learn to start the new year, since thus far, all my pages have been created via Astro's automatic **static routing** which only requires placing `.md` and/or `.astro` files somewhere under the `src/pages/` path.
 
 ## Dynaming Routing to create pages that... "aren't there"
 
 The way dynamic routing first made sense to me was to think of using it for "creating pages that aren't there." (This initial way of thinking of it has helped me understand it more fully. But, this was how it started.)
 
-It seemed weird to me to (need to?) use dynamic routing to eventually end up at `rainsberger.ca/posts/my-first-post` because... it already existed via static routing! If `src/pages/posts/my-first-post.md` (or `src/pages/posts/my-first-post.astro`) exists, then Astro creates that url automatically and I can totally "get to" a page for that blog post. I didn't understand examples I found about creating post pages/urls dynamically because I didn't understand *why* I'd need to do that. (So, I think my brain kind of turned off in protest.)
-
-(It also probably didn't help (me) that `getStaticPaths()` is also used elsewhere, and isn't just an Astro thing. So, I never thought to look outside of Astro to figure out what this was, nor did I have prior experience with it to bring to Astro and be like, "Oh, cool. So just like how I do this thing in NextJs...")
+It seemed weird to me to (need to?) use dynamic routing to eventually end up at `rainsberger.ca/posts/my-first-post` because... it already existed via static routing! If `src/pages/posts/my-first-post.md` (or `src/pages/posts/my-first-post.astro`) exists, then Astro creates that URL automatically and I can totally "get to" a page for that blog post. I didn't understand examples I found about creating post pages/URLs dynamically because I didn't understand *why* I'd need to do that. (So, I think my brain kind of turned off in protest.)
 
 So, the first thing that helped me get started with Astro's dynamic routing was to envision the specific use case of **making a page that wasn't automatically created statically because I hadn't put a file somewhere**.
 
@@ -59,9 +57,9 @@ const tags = [...new Set([].concat.apply([],allPosts.map(post => post.tags)))]
 
 But now for making a page that *doesn't exist*! Magic!
 
-### Page slugs / url routes
+### Page slugs / URL routes
 
-To create url routes of the form `rainsberger.ca/tags/tagname`, I need to create `src/pages/tags/[tag].astro` The `[tag]` in brackets indicates that this one file will create dynamic routes for multiple different tag names.
+To create URL routes of the form `rainsberger.ca/tags/tagname`, I need to create `src/pages/tags/[tag].astro` The `[tag]` in brackets indicates that this one file will create dynamic routes for multiple different tag names.
 
 ### Page Layout
 
@@ -112,9 +110,9 @@ let title = tag;
 </BaseLayout>
 ```
 
-Once we get our `tag` and `posts` from our `getStaticPaths()` function, we can create any content layout we want using that tag name, and all the content normally available from a Markdown post's front matter like title, date, url, description, hero image etc.
+Once we get our `tag` and `posts` from our `getStaticPaths()` function, we can create any content layout we want using that tag name, and all the content normally available from a Markdown post's front matter like title, date, URL, description, hero image etc.
 
-## Using getStaticPaths() to fetch tag and post data
+## Using `getStaticPaths()` to fetch tag and post data
 
 This function will do my fetching, sorting, creating and adding to a set of tags and return a set of filtered posts corresponding to each tag.
 
@@ -146,7 +144,7 @@ And now... yes, we have tags! You can [see the list of tags](/tags) and you can 
 ## Linking to tag pages elsewhere on the site
 You might notice that on this post's page itself, you can see a list of clickable tags generated from its front matter: `tags: ["blogging", "astro"]`. This is an array that can be used in any `.astro` component that fetches your front matter data. 
 
-Now that I have tag pages, I can update my `MarkdownPostLayout.astro` so that each post displays its own linked tags. Here's a simplified version of this nested layout, which is itself inside my `<BaseLayout>` (so that these posts look like all my other pages). I'm displying each tag, linked to its own tag page, between the posts title and the author/date.
+Now that I have tag pages, I can update my `MarkdownPostLayout.astro` so that each post displays its own linked tags. Here's a simplified version of this nested layout, which is itself inside my `<BaseLayout>` (so that these posts look like all my other pages). I'm displaying each tag, linked to its own tag page, between the posts title and the author/date.
 
 ```astro
 // src/layouts/MarkdownPostLayout.astro
