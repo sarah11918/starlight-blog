@@ -104,11 +104,15 @@ export default defineConfig({
           { icon: 'email', label: 'email', href: 'mailto:sarah@rainsberger.ca' },
       ],
       sidebar: [
-          // { label: 'About Me', link: '/about/' },
-          { label: 'Birding', link: '/birding/' },
-          { label: 'Choir Tech', link: '/choirtech/' },
-          { label: 'Gear', link: '/gear/' },
-          { label: 'Photography', link: '/photography/' },
+        { 
+          label: 'Hobbies', 
+          items: [
+            { label: 'Birding', link: '/birding/' },
+            { label: 'Choir Tech', link: '/choirtech/' },
+            { label: 'Gear', link: '/gear/' },
+            { label: 'Photography', link: '/photography/' },
+          ]
+        },
           {
             label: 'Guides',
             autogenerate: { directory: 'guides' },
