@@ -1,10 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightBlog from 'starlight-blog';
-// import { imageService } from "@unpic/astro/service";
-// import starlightCoolerCredit from 'starlight-cooler-credit'
 import netlify from '@astrojs/netlify';
-import starlightLinksValidator from 'starlight-links-validator'
 
 import aiRobotsTxt from 'astro-ai-robots-txt';
 
@@ -151,7 +148,6 @@ export default defineConfig({
               recentPostCount: 4,
               postCount: 15,
           }),
-          starlightLinksValidator(),
       ]
   }), aiRobotsTxt()],
 
