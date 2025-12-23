@@ -4,9 +4,9 @@ description: Tips for choir apps and resources.
 template: doc
 ---
 
-These are some of the tools that can help your choir!
+These are some of the tools I use that can help your choir!
     
-## Android
+## Android apps
 
 <h3><a href="https://play.google.com/store/apps/details?id=com.zubersoft.mobilesheetspro">Mobile Sheets</a></h3>
 
@@ -15,7 +15,16 @@ These are some of the tools that can help your choir!
 <h3><a href="https://play.google.com/store/apps/details?id=com.gamestar.perfectpiano&rdid=com.gamestar.perfectpiano">Perfect Piano</a></h3>
 <p>There are lots of free piano apps for plunking notes, but this app gives you access to all 88 keys by scrolling to whichever part of the keyboard you like. Not only can you control the octave you're in, but you can choose exactly where the active part of the keyboard starts. (It doesn't have to be a C or an F, for example.) So, I think it gives the most flexibility for choosing exactly which keys are available at any one time and you can easily move the slider to suit the range of each song.</p>
 
-## iOS
+<h3><a href="https://play.google.com/store/apps/details?id=com.luma_touch.lumafusion">LumaFusion</a></h3>
+
+What if you're a choir of one? LumaFusion is a full-featured multi-track editor for audio and video clips. I use this for combining multiple voice tracks of myself.
+
+<figure>
+  <figcaption>4-part Sarah!</figcaption>
+  <audio controls src="/Landslide.mp3"></audio>
+</figure>
+
+## iOS sheet music app
 
 <h3><a href="http://forscore.co/">ForScore</a></h3>
 
