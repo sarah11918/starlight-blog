@@ -68,6 +68,12 @@ export default defineConfig({
               href: "/site.webmanifest",
             }
           },
+          {tag: "link", 
+            attrs: {
+              rel: "me",
+              href: "https://sifa.id/p/sarah11918.rainsberger.ca",
+            }
+          },
           {tag: "meta", 
             attrs: {
                 name: "fediverse:creator", 
