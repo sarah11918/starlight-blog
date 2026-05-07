@@ -13,7 +13,7 @@
 	--sl-color-black: #221600;
 }
 /* Light mode colors. */
-:root[data-theme='light'] {
+:root[data-theme="light"] {
 	--sl-color-accent-low: #cfd4f7;
 	--sl-color-accent: #5755d8;
 	--sl-color-accent-high: #282a62;
@@ -44,7 +44,7 @@
 }
 
 /* Light mode colors:pinkish */
-:root[data-theme='light'] {
+:root[data-theme="light"] {
 	--sl-color-accent-low: #f6cfa8;
 	--sl-color-accent: rgb(107, 34, 58);
 	--sl-color-accent-high: #492a00;
@@ -75,7 +75,7 @@
 }
 
 /* Light mode colors: Gold and Blue */
-:root[data-theme='light'] {
+:root[data-theme="light"] {
 	--sl-color-accent-low: #cfd4f7;
 	--sl-color-accent: #5755d8;
 	--sl-color-accent-high: #282a62;
@@ -91,9 +91,9 @@
 }
 
 .site-title {
-	gap:0;
+	gap: 0;
 }
-img:where(.astro-m46x6ez3) { 
+img:where(.astro-m46x6ez3) {
 	/* height: calc(var(--sl-nav-height) - 2* var(--sl-nav-pad-y)); */
 	height: 80px;
 }
@@ -110,11 +110,12 @@ img:where(.astro-m46x6ez3) {
 	border-style: solid;
 	box-sizing: content-box;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 	margin-bottom: 1rem;
 }
 
-.fediverse-status::before, .fediverse-status::after {
+.fediverse-status::before,
+.fediverse-status::after {
 	box-sizing: content-box;
 }
 /*
@@ -126,22 +127,25 @@ img:where(.astro-m46x6ez3) {
 	max-height: 1rem;
 }
 
-.fediverse-status header, .fediverse-status footer, .fediverse-status main {
+.fediverse-status header,
+.fediverse-status footer,
+.fediverse-status main {
 	box-sizing: content-box;
 	padding-left: 0.25rem;
 	padding-right: 0.25rem;
 	width: 100%;
 }
 
-.fediverse-status header, .fediverse-status footer {
+.fediverse-status header,
+.fediverse-status footer {
 	padding-top: 0.25rem;
 }
-
 
 /*
 	Common traits of both the header and the footer of a status.
 */
-.fediverse-status header, .fediverse-status footer {
+.fediverse-status header,
+.fediverse-status footer {
 	background-color: rgba(128, 128, 128, 0.1);
 	/* data placed in a row */
 	display: flex;
@@ -149,10 +153,11 @@ img:where(.astro-m46x6ez3) {
 	justify-content: flex-start;
 	align-items: center;
 	/* separated by small gaps */
-	gap: .5rem;
+	gap: 0.5rem;
 }
 /* Links within headers and footers should not be underlined */
-.fediverse-status header a, .fediverse-status footer a {
+.fediverse-status header a,
+.fediverse-status footer a {
 	text-decoration: none;
 	box-shadow: none;
 	justify-content: flex-start;
@@ -179,7 +184,7 @@ img:where(.astro-m46x6ez3) {
 /* use small margins for content */
 .fediverse-status main p {
 	margin: 0;
-	margin-top: .25rem;
+	margin-top: 0.25rem;
 }
 /* no need to separate the first paragraph from the non-existent ones above it */
 .fediverse-status main p:first-child {
@@ -189,7 +194,8 @@ img:where(.astro-m46x6ez3) {
 /*
 	The avatar image representing the comment's author
 */
-.fediverse-status header picture, .fediverse-status header img {
+.fediverse-status header picture,
+.fediverse-status header img {
 	/* restrict size by limiting height */
 	height: 3rem;
 	border-radius: 1.5rem;
@@ -212,34 +218,35 @@ img:where(.astro-m46x6ez3) {
 
 .fediverse-status header .post-authors-fediverse-identity {
 	/* create a card-appearance with a gentle background color and rounded corners */
-	background-color: rgba(128,128,128, 0.125);
+	background-color: rgba(128, 128, 128, 0.125);
 	border-radius: 0.5rem;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 }
 
 /* De-emphasize the parts of the author's identity other than their username */
-.fediverse-status authors-fediverse-, .fediverse-status .at-symbol {
-	color: rgba(128,128,128, 0.75)
+.fediverse-status authors-fediverse-,
+.fediverse-status .at-symbol {
+	color: rgba(128, 128, 128, 0.75);
 }
 
 .fediverse-status footer .counter-favourites::before {
 	content: "★";
 	color: inherit;
-	margin-inline-end: .25em;          
+	margin-inline-end: 0.25em;
 }
 
 .fediverse-status footer .counter-reblogs::before {
 	/* copied from Mastodon website */
 	content: "🔁";
-	margin-inline-end: .25em;
+	margin-inline-end: 0.25em;
 	max-height: 0.75rem;
 }
 
 .fediverse-status footer .counter-replies::before {
 	content: "💬";
 	color: inherit;
-	margin-inline-end: .25em;          
+	margin-inline-end: 0.25em;
 }
 
 /**
@@ -253,24 +260,23 @@ img:where(.astro-m46x6ez3) {
 	margin: 0;
 	padding-top: 0.5rem;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
 }
 
 @media (min-width: 800px) {
-	img:where(.astro-m46x6ez3) { 
-		height:100px;
+	img:where(.astro-m46x6ez3) {
+		height: 100px;
 		padding-right: 0;
 		margin-right: 0;
 	}
 
-	img:where(.astro-m46x6ez3):hover { 
+	img:where(.astro-m46x6ez3):hover {
 		transform: translateY(5px);
-	} 
+	}
 
-.mastodon-embed {
-	color: black;
-}
-	
+	.mastodon-embed {
+		color: black;
+	}
 }

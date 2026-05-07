@@ -6,12 +6,7 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"includes": [
-			"**/components/**",
-			"!!**/dist",
-			"!public/embed.js",
-			"!src/scripts/embed.js"
-		]
+		"includes": ["**", "!!**/dist", "!public/embed.js", "!src/scripts/embed.js"]
 	},
 	"formatter": {
 		"enabled": true,
@@ -36,7 +31,7 @@
 		"enabled": true,
 		"actions": {
 			"source": {
-				"organizeImports": "on"
+				"organizeImports": "off"
 			}
 		}
 	}
