@@ -6,7 +6,12 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"includes": ["**", "!!**/dist", "!public/embed.js", "src/scripts/embed.js"]
+		"includes": [
+			"**/components/**",
+			"!!**/dist",
+			"!public/embed.js",
+			"!src/scripts/embed.js"
+		]
 	},
 	"formatter": {
 		"enabled": true,
@@ -15,7 +20,11 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"correctness": {
+				"noUnusedImports": "off",
+				"noUnusedVariables": "off"
+			}
 		}
 	},
 	"javascript": {

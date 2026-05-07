@@ -1,13 +1,11 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
-import Default from '@astrojs/starlight/components/Footer.astro';
-import License from './License.astro';
-import Webrings from './Webrings.astro';
+// import type { Props } from '@astrojs/starlight/props';
+import Default from "@astrojs/starlight/components/Footer.astro";
+import License from "./License.astro";
+import Webrings from "./Webrings.astro";
 
-
-const isBlog = Astro.locals.starlightRoute.id.slice(0,5) === 'blog/';
-const isTags = Astro.locals.starlightRoute.id.slice(0,8) === 'blog/tags/';
-
+const isBlog = Astro.locals.starlightRoute.id.slice(0, 5) === "blog/";
+const isTags = Astro.locals.starlightRoute.id.slice(0, 8) === "blog/tags/";
 ---
 
 { isBlog && (
