@@ -9,8 +9,9 @@ const allPhotos = allPhotosResult.photos.photo.slice(0, -1);
 ---
 
 <StarlightPage frontmatter={{ title: 'Photo Gallery' }}>
+	<!-- biome-ignore format: I don't want paragraph tags content separated from content -->
 	<p>These are some photos I have taken. Clicking any photo will take you to the photo's Flickr page.</p>
-	
+
 	<div class="gallery">
 		{allPhotos.map((photo) => (
 			<FlickrPhoto photoprops = {photo} width="300" />
