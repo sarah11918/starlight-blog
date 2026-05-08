@@ -5,11 +5,11 @@ import License from "./License.astro";
 import Webrings from "./Webrings.astro";
 
 const isBlog = Astro.locals.starlightRoute.id.slice(0, 5) === "blog/";
-const isTags = Astro.locals.starlightRoute.id.slice(0, 8) === "blog/tags/";
+// const isTags = Astro.locals.starlightRoute.id.slice(0, 8) === "blog/tags/";
 ---
 
 { isBlog && (
-   <details>
+  <details>
     <summary>Toggle Comments</summary>
     <div class="feedback">
       <script src="https://giscus.app/client.js"
@@ -27,18 +27,16 @@ const isTags = Astro.locals.starlightRoute.id.slice(0, 8) === "blog/tags/";
         data-loading="lazy"
         crossorigin="anonymous">
       </script>
-   </div>
-   </details> 
-) 
-
-}
+    </div>
+  </details> 
+)}
 
 <Default><slot /></Default> 
 <License />
 <Webrings />
 
 <style>
-  .feedback {
+.feedback {
   background-color: #fef5e6;
   border-radius: .5em;
   margin-bottom: 1em;
@@ -61,16 +59,17 @@ details {
   color: #582436;
   text-align: center;
   padding: 10px;
+  /* biome-ignore-start lint/suspicious/noDuplicateProperties: I want this CSS */
   background-color: #edd5d5;
   background-color: #fceccd;
+  /* biome-ignore-end lint/suspicious/noDuplicateProperties: I want this CSS */
   border-radius: 5px;
 }
+
  h4 {
 color: #582436
-} 
-.btn-primary {
-  
 }
+
 .badges {
   display: flex;
   align-items: center;
