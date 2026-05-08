@@ -6,7 +6,13 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"includes": ["**", "!!**/dist", "!public/embed.js", "!src/scripts/embed.js", "!src/components/EmbedAToot.astro", "!src/components/FlickrPhoto.astro"]
+		"includes": [
+			"**",
+			"!!**/dist",
+			"!**/embed.js",
+			"!src/components/EmbedAToot.astro",
+			"!src/components/FlickrPhoto.astro"
+		]
 	},
 	"formatter": {
 		"enabled": true,
@@ -33,7 +39,7 @@
 	},
 	"html": {
 		"experimentalFullSupportEnabled": true,
-		"formatter": {"enabled": true}
+		"formatter": { "enabled": true }
 	},
 	"assist": {
 		"enabled": true,

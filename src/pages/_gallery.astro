@@ -9,18 +9,19 @@ const allPhotos = allPhotosResult.photos.photo.slice(0, -1);
 ---
 
 <StarlightPage frontmatter={{ title: 'Photo Gallery' }}>
-  <p>These are some photos I have taken. Clicking any photo will take you to the photo's Flickr page.</p>
-  <div class="gallery">
- {allPhotos.map((photo) => (
-    <FlickrPhoto photoprops = {photo} width="300" />
-  ))}
-  </div>
+	<p>These are some photos I have taken. Clicking any photo will take you to the photo's Flickr page.</p>
+	
+	<div class="gallery">
+		{allPhotos.map((photo) => (
+			<FlickrPhoto photoprops = {photo} width="300" />
+		))}
+	</div>
 </StarlightPage>
 
 <style>
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 </style>
