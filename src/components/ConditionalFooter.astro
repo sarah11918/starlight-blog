@@ -8,7 +8,7 @@ const isBlog = Astro.locals.starlightRoute.id.slice(0, 5) === "blog/";
 // const isTags = Astro.locals.starlightRoute.id.slice(0, 8) === "blog/tags/";
 ---
 
-{ isBlog && (
+{isBlog && (
   <details>
     <summary>Toggle Comments</summary>
     <div class="feedback">
@@ -31,49 +31,49 @@ const isBlog = Astro.locals.starlightRoute.id.slice(0, 5) === "blog/";
   </details> 
 )}
 
-<Default><slot /></Default> 
+<Default><slot /></Default>
+
 <License />
 <Webrings />
 
 <style>
 .feedback {
-  background-color: #fef5e6;
-  border-radius: .5em;
-  margin-bottom: 1em;
-  padding: 1em;
+	background-color: #fef5e6;
+	border-radius: 0.5em;
+	margin-bottom: 1em;
+	padding: 1em;
 }
 
 .gsc-reactions-count {
-  color: #582436 !important;
+	color: #582436 !important;
 }
 
 .gsc-comments-count {
-  color: #582436 !important;
+	color: #582436 !important;
 }
 
 summary {
-  list-style-type: '💬  ';
-} 
-
-details {
-  color: #582436;
-  text-align: center;
-  padding: 10px;
-  /* biome-ignore-start lint/suspicious/noDuplicateProperties: I want this CSS */
-  background-color: #edd5d5;
-  background-color: #fceccd;
-  /* biome-ignore-end lint/suspicious/noDuplicateProperties: I want this CSS */
-  border-radius: 5px;
+	list-style-type: "💬  ";
 }
 
- h4 {
-color: #582436
+details {
+	color: #582436;
+	text-align: center;
+	padding: 10px;
+	/* biome-ignore-start lint/suspicious/noDuplicateProperties: I want this CSS */
+	background-color: #edd5d5;
+	background-color: #fceccd;
+	/* biome-ignore-end lint/suspicious/noDuplicateProperties: I want this CSS */
+	border-radius: 5px;
+}
+
+h4 {
+	color: #582436;
 }
 
 .badges {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 </style>
-

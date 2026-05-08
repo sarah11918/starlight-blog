@@ -6,7 +6,7 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"includes": ["**", "!!**/dist", "!public/embed.js", "!src/scripts/embed.js"]
+		"includes": ["**", "!!**/dist", "!public/embed.js", "!src/scripts/embed.js", "!src/components/EmbedAToot.astro", "!src/components/FlickrPhoto.astro"]
 	},
 	"formatter": {
 		"enabled": true,
@@ -19,6 +19,9 @@
 			"correctness": {
 				"noUnusedImports": "off",
 				"noUnusedVariables": "off"
+			},
+			"complexity": {
+				"noImportantStyles": "off"
 			}
 		}
 	},
@@ -26,6 +29,10 @@
 		"formatter": {
 			"quoteStyle": "double"
 		}
+	},
+	"html": {
+		"experimentalFullSupportEnabled": true,
+		"formatter": {"enabled": true}
 	},
 	"assist": {
 		"enabled": true,
