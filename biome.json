@@ -20,6 +20,9 @@
 			"correctness": {
 				"noUnusedImports": "off",
 				"noUnusedVariables": "off"
+			},
+			"complexity": {
+				"noImportantStyles": "off"
 			}
 		}
 	},
@@ -27,6 +30,9 @@
 		"formatter": {
 			"quoteStyle": "double"
 		}
+	},
+	"html": {
+		"experimentalFullSupportEnabled": true
 	},
 	"assist": {
 		"enabled": true,
