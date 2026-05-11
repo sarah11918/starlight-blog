@@ -13,9 +13,8 @@ export default defineConfig({
     //   image: {
     //       service: imageService(),
     // 	  },
-
     site: "https://www.rainsberger.ca",
-    
+
     security: {
         // Example: Allow any subdomain of example.com on https
         allowedDomains: [{}],
