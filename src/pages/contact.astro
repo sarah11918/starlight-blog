@@ -1,0 +1,22 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// import { isInputError } from "astro:actions";
+// import { actions } from "astro:actions";
+
+// const result = Astro.getActionResult(actions.send);
+// if (result?.data) {
+//   return Astro.redirect("/");
+// }
+
+// const inputErrors = isInputError(result?.error) ? result.error.fields : {};
+
+export const prerender = false
+---
+<StarlightPage frontmatter={{ title: 'Contact' }}>
+
+<h1>Send me an email</h1>
+<form action="../api/send-contact-form">
+  <button>Send</button>
+</form>
+
+</StarlightPage>
