@@ -62,11 +62,12 @@ export const ContactEmail = ({username, email, comment}) => {
             <Section>
               <Row>
                 <Text className="text-base">
-                  Here is an email from {username}. You can reply to them at {email} .
+                  Here is a comment from {username}:
                 </Text>
-
-                <Text className="text-base">This is what they sent:</Text>
                 <Text className="text-base">{comment}</Text>
+                <Text className="text-base">
+                  You can reply to them at {email} .
+                </Text>
               </Row>
             </Section>
             </Container>
