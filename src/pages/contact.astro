@@ -44,10 +44,18 @@ if (result?.error) {
         />
       </label><br>
       {inputErrors.email && <p id="email-error">{inputErrors.email[0]}</p>}
-
-      <label for="comment">Leave a comment:</label><br>
+      <label
+        >Leave a comment<input
+          type="text"
+          name="comment"
+          placeholder="Leave a comment"
+          required
+          aria-describedby={inputErrors.comment ? "comment-error" : undefined}
+        />
+      </label><br>
+      <!-- <label for="comment">Leave a comment:</label><br>
         <textarea id="comment" name="comment" rows="4" cols="50">
-        </textarea><br>
+        </textarea><br> -->
 
   <button>Send</button>
 </form>
