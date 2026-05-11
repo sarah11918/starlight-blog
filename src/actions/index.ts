@@ -25,8 +25,8 @@ export const server = {
       // send an email
       const { data, error } = await resend.emails.send({
         from: "Contact from website <sarah@updates.rainsberger.ca>",
-        to: [email],
-        subject: "It works!",
+        to: ["sarahrainsberger@gmail.com"],
+        subject: `You have a comment from ${username}`,
         html,
         text,
       });
