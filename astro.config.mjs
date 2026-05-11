@@ -15,13 +15,13 @@ export default defineConfig({
     // 	  },
     site: "https://www.rainsberger.ca",
 
-    security: {
-        // Example: Allow any subdomain of example.com on https
-        allowedDomains: [{}],
-        security: {
-            checkOrigin: false
-        }
-    },
+    // security: {
+    //     // Example: Allow any subdomain of example.com on https
+    //     allowedDomains: [{}],
+    //     security: {
+    //         checkOrigin: false
+    //     }
+    // },
 
     integrations: [starlight({
         credits: true,
