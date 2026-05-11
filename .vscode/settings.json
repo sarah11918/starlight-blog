@@ -1,3 +1,6 @@
 {
 	"typos.diagnosticSeverity": "Warning"
+	"editor.codeActionsOnSave": {
+		"source.fixAll.biome": "explicit"
+	}
 }
